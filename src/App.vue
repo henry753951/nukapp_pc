@@ -12,7 +12,6 @@
   import { router } from "./router";
   const platformName = await platform();
   const AppWindow = Window.getCurrent();
-
   export default {
     components: {
       window_control,
@@ -25,16 +24,24 @@
             colorBgLayout: "#ffffff50",
             colorPrimaryBg: "#00000015",
             colorPrimary: "#141414",
+            colorSiderBg: "#ffffffc5",
           },
           dark_token: {
             colorBgLayout: "#00000030",
             colorPrimaryBg: "#ffffff15",
             colorPrimary: "#ffffff",
+            colorSiderBg: "#000000c5",
           },
-          token: {},
+          token: {
+            colorBgLayout: "#ffffff50",
+            colorPrimaryBg: "#00000015",
+            colorPrimary: "#141414",
+            colorSiderBg: "#ffffffc5",
+          },
         },
         mediaQueryList: null as MediaQueryList | null,
         systemTheme: "",
+        currentTheme: "",
         isFocused: true,
       };
     },
@@ -75,9 +82,8 @@
     methods: {
       focused(focus: boolean) {
         this.isFocused = focus;
-
         if (!focus) {
-          if (this.themeData.algorithm === theme.darkAlgorithm) {
+          if (this.currentTheme === "dark") {
             document.documentElement.style.setProperty(
               "background-color",
               "#000000"
@@ -93,6 +99,7 @@
         }
       },
       switchTheme(mode: string) {
+        this.currentTheme = mode;
         let variables = {
           "--color-surface":
             mode === "dark"
@@ -146,7 +153,7 @@
       <a-layout>
         <a-layout-sider
           :style="{
-            background: 'transparent',
+            background: themeData.token.colorSiderBg,
           }"
           ><a-menu
             mode="inline"
