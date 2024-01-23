@@ -1,0 +1,39 @@
+:root {
+  // Color transitions
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  // Colors
+  --color-surface: #00000059;
+  --base-color: #000000;
+  // Typography
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-sm: 0.875rem;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-base: 400;
+  --line-height-base: 1.5;
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --h4-font-size: 1.5rem;
+  --h5-font-size: 1.25rem;
+  --h6-font-size: 1rem;
+  --headings-margin-bottom: 0.5rem;
+  --headings-font-family: inherit;
+  --headings-font-weight: 500;
+  --headings-line-height: 1.2;
+  --headings-color: inherit;
+  --display1-size: 6rem;
+  --display2-size: 5.5rem;
+  --display3-size: 4.5rem;
+  --display4-size: 3.5rem;
+  --display1-weight: 300;
+  --display2-weight: 300;
+}
