@@ -18,6 +18,11 @@
     },
     data() {
       return {
+        Sider: {
+          openKeys: ["sub1", "sub2"],
+          collapsed: false,
+        },
+        currentPage: ["/"],
         themeData: {
           algorithm: theme.defaultAlgorithm,
           light_token: {
@@ -98,6 +103,10 @@
           document.documentElement.style.removeProperty("background-color");
         }
       },
+      changePage({ key }: { key: string }) {
+        console.log(`Change page to ${key}`);
+        router.push(key);
+      },
       switchTheme(mode: string) {
         this.currentTheme = mode;
         let variables = {
@@ -143,6 +152,9 @@
           this.switchTheme(val);
         }
       },
+      "currentRoute.fullPath"(val) {
+        this.currentPage = [val];
+      },
     },
   };
 </script>
@@ -156,23 +168,41 @@
             background: themeData.token.colorSiderBg,
           }"
           ><a-menu
+            v-model:selectedKeys="currentPage"
+            v-model:openKeys="Sider.openKeys"
+            :inline-collapsed="Sider.collapsed"
+            @click="changePage"
             mode="inline"
             :style="{
               overflow: 'auto',
               height: '100vh',
               background: 'transparent',
             }">
+            <a-menu-item key="/">
+              <a-flex align="center" gap="10">
+                <vue-feather type="home" size="20"></vue-feather>
+                <h1>NUK 2</h1>
+              </a-flex>
+            </a-menu-item>
             <a-sub-menu key="sub1">
               <template #title>
-                <span>
-                  <user-outlined />
-                  subnav 1
-                </span>
+                <a-flex align="center" gap="5">
+                  <vue-feather type="book-open" size="18"></vue-feather>
+                  課程系統
+                </a-flex>
               </template>
-              <a-menu-item key="1">option1</a-menu-item>
-              <a-menu-item key="2">option2</a-menu-item>
-              <a-menu-item key="3">option3</a-menu-item>
-              <a-menu-item key="4">option4</a-menu-item>
+              <a-menu-item key="/course-selection">課程查詢</a-menu-item>
+              <a-menu-item key="/選課系統">選課系統</a-menu-item>
+            </a-sub-menu>
+            <a-sub-menu key="sub2">
+              <template #title>
+                <a-flex align="center" gap="5">
+                  <vue-feather type="user" size="18"></vue-feather>
+                  個人資訊
+                </a-flex>
+              </template>
+              <a-menu-item key="/成績查詢">成績查詢</a-menu-item>
+              <a-menu-item key="/學分分析">學分分析</a-menu-item>
             </a-sub-menu>
           </a-menu>
         </a-layout-sider>
@@ -204,13 +234,17 @@
       <p>Current theme: {{ themeStore.theme }}</p>
       <p>Current system theme: {{ systemTheme }}</p>
       <p>Current window focus: {{ isFocused }}</p> -->
-      <p>{{ currentRoute.fullPath }}</p>
+      <p>{{ currentRoute.meta }}</p>
+      <p>{{ currentPage }}</p>
       <a-flex :vertical="false">
         <a-button @click="$router.push('/')">Home</a-button>
-        <a-button type="text" @click="$router.push('/about')">About</a-button>
-        <a-button type="text" @click="$router.push('/settings')"
-          >Settings</a-button
-        >
+        <a-button type="text" @click="$router.push('/about')"> About </a-button>
+        <a-button type="text" @click="$router.push('/settings')">
+          Settings
+        </a-button>
+        <a-button type="text" @click="$router.push('/course-selection')">
+          course-selection
+        </a-button>
       </a-flex>
     </div>
   </div>

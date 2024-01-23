@@ -1,5 +1,6 @@
 [
   {
+    "key": "SO-A012",
     "department": "SO",
     "course_id": "A012",
     "department_code": "A",
@@ -28,6 +29,7 @@
     "notes": "管院同學請勿選修"
   },
   {
+    "key": "SO-A023",
     "department": "SO",
     "course_id": "A023",
     "department_code": "A",
@@ -56,6 +58,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A034",
     "department": "SO",
     "course_id": "A034",
     "department_code": "A",
@@ -84,6 +87,7 @@
     "notes": "管院請勿選修"
   },
   {
+    "key": "SO-A062",
     "department": "SO",
     "course_id": "A062",
     "department_code": "A",
@@ -112,6 +116,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A183",
     "department": "SO",
     "course_id": "A183",
     "department_code": "A",
@@ -140,6 +145,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A188",
     "department": "SO",
     "course_id": "A188",
     "department_code": "A",
@@ -168,6 +174,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A226",
     "department": "SO",
     "course_id": "A226",
     "department_code": "A",
@@ -196,6 +203,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A365",
     "department": "SO",
     "course_id": "A365",
     "department_code": "A",
@@ -224,6 +232,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A366",
     "department": "SO",
     "course_id": "A366",
     "department_code": "A",
@@ -252,6 +261,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A367",
     "department": "SO",
     "course_id": "A367",
     "department_code": "A",
@@ -280,6 +290,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A372",
     "department": "SO",
     "course_id": "A372",
     "department_code": "A",
@@ -308,6 +319,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A474",
     "department": "SO",
     "course_id": "A474",
     "department_code": "A",
@@ -336,6 +348,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A523",
     "department": "SO",
     "course_id": "A523",
     "department_code": "A",
@@ -364,6 +377,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A583",
     "department": "SO",
     "course_id": "A583",
     "department_code": "A",
@@ -393,6 +407,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A619",
     "department": "SO",
     "course_id": "A619",
     "department_code": "A",
@@ -421,6 +436,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A691",
     "department": "SO",
     "course_id": "A691",
     "department_code": "A",
@@ -449,6 +465,7 @@
     "notes": "1.修過「高大卓越講座(一).(二)」者請勿重覆選修,重覆選修不列入學分計算。2.若有課程相關問題請連繫<推廣教育中心>"
   },
   {
+    "key": "SO-A804",
     "department": "SO",
     "course_id": "A804",
     "department_code": "A",
@@ -477,6 +494,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A840",
     "department": "SO",
     "course_id": "A840",
     "department_code": "A",
@@ -505,6 +523,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A863",
     "department": "SO",
     "course_id": "A863",
     "department_code": "A",
@@ -533,6 +552,7 @@
     "notes": "法學院請勿選修"
   },
   {
+    "key": "SO-A892",
     "department": "SO",
     "course_id": "A892",
     "department_code": "A",
@@ -561,6 +581,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A956",
     "department": "SO",
     "course_id": "A956",
     "department_code": "A",
@@ -589,6 +610,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A963",
     "department": "SO",
     "course_id": "A963",
     "department_code": "A",
@@ -617,6 +639,7 @@
     "notes": ""
   },
   {
+    "key": "SO-A972",
     "department": "SO",
     "course_id": "A972",
     "department_code": "A",
@@ -645,6 +668,7 @@
     "notes": ""
   },
   {
+    "key": "SO-B012",
     "department": "SO",
     "course_id": "B012",
     "department_code": "A",
@@ -673,6 +697,7 @@
     "notes": ""
   },
   {
+    "key": "SO-B051",
     "department": "SO",
     "course_id": "B051",
     "department_code": "A",
@@ -701,6 +726,7 @@
     "notes": ""
   },
   {
+    "key": "SO-B091",
     "department": "SO",
     "course_id": "B091",
     "department_code": "A",
@@ -712,7 +738,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "9",
+    "online_number": "10",
     "balance": "60",
     "teacher": "陳永安",
     "classroom": "B01-108",
@@ -729,6 +755,7 @@
     "notes": ""
   },
   {
+    "key": "SO-B101",
     "department": "SO",
     "course_id": "B101",
     "department_code": "A",
@@ -758,6 +785,7 @@
     "notes": "修習博雅通識【服務學習】課程，可同時抵認一學期共同必修【服務學習培養】課程(僅限一次)"
   },
   {
+    "key": "SO-B102",
     "department": "SO",
     "course_id": "B102",
     "department_code": "A",
@@ -787,6 +815,7 @@
     "notes": "修習博雅通識【服務學習】課程，可同時抵認一學期共同必修【服務學習培養】課程(僅限一次)"
   },
   {
+    "key": "SO-B103",
     "department": "SO",
     "course_id": "B103",
     "department_code": "A",
@@ -816,6 +845,7 @@
     "notes": "修習博雅通識【服務學習】課程，可同時抵認一學期共同必修【服務學習培養】課程(僅限一次)"
   },
   {
+    "key": "SO-B104",
     "department": "SO",
     "course_id": "B104",
     "department_code": "A",
@@ -845,6 +875,7 @@
     "notes": "修習博雅通識【服務學習】課程，可同時抵認一學期共同必修【服務學習培養】課程(僅限一次)"
   },
   {
+    "key": "SO-B105",
     "department": "SO",
     "course_id": "B105",
     "department_code": "A",
@@ -874,6 +905,7 @@
     "notes": "修習博雅通識【服務學習】課程，可同時抵認一學期共同必修【服務學習培養】課程(僅限一次)"
   },
   {
+    "key": "LI-A035",
     "department": "LI",
     "course_id": "A035",
     "department_code": "A",
@@ -902,6 +934,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A036",
     "department": "LI",
     "course_id": "A036",
     "department_code": "A",
@@ -930,6 +963,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A051",
     "department": "LI",
     "course_id": "A051",
     "department_code": "A",
@@ -958,6 +992,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A114",
     "department": "LI",
     "course_id": "A114",
     "department_code": "A",
@@ -986,6 +1021,7 @@
     "notes": "本課程需具備50音基礎"
   },
   {
+    "key": "LI-A174",
     "department": "LI",
     "course_id": "A174",
     "department_code": "A",
@@ -1014,6 +1050,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A184",
     "department": "LI",
     "course_id": "A184",
     "department_code": "A",
@@ -1042,6 +1079,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A204",
     "department": "LI",
     "course_id": "A204",
     "department_code": "A",
@@ -1070,6 +1108,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A213",
     "department": "LI",
     "course_id": "A213",
     "department_code": "A",
@@ -1099,6 +1138,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A216",
     "department": "LI",
     "course_id": "A216",
     "department_code": "A",
@@ -1127,6 +1167,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A219",
     "department": "LI",
     "course_id": "A219",
     "department_code": "A",
@@ -1155,6 +1196,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A343",
     "department": "LI",
     "course_id": "A343",
     "department_code": "A",
@@ -1183,6 +1225,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A345",
     "department": "LI",
     "course_id": "A345",
     "department_code": "A",
@@ -1211,6 +1254,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A374",
     "department": "LI",
     "course_id": "A374",
     "department_code": "A",
@@ -1239,6 +1283,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A497",
     "department": "LI",
     "course_id": "A497",
     "department_code": "A",
@@ -1250,7 +1295,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "69",
+    "online_number": "70",
     "balance": "60",
     "teacher": "陳怡靜",
     "classroom": "L01-103",
@@ -1267,6 +1312,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A584",
     "department": "LI",
     "course_id": "A584",
     "department_code": "A",
@@ -1295,6 +1341,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A585",
     "department": "LI",
     "course_id": "A585",
     "department_code": "A",
@@ -1323,6 +1370,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A587",
     "department": "LI",
     "course_id": "A587",
     "department_code": "A",
@@ -1351,6 +1399,7 @@
     "notes": "修過「(LIA586)陰陽五行思想與中華文化」者請勿重覆選修,重覆選修不列入學分計算。"
   },
   {
+    "key": "LI-A634",
     "department": "LI",
     "course_id": "A634",
     "department_code": "A",
@@ -1379,6 +1428,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A714",
     "department": "LI",
     "course_id": "A714",
     "department_code": "A",
@@ -1407,6 +1457,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A810",
     "department": "LI",
     "course_id": "A810",
     "department_code": "A",
@@ -1435,6 +1486,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A831",
     "department": "LI",
     "course_id": "A831",
     "department_code": "A",
@@ -1463,6 +1515,7 @@
     "notes": "本課程包含18小時之線上課程，學生必須加入磨課師平台參與課程教學及討論"
   },
   {
+    "key": "LI-A842",
     "department": "LI",
     "course_id": "A842",
     "department_code": "A",
@@ -1491,6 +1544,7 @@
     "notes": ""
   },
   {
+    "key": "LI-A844",
     "department": "LI",
     "course_id": "A844",
     "department_code": "A",
@@ -1519,6 +1573,7 @@
     "notes": "課程相關問題請聯繫<學務處原民中心>"
   },
   {
+    "key": "LI-B013",
     "department": "LI",
     "course_id": "B013",
     "department_code": "A",
@@ -1530,7 +1585,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "138",
+    "online_number": "139",
     "balance": "60",
     "teacher": "陳怡靜",
     "classroom": "L01-103",
@@ -1547,6 +1602,7 @@
     "notes": ""
   },
   {
+    "key": "LI-B014",
     "department": "LI",
     "course_id": "B014",
     "department_code": "A",
@@ -1558,7 +1614,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "46",
+    "online_number": "47",
     "balance": "60",
     "teacher": "陳怡靜",
     "classroom": "L01-103",
@@ -1575,6 +1631,7 @@
     "notes": ""
   },
   {
+    "key": "LI-B015",
     "department": "LI",
     "course_id": "B015",
     "department_code": "A",
@@ -1603,6 +1660,7 @@
     "notes": ""
   },
   {
+    "key": "LI-B032",
     "department": "LI",
     "course_id": "B032",
     "department_code": "A",
@@ -1631,6 +1689,7 @@
     "notes": ""
   },
   {
+    "key": "LI-B060",
     "department": "LI",
     "course_id": "B060",
     "department_code": "A",
@@ -1659,6 +1718,7 @@
     "notes": "西語系，或母語為英語者請勿選修。"
   },
   {
+    "key": "LI-B068",
     "department": "LI",
     "course_id": "B068",
     "department_code": "A",
@@ -1687,6 +1747,7 @@
     "notes": "東語系日文組；或以日語為母語者請勿選修"
   },
   {
+    "key": "LI-B069",
     "department": "LI",
     "course_id": "B069",
     "department_code": "A",
@@ -1715,6 +1776,7 @@
     "notes": "西語系，或母語為英語者請勿選修。"
   },
   {
+    "key": "LI-B070",
     "department": "LI",
     "course_id": "B070",
     "department_code": "A",
@@ -1743,6 +1805,7 @@
     "notes": "西語系，或母語為英語者請勿選修。"
   },
   {
+    "key": "LI-B086",
     "department": "LI",
     "course_id": "B086",
     "department_code": "A",
@@ -1771,6 +1834,7 @@
     "notes": ""
   },
   {
+    "key": "LI-B087",
     "department": "LI",
     "course_id": "B087",
     "department_code": "A",
@@ -1799,6 +1863,7 @@
     "notes": "限理學院及西語系同學選修"
   },
   {
+    "key": "LI-B088",
     "department": "LI",
     "course_id": "B088",
     "department_code": "A",
@@ -1827,6 +1892,7 @@
     "notes": "西語系，或母語為英語者請勿選修。"
   },
   {
+    "key": "LI-B089",
     "department": "LI",
     "course_id": "B089",
     "department_code": "A",
@@ -1855,6 +1921,7 @@
     "notes": "西語系，或母語為英語者請勿選修。"
   },
   {
+    "key": "LI-B090",
     "department": "LI",
     "course_id": "B090",
     "department_code": "A",
@@ -1883,6 +1950,7 @@
     "notes": "西語系，或母語為英語者請勿選修。"
   },
   {
+    "key": "LI-B201",
     "department": "LI",
     "course_id": "B201",
     "department_code": "A",
@@ -1911,6 +1979,7 @@
     "notes": "東語系越語組，或母語為越語者請勿選修"
   },
   {
+    "key": "LI-B202",
     "department": "LI",
     "course_id": "B202",
     "department_code": "A",
@@ -1939,6 +2008,7 @@
     "notes": "東語系越語組，或母語為越語者請勿選修。"
   },
   {
+    "key": "SC-A022",
     "department": "SC",
     "course_id": "A022",
     "department_code": "A",
@@ -1967,6 +2037,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A142",
     "department": "SC",
     "course_id": "A142",
     "department_code": "A",
@@ -1995,6 +2066,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A144",
     "department": "SC",
     "course_id": "A144",
     "department_code": "A",
@@ -2023,6 +2095,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A286",
     "department": "SC",
     "course_id": "A286",
     "department_code": "A",
@@ -2051,6 +2124,7 @@
     "notes": "第11-16周至K01-210按摩教室上課"
   },
   {
+    "key": "SC-A293",
     "department": "SC",
     "course_id": "A293",
     "department_code": "A",
@@ -2079,6 +2153,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A483",
     "department": "SC",
     "course_id": "A483",
     "department_code": "A",
@@ -2107,6 +2182,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A572",
     "department": "SC",
     "course_id": "A572",
     "department_code": "A",
@@ -2135,6 +2211,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A593",
     "department": "SC",
     "course_id": "A593",
     "department_code": "A",
@@ -2163,6 +2240,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A621",
     "department": "SC",
     "course_id": "A621",
     "department_code": "A",
@@ -2191,6 +2269,7 @@
     "notes": "運休系同學請勿選修"
   },
   {
+    "key": "SC-A669",
     "department": "SC",
     "course_id": "A669",
     "department_code": "A",
@@ -2219,6 +2298,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A672",
     "department": "SC",
     "course_id": "A672",
     "department_code": "A",
@@ -2247,6 +2327,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A711",
     "department": "SC",
     "course_id": "A711",
     "department_code": "A",
@@ -2275,6 +2356,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A775",
     "department": "SC",
     "course_id": "A775",
     "department_code": "A",
@@ -2286,7 +2368,7 @@
     "requirement_type": "選",
     "limit": "40",
     "registration_confirmed": "0",
-    "online_number": "124",
+    "online_number": "125",
     "balance": "40",
     "teacher": "孫美蓮",
     "classroom": "",
@@ -2303,6 +2385,7 @@
     "notes": "運休大樓游泳池前集合"
   },
   {
+    "key": "SC-A777",
     "department": "SC",
     "course_id": "A777",
     "department_code": "A",
@@ -2331,6 +2414,7 @@
     "notes": "運休大樓游泳池前集合"
   },
   {
+    "key": "SC-A785",
     "department": "SC",
     "course_id": "A785",
     "department_code": "A",
@@ -2359,6 +2443,7 @@
     "notes": "運休系同學請勿選修"
   },
   {
+    "key": "SC-A798",
     "department": "SC",
     "course_id": "A798",
     "department_code": "A",
@@ -2387,6 +2472,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A799",
     "department": "SC",
     "course_id": "A799",
     "department_code": "A",
@@ -2415,6 +2501,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A901",
     "department": "SC",
     "course_id": "A901",
     "department_code": "A",
@@ -2443,6 +2530,7 @@
     "notes": "資工系大三、大四以上同學請勿選修"
   },
   {
+    "key": "SC-A902",
     "department": "SC",
     "course_id": "A902",
     "department_code": "A",
@@ -2471,6 +2559,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A904",
     "department": "SC",
     "course_id": "A904",
     "department_code": "A",
@@ -2499,6 +2588,7 @@
     "notes": ""
   },
   {
+    "key": "SC-A906",
     "department": "SC",
     "course_id": "A906",
     "department_code": "A",
@@ -2528,6 +2618,7 @@
     "notes": ""
   },
   {
+    "key": "GR-0102",
     "department": "GR",
     "course_id": "0102",
     "department_code": "A",
@@ -2556,6 +2647,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-0202",
     "department": "GR",
     "course_id": "0202",
     "department_code": "A",
@@ -2584,6 +2676,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-0302",
     "department": "GR",
     "course_id": "0302",
     "department_code": "A",
@@ -2612,6 +2705,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-0402",
     "department": "GR",
     "course_id": "0402",
     "department_code": "A",
@@ -2640,6 +2734,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-0502",
     "department": "GR",
     "course_id": "0502",
     "department_code": "A",
@@ -2668,6 +2763,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-0602",
     "department": "GR",
     "course_id": "0602",
     "department_code": "A",
@@ -2696,6 +2792,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-1102",
     "department": "GR",
     "course_id": "1102",
     "department_code": "A",
@@ -2724,6 +2821,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-1702",
     "department": "GR",
     "course_id": "1702",
     "department_code": "A",
@@ -2752,6 +2850,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-2102",
     "department": "GR",
     "course_id": "2102",
     "department_code": "A",
@@ -2780,6 +2879,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-2202",
     "department": "GR",
     "course_id": "2202",
     "department_code": "A",
@@ -2808,6 +2908,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-3102",
     "department": "GR",
     "course_id": "3102",
     "department_code": "A",
@@ -2836,6 +2937,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-3202",
     "department": "GR",
     "course_id": "3202",
     "department_code": "A",
@@ -2864,6 +2966,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-4102",
     "department": "GR",
     "course_id": "4102",
     "department_code": "A",
@@ -2892,6 +2995,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-4202",
     "department": "GR",
     "course_id": "4202",
     "department_code": "A",
@@ -2920,6 +3024,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-5102",
     "department": "GR",
     "course_id": "5102",
     "department_code": "A",
@@ -2948,6 +3053,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-5202",
     "department": "GR",
     "course_id": "5202",
     "department_code": "A",
@@ -2976,6 +3082,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-5302",
     "department": "GR",
     "course_id": "5302",
     "department_code": "A",
@@ -3004,6 +3111,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-5502",
     "department": "GR",
     "course_id": "5502",
     "department_code": "A",
@@ -3032,6 +3140,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-5602",
     "department": "GR",
     "course_id": "5602",
     "department_code": "A",
@@ -3060,6 +3169,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-7102",
     "department": "GR",
     "course_id": "7102",
     "department_code": "A",
@@ -3088,6 +3198,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-7202",
     "department": "GR",
     "course_id": "7202",
     "department_code": "A",
@@ -3116,6 +3227,7 @@
     "notes": "111學年度起學士班境外新生必須符合以下資格，始能選修此門課程。一、港澳生、陸生。二、具「TOCFL」B1成績或其他華語文檢測成績相當「TOCFL」B1以上之成績證明。三、具最近一年於境外修習720小時、境內360小時以上華語文課程之修課證明。四、通過本校華語檢定。"
   },
   {
+    "key": "GR-8106",
     "department": "GR",
     "course_id": "8106",
     "department_code": "A",
@@ -3144,6 +3256,7 @@
     "notes": "選修此班需經教師認定核可;欲選修此班級之學生請於開學第一週至上課教室受測驗後,再由教師指定加選。"
   },
   {
+    "key": "GR-A0AA",
     "department": "GR",
     "course_id": "A0AA",
     "department_code": "A",
@@ -3172,6 +3285,7 @@
     "notes": "1.依學生英文能力分級,本學期起不再匯入系統  2.請同學於選課期間內依分級自行上網選課"
   },
   {
+    "key": "GR-A0AB",
     "department": "GR",
     "course_id": "A0AB",
     "department_code": "A",
@@ -3200,6 +3314,7 @@
     "notes": "1.依學生英文能力分級,本學期起不再匯入系統  2.請同學於選課期間內依分級自行上網選課"
   },
   {
+    "key": "GR-A0BA",
     "department": "GR",
     "course_id": "A0BA",
     "department_code": "A",
@@ -3228,6 +3343,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A0BB",
     "department": "GR",
     "course_id": "A0BB",
     "department_code": "A",
@@ -3256,6 +3372,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A0BC",
     "department": "GR",
     "course_id": "A0BC",
     "department_code": "A",
@@ -3284,6 +3401,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A0BD",
     "department": "GR",
     "course_id": "A0BD",
     "department_code": "A",
@@ -3312,6 +3430,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A0BE",
     "department": "GR",
     "course_id": "A0BE",
     "department_code": "A",
@@ -3340,6 +3459,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A0DA",
     "department": "GR",
     "course_id": "A0DA",
     "department_code": "A",
@@ -3368,6 +3488,7 @@
     "notes": "1.依學生英文能力分級,本學期起不再匯入系統  2.請同學於選課期間內依分級自行上網選課"
   },
   {
+    "key": "GR-A0DB",
     "department": "GR",
     "course_id": "A0DB",
     "department_code": "A",
@@ -3396,6 +3517,7 @@
     "notes": "1.依學生英文能力分級,本學期起不再匯入系統  2.請同學於選課期間內依分級自行上網選課"
   },
   {
+    "key": "GR-A0DC",
     "department": "GR",
     "course_id": "A0DC",
     "department_code": "A",
@@ -3424,6 +3546,7 @@
     "notes": "1.依學生英文能力分級,本學期起不再匯入系統  2.請同學於選課期間內依分級自行上網選課"
   },
   {
+    "key": "GR-A0DD",
     "department": "GR",
     "course_id": "A0DD",
     "department_code": "A",
@@ -3452,6 +3575,7 @@
     "notes": "1.依學生英文能力分級,本學期起不再匯入系統  2.請同學於選課期間內依分級自行上網選課"
   },
   {
+    "key": "GR-A114",
     "department": "GR",
     "course_id": "A114",
     "department_code": "A",
@@ -3479,6 +3603,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A124",
     "department": "GR",
     "course_id": "A124",
     "department_code": "A",
@@ -3506,6 +3631,7 @@
     "notes": "限運動健康與休閒學系學生並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A166",
     "department": "GR",
     "course_id": "A166",
     "department_code": "A",
@@ -3533,6 +3659,7 @@
     "notes": "工藝與創意設計學系學生優先並請於開學一週內上班時間0900~1630時至該服務單位報到即可"
   },
   {
+    "key": "GR-A16B",
     "department": "GR",
     "course_id": "A16B",
     "department_code": "A",
@@ -3560,6 +3687,7 @@
     "notes": "選課對象限制:建築學系﹑創建系建築組"
   },
   {
+    "key": "GR-A174",
     "department": "GR",
     "course_id": "A174",
     "department_code": "A",
@@ -3587,6 +3715,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧限本系學生修習"
   },
   {
+    "key": "GR-A184",
     "department": "GR",
     "course_id": "A184",
     "department_code": "A",
@@ -3614,6 +3743,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A1CA",
     "department": "GR",
     "course_id": "A1CA",
     "department_code": "A",
@@ -3642,6 +3772,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CB",
     "department": "GR",
     "course_id": "A1CB",
     "department_code": "A",
@@ -3670,6 +3801,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CC",
     "department": "GR",
     "course_id": "A1CC",
     "department_code": "A",
@@ -3698,6 +3830,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CD",
     "department": "GR",
     "course_id": "A1CD",
     "department_code": "A",
@@ -3726,6 +3859,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CE",
     "department": "GR",
     "course_id": "A1CE",
     "department_code": "A",
@@ -3754,6 +3888,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CF",
     "department": "GR",
     "course_id": "A1CF",
     "department_code": "A",
@@ -3782,6 +3917,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CG",
     "department": "GR",
     "course_id": "A1CG",
     "department_code": "A",
@@ -3810,6 +3946,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CH",
     "department": "GR",
     "course_id": "A1CH",
     "department_code": "A",
@@ -3838,6 +3975,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CI",
     "department": "GR",
     "course_id": "A1CI",
     "department_code": "A",
@@ -3866,6 +4004,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CJ",
     "department": "GR",
     "course_id": "A1CJ",
     "department_code": "A",
@@ -3877,7 +4016,7 @@
     "requirement_type": "必",
     "limit": "50",
     "registration_confirmed": "0",
-    "online_number": "47",
+    "online_number": "48",
     "balance": "50",
     "teacher": "王靜嫻",
     "classroom": "B01-103",
@@ -3894,6 +4033,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CK",
     "department": "GR",
     "course_id": "A1CK",
     "department_code": "A",
@@ -3922,6 +4062,7 @@
     "notes": "1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A1CM",
     "department": "GR",
     "course_id": "A1CM",
     "department_code": "A",
@@ -3950,6 +4091,7 @@
     "notes": "限運競系選修1.依學生英文能力分級,由同學於選課期間內依分級自行上網選課2.分級限修名單公告於通識中心網頁_「最新消息」及「課程相關及異動」"
   },
   {
+    "key": "GR-A214",
     "department": "GR",
     "course_id": "A214",
     "department_code": "A",
@@ -3977,6 +4119,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A224",
     "department": "GR",
     "course_id": "A224",
     "department_code": "A",
@@ -4004,6 +4147,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A234",
     "department": "GR",
     "course_id": "A234",
     "department_code": "A",
@@ -4031,6 +4175,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A314",
     "department": "GR",
     "course_id": "A314",
     "department_code": "A",
@@ -4058,6 +4203,7 @@
     "notes": "限應用經濟學系並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A324",
     "department": "GR",
     "course_id": "A324",
     "department_code": "A",
@@ -4085,6 +4231,7 @@
     "notes": "選課對象限制:限本系。請於開學第一週之週三前至本系臉書社團「高大金管系」http://www.facebook.com/groups/nukfin/  查看課程說明時間(必到)。"
   },
   {
+    "key": "GR-A334",
     "department": "GR",
     "course_id": "A334",
     "department_code": "A",
@@ -4112,6 +4259,7 @@
     "notes": "限資訊管理學系學生並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A414",
     "department": "GR",
     "course_id": "A414",
     "department_code": "A",
@@ -4139,6 +4287,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A424",
     "department": "GR",
     "course_id": "A424",
     "department_code": "A",
@@ -4166,6 +4315,7 @@
     "notes": "限應化系並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A434",
     "department": "GR",
     "course_id": "A434",
     "department_code": "A",
@@ -4193,6 +4343,7 @@
     "notes": "限應用物理系學生並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A516",
     "department": "GR",
     "course_id": "A516",
     "department_code": "A",
@@ -4220,6 +4371,7 @@
     "notes": "限電機系學生,請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A524",
     "department": "GR",
     "course_id": "A524",
     "department_code": "A",
@@ -4247,6 +4399,7 @@
     "notes": "限土環系學生並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A554",
     "department": "GR",
     "course_id": "A554",
     "department_code": "A",
@@ -4274,6 +4427,7 @@
     "notes": "限資工系同學並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A564",
     "department": "GR",
     "course_id": "A564",
     "department_code": "A",
@@ -4301,6 +4455,7 @@
     "notes": "限化材系學生並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A614",
     "department": "GR",
     "course_id": "A614",
     "department_code": "A",
@@ -4328,6 +4483,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A714",
     "department": "GR",
     "course_id": "A714",
     "department_code": "A",
@@ -4355,6 +4511,7 @@
     "notes": "限亞太工商管理學系並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-A812",
     "department": "GR",
     "course_id": "A812",
     "department_code": "A",
@@ -4382,6 +4539,7 @@
     "notes": "請於開學一週內上班時間9:00-16:30至該服務單位報到。"
   },
   {
+    "key": "GR-A99B",
     "department": "GR",
     "course_id": "A99B",
     "department_code": "A",
@@ -4410,6 +4568,7 @@
     "notes": "上課地點:體適能教室。凡是不能參與一般體育課之大一、二學生，其身心狀況不適者，得經公立醫療院所診斷後並開立證明(90天內之證明)交給老師指定加選"
   },
   {
+    "key": "GR-F104",
     "department": "GR",
     "course_id": "F104",
     "department_code": "A",
@@ -4437,6 +4596,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F106",
     "department": "GR",
     "course_id": "F106",
     "department_code": "A",
@@ -4464,6 +4624,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧限大一~大三學生選課"
   },
   {
+    "key": "GR-F108",
     "department": "GR",
     "course_id": "F108",
     "department_code": "A",
@@ -4491,6 +4652,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧(行政大樓二樓　教學發展中心）"
   },
   {
+    "key": "GR-F10D",
     "department": "GR",
     "course_id": "F10D",
     "department_code": "A",
@@ -4518,6 +4680,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位(行政大樓)報到即可‧"
   },
   {
+    "key": "GR-F114",
     "department": "GR",
     "course_id": "F114",
     "department_code": "A",
@@ -4545,6 +4708,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F116",
     "department": "GR",
     "course_id": "F116",
     "department_code": "A",
@@ -4572,6 +4736,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧(行政大樓北棟2樓)"
   },
   {
+    "key": "GR-F130",
     "department": "GR",
     "course_id": "F130",
     "department_code": "A",
@@ -4599,6 +4764,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至學務課外活動組報到即可1.學習如何策展及卸展，強化展覽規劃與體驗。2.每次展覽時學習導覽作品，增強各類藝術之知能。3.展覽的駐守人員並可解說藝術品故事，藝術家的理念與構思。4.協助社團器材借用"
   },
   {
+    "key": "GR-F154",
     "department": "GR",
     "course_id": "F154",
     "department_code": "A",
@@ -4626,6 +4792,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F15D",
     "department": "GR",
     "course_id": "F15D",
     "department_code": "A",
@@ -4653,6 +4820,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F15F",
     "department": "GR",
     "course_id": "F15F",
     "department_code": "A",
@@ -4680,6 +4848,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F164",
     "department": "GR",
     "course_id": "F164",
     "department_code": "A",
@@ -4707,6 +4876,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F174",
     "department": "GR",
     "course_id": "F174",
     "department_code": "A",
@@ -4734,6 +4904,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F184",
     "department": "GR",
     "course_id": "F184",
     "department_code": "A",
@@ -4761,6 +4932,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F194",
     "department": "GR",
     "course_id": "F194",
     "department_code": "A",
@@ -4788,6 +4960,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F224",
     "department": "GR",
     "course_id": "F224",
     "department_code": "A",
@@ -4815,6 +4988,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F234",
     "department": "GR",
     "course_id": "F234",
     "department_code": "A",
@@ -4842,6 +5016,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F244",
     "department": "GR",
     "course_id": "F244",
     "department_code": "A",
@@ -4869,6 +5044,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F254",
     "department": "GR",
     "course_id": "F254",
     "department_code": "A",
@@ -4896,6 +5072,7 @@
     "notes": "理學院優先並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F264",
     "department": "GR",
     "course_id": "F264",
     "department_code": "A",
@@ -4923,6 +5100,7 @@
     "notes": "人文社會科學院所屬系所學生優先並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F27B",
     "department": "GR",
     "course_id": "F27B",
     "department_code": "A",
@@ -4950,6 +5128,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F27D",
     "department": "GR",
     "course_id": "F27D",
     "department_code": "A",
@@ -4977,6 +5156,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F27F",
     "department": "GR",
     "course_id": "F27F",
     "department_code": "A",
@@ -5004,6 +5184,7 @@
     "notes": "限僑生、陸生及外籍生,並請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F30B",
     "department": "GR",
     "course_id": "F30B",
     "department_code": "A",
@@ -5031,6 +5212,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F30D",
     "department": "GR",
     "course_id": "F30D",
     "department_code": "A",
@@ -5058,6 +5240,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F31B",
     "department": "GR",
     "course_id": "F31B",
     "department_code": "A",
@@ -5085,6 +5268,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧需會基本中文打字"
   },
   {
+    "key": "GR-F31F",
     "department": "GR",
     "course_id": "F31F",
     "department_code": "A",
@@ -5112,6 +5296,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F31H",
     "department": "GR",
     "course_id": "F31H",
     "department_code": "A",
@@ -5139,6 +5324,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F322",
     "department": "GR",
     "course_id": "F322",
     "department_code": "A",
@@ -5166,6 +5352,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F32B",
     "department": "GR",
     "course_id": "F32B",
     "department_code": "A",
@@ -5193,6 +5380,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧限大一~大三學生選修(大四學生請勿選)"
   },
   {
+    "key": "GR-F32F",
     "department": "GR",
     "course_id": "F32F",
     "department_code": "A",
@@ -5220,6 +5408,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F332",
     "department": "GR",
     "course_id": "F332",
     "department_code": "A",
@@ -5247,6 +5436,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F334",
     "department": "GR",
     "course_id": "F334",
     "department_code": "A",
@@ -5274,6 +5464,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位報到即可‧"
   },
   {
+    "key": "GR-F342",
     "department": "GR",
     "course_id": "F342",
     "department_code": "A",
@@ -5285,7 +5476,7 @@
     "requirement_type": "必",
     "limit": "25",
     "registration_confirmed": "0",
-    "online_number": "22",
+    "online_number": "23",
     "balance": "25",
     "teacher": "游明慧",
     "classroom": "",
@@ -5301,6 +5492,7 @@
     "notes": "限住該棟同學選修並於開學第一週周五前至學二宿舍辦公室報到。"
   },
   {
+    "key": "GR-F34B",
     "department": "GR",
     "course_id": "F34B",
     "department_code": "A",
@@ -5328,6 +5520,7 @@
     "notes": "限住該棟男同學選修並於開學第一週周五前至學二宿舍辦公室報到。"
   },
   {
+    "key": "GR-F34D",
     "department": "GR",
     "course_id": "F34D",
     "department_code": "A",
@@ -5355,6 +5548,7 @@
     "notes": "限住該棟女同學選修並於開學第一週周五前至學二宿舍辦公室報到。"
   },
   {
+    "key": "GR-F34F",
     "department": "GR",
     "course_id": "F34F",
     "department_code": "A",
@@ -5382,6 +5576,7 @@
     "notes": "限住該棟男同學選修並於開學第一週周五前至學二宿舍辦公室報到。"
   },
   {
+    "key": "GR-F34H",
     "department": "GR",
     "course_id": "F34H",
     "department_code": "A",
@@ -5409,6 +5604,7 @@
     "notes": "限住該棟女同學選修並於開學第一週周五前至學二宿舍辦公室報到。"
   },
   {
+    "key": "GR-F35D",
     "department": "GR",
     "course_id": "F35D",
     "department_code": "A",
@@ -5436,6 +5632,7 @@
     "notes": "請於開學一週內上班時間0900~1630時至該服務單位(圖資六樓624室)報到即可‧電話:5916900"
   },
   {
+    "key": "GR-F408",
     "department": "GR",
     "course_id": "F408",
     "department_code": "A",
@@ -5463,6 +5660,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡社長蔡蕙璘同學。請在早上8點至17點間撥打0933-838-085 3.\t課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-F40D",
     "department": "GR",
     "course_id": "F40D",
     "department_code": "A",
@@ -5490,6 +5688,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡社長蕭佩瑄同學，請在早上8點至17點間撥打0909-916-739。 3.課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-F40N",
     "department": "GR",
     "course_id": "F40N",
     "department_code": "A",
@@ -5517,6 +5716,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡會長陳柏任同學，請在早上8點至17點間撥打0972-831-060。 3.\t課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分"
   },
   {
+    "key": "GR-F40V",
     "department": "GR",
     "course_id": "F40V",
     "department_code": "A",
@@ -5544,6 +5744,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。2.\t社課時間請聯絡顏文進教官，請在早上8點至17點間撥打07-591-9054，或社長林建宏同學，撥打0976-507-233。3.課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-F40X",
     "department": "GR",
     "course_id": "F40X",
     "department_code": "A",
@@ -5571,6 +5772,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修本課同學一定要配合社團社課時間，同學若無意願且無法配合時間者，請勿（不要）修本課程。2.社課時間請聯絡社長廖佑晨同學，請在8點至17點間撥打0906-202-899。3.課程時間要上滿18小時，並且於期未時填期中、期未反思表，未做滿18小時及未填反思表者不計分。"
   },
   {
+    "key": "GR-F41B",
     "department": "GR",
     "course_id": "F41B",
     "department_code": "A",
@@ -5598,6 +5800,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡社長周奕同學，請在早上8點至17點間撥打0903-667-675。 3.\t課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-F41F",
     "department": "GR",
     "course_id": "F41F",
     "department_code": "A",
@@ -5625,6 +5828,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡社師王鼎元同學，請在19點至23點間撥打0970-921-115。 3.課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-F41H",
     "department": "GR",
     "course_id": "F41H",
     "department_code": "A",
@@ -5652,6 +5856,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡議長游苡婕同學，請在早上8點至17點間撥打0908-861-351，或洪文哲同學，撥打0908-692-598。 3.課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-F41J",
     "department": "GR",
     "course_id": "F41J",
     "department_code": "A",
@@ -5679,6 +5884,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡社長鄭資議同學，請在早上8點至17點間撥打0965-630-083。 3.課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-F41L",
     "department": "GR",
     "course_id": "F41L",
     "department_code": "A",
@@ -5690,7 +5896,7 @@
     "requirement_type": "必",
     "limit": "20",
     "registration_confirmed": "0",
-    "online_number": "14",
+    "online_number": "15",
     "balance": "20",
     "teacher": "林宏益",
     "classroom": "",
@@ -5706,6 +5912,7 @@
     "notes": "1.本課程為校內社團課程及校外服務，請有意願修習本課程同學務必要配合社團社課時間，若無意願且時間無法配合，請勿修習本課程。 2.社課時間請聯絡社長魏愷嶔同學，請在早上8點至17點間撥打0926-116-231。 3.\t課程期間要服務滿18小時，並且於期末填寫期中、期未反思表，未服務滿18小時及未填反思表者不予計分。"
   },
   {
+    "key": "GR-ME21",
     "department": "GR",
     "course_id": "ME21",
     "department_code": "A",
@@ -5734,6 +5941,7 @@
     "notes": "英文能力畢業資格檢定2次未通過，且修畢英 語會話與閱讀及格，方得選課，每人限修一門"
   },
   {
+    "key": "GR-ME22",
     "department": "GR",
     "course_id": "ME22",
     "department_code": "A",
@@ -5762,6 +5970,7 @@
     "notes": "英文能力畢業資格檢定2次未通過，且修畢英 語會話與閱讀及格，方得選課，每人限修一門"
   },
   {
+    "key": "CC-C512",
     "department": "CC",
     "course_id": "C512",
     "department_code": "A",
@@ -5791,6 +6000,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C513",
     "department": "CC",
     "course_id": "C513",
     "department_code": "A",
@@ -5820,6 +6030,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C514",
     "department": "CC",
     "course_id": "C514",
     "department_code": "A",
@@ -5831,7 +6042,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "117",
+    "online_number": "118",
     "balance": "60",
     "teacher": "胡忠信",
     "classroom": "B01-103",
@@ -5849,6 +6060,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C541",
     "department": "CC",
     "course_id": "C541",
     "department_code": "A",
@@ -5860,7 +6072,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "72",
+    "online_number": "73",
     "balance": "60",
     "teacher": "林明良",
     "classroom": "B01-107",
@@ -5878,6 +6090,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C542",
     "department": "CC",
     "course_id": "C542",
     "department_code": "A",
@@ -5907,6 +6120,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C543",
     "department": "CC",
     "course_id": "C543",
     "department_code": "A",
@@ -5936,6 +6150,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C544",
     "department": "CC",
     "course_id": "C544",
     "department_code": "A",
@@ -5965,6 +6180,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C611",
     "department": "CC",
     "course_id": "C611",
     "department_code": "A",
@@ -5994,6 +6210,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C612",
     "department": "CC",
     "course_id": "C612",
     "department_code": "A",
@@ -6023,6 +6240,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C613",
     "department": "CC",
     "course_id": "C613",
     "department_code": "A",
@@ -6052,6 +6270,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C614",
     "department": "CC",
     "course_id": "C614",
     "department_code": "A",
@@ -6081,6 +6300,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C651",
     "department": "CC",
     "course_id": "C651",
     "department_code": "A",
@@ -6110,6 +6330,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C681",
     "department": "CC",
     "course_id": "C681",
     "department_code": "A",
@@ -6139,6 +6360,7 @@
     "notes": ""
   },
   {
+    "key": "CC-C682",
     "department": "CC",
     "course_id": "C682",
     "department_code": "A",
@@ -6168,6 +6390,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I111",
     "department": "CC",
     "course_id": "I111",
     "department_code": "A",
@@ -6197,6 +6420,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I112",
     "department": "CC",
     "course_id": "I112",
     "department_code": "A",
@@ -6226,6 +6450,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I121",
     "department": "CC",
     "course_id": "I121",
     "department_code": "A",
@@ -6255,6 +6480,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I122",
     "department": "CC",
     "course_id": "I122",
     "department_code": "A",
@@ -6284,6 +6510,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I123",
     "department": "CC",
     "course_id": "I123",
     "department_code": "A",
@@ -6295,7 +6522,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "53",
+    "online_number": "54",
     "balance": "60",
     "teacher": "陳今偉",
     "classroom": "B01-103",
@@ -6313,6 +6540,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I124",
     "department": "CC",
     "course_id": "I124",
     "department_code": "A",
@@ -6342,6 +6570,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I211",
     "department": "CC",
     "course_id": "I211",
     "department_code": "A",
@@ -6371,6 +6600,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I212",
     "department": "CC",
     "course_id": "I212",
     "department_code": "A",
@@ -6400,6 +6630,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I213",
     "department": "CC",
     "course_id": "I213",
     "department_code": "A",
@@ -6429,6 +6660,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I251",
     "department": "CC",
     "course_id": "I251",
     "department_code": "A",
@@ -6458,6 +6690,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I261",
     "department": "CC",
     "course_id": "I261",
     "department_code": "A",
@@ -6469,7 +6702,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "56",
+    "online_number": "57",
     "balance": "60",
     "teacher": "歐陽蒨",
     "classroom": "B01-106",
@@ -6487,6 +6720,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I262",
     "department": "CC",
     "course_id": "I262",
     "department_code": "A",
@@ -6516,6 +6750,7 @@
     "notes": ""
   },
   {
+    "key": "CC-I263",
     "department": "CC",
     "course_id": "I263",
     "department_code": "A",
@@ -6545,6 +6780,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O311",
     "department": "CC",
     "course_id": "O311",
     "department_code": "A",
@@ -6574,6 +6810,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O312",
     "department": "CC",
     "course_id": "O312",
     "department_code": "A",
@@ -6603,6 +6840,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O313",
     "department": "CC",
     "course_id": "O313",
     "department_code": "A",
@@ -6632,6 +6870,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O314",
     "department": "CC",
     "course_id": "O314",
     "department_code": "A",
@@ -6661,6 +6900,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O361",
     "department": "CC",
     "course_id": "O361",
     "department_code": "A",
@@ -6672,7 +6912,7 @@
     "requirement_type": "選",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "38",
+    "online_number": "39",
     "balance": "60",
     "teacher": "洪聖斐",
     "classroom": "L02-102",
@@ -6690,6 +6930,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O362",
     "department": "CC",
     "course_id": "O362",
     "department_code": "A",
@@ -6719,6 +6960,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O364",
     "department": "CC",
     "course_id": "O364",
     "department_code": "A",
@@ -6748,6 +6990,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O411",
     "department": "CC",
     "course_id": "O411",
     "department_code": "A",
@@ -6777,6 +7020,7 @@
     "notes": "本課程包含18小時之線上課程，學生必須加入磨課師平台參與課程教學及討論"
   },
   {
+    "key": "CC-O413",
     "department": "CC",
     "course_id": "O413",
     "department_code": "A",
@@ -6806,6 +7050,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O414",
     "department": "CC",
     "course_id": "O414",
     "department_code": "A",
@@ -6835,6 +7080,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O423",
     "department": "CC",
     "course_id": "O423",
     "department_code": "A",
@@ -6864,6 +7110,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O424",
     "department": "CC",
     "course_id": "O424",
     "department_code": "A",
@@ -6893,6 +7140,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O425",
     "department": "CC",
     "course_id": "O425",
     "department_code": "A",
@@ -6922,6 +7170,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O428",
     "department": "CC",
     "course_id": "O428",
     "department_code": "A",
@@ -6951,6 +7200,7 @@
     "notes": ""
   },
   {
+    "key": "CC-O429",
     "department": "CC",
     "course_id": "O429",
     "department_code": "A",
@@ -6980,6 +7230,7 @@
     "notes": ""
   },
   {
+    "key": "CD-A071",
     "department": "CD",
     "course_id": "A071",
     "department_code": "A",
@@ -7008,6 +7259,7 @@
     "notes": ""
   },
   {
+    "key": "IN-A003",
     "department": "IN",
     "course_id": "A003",
     "department_code": "A",
@@ -7036,6 +7288,7 @@
     "notes": "1.限母語為非華語者之同學選修,選修此班需經教師認定核可 2.本課程不計入通識學分，經學系認定後得列入畢業學分"
   },
   {
+    "key": "IN-A013",
     "department": "IN",
     "course_id": "A013",
     "department_code": "A",
@@ -7064,6 +7317,7 @@
     "notes": "1.限母語為非華語者之同學選修,選修此班需經教師認定核可 2.本課程不計入通識學分，經學系認定後得列入畢業學分"
   },
   {
+    "key": "GR-S11B",
     "department": "GR",
     "course_id": "S11B",
     "department_code": "A",
@@ -7092,6 +7346,7 @@
     "notes": "籃球/羽球(地點:學生活動中心) / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "WL-A04B",
     "department": "WL",
     "course_id": "A04B",
     "department_code": "A",
@@ -7121,6 +7376,7 @@
     "notes": "全班分A、B兩組，依學生學號編列班級，A班單號、B班雙號。重補修學生請另加簽，全英語授課。"
   },
   {
+    "key": "WL-A05B",
     "department": "WL",
     "course_id": "A05B",
     "department_code": "A",
@@ -7150,6 +7406,7 @@
     "notes": "全班分A、B兩組，依學生學號編列班級，A班單號、B班雙號。重補修學生請另加簽，全英語授課。"
   },
   {
+    "key": "WL-A07B",
     "department": "WL",
     "course_id": "A07B",
     "department_code": "A",
@@ -7179,6 +7436,7 @@
     "notes": "限修本系一年級，補、重修請另加簽。"
   },
   {
+    "key": "WL-A08B",
     "department": "WL",
     "course_id": "A08B",
     "department_code": "A",
@@ -7208,6 +7466,7 @@
     "notes": "限修本系一年級，補、重修請另加簽。全英語授課"
   },
   {
+    "key": "WL-A23C",
     "department": "WL",
     "course_id": "A23C",
     "department_code": "A",
@@ -7237,6 +7496,7 @@
     "notes": "全班分A、B兩組，依學生學號編列班級，A班單號、B班雙號。重補修學生、人文與商管學程、外語觀光保健人才培育學程或外語導遊人才培育學程之修習學生請另加簽，全英語授課。"
   },
   {
+    "key": "WL-A23D",
     "department": "WL",
     "course_id": "A23D",
     "department_code": "A",
@@ -7266,6 +7526,7 @@
     "notes": "全班分A、B兩組，依學生學號編列班級，A班單號、B班雙號。重補修學生、人文與商管學程、外語觀光保健人才培育學程或外語導遊人才培育學程之修習學生請另加簽，全英語授課。"
   },
   {
+    "key": "WL-A53B",
     "department": "WL",
     "course_id": "A53B",
     "department_code": "A",
@@ -7294,6 +7555,7 @@
     "notes": "本系規定其學生畢業前至少須修習8學分。【人文與商管學程】須另外加簽。"
   },
   {
+    "key": "WL-A621",
     "department": "WL",
     "course_id": "A621",
     "department_code": "A",
@@ -7322,6 +7584,7 @@
     "notes": "開放大學部一到四年級選修，全英語授課。"
   },
   {
+    "key": "WL-D912",
     "department": "WL",
     "course_id": "D912",
     "department_code": "A",
@@ -7350,6 +7613,7 @@
     "notes": "開放大學部一到四年級選修。全英語授課。"
   },
   {
+    "key": "GR-S12B",
     "department": "GR",
     "course_id": "S12B",
     "department_code": "A",
@@ -7378,6 +7642,7 @@
     "notes": "桌球/木球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "KH-A114",
     "department": "KH",
     "course_id": "A114",
     "department_code": "A",
@@ -7406,6 +7671,7 @@
     "notes": "核心必修"
   },
   {
+    "key": "KH-A19D",
     "department": "KH",
     "course_id": "A19D",
     "department_code": "A",
@@ -7434,6 +7700,7 @@
     "notes": "核心必修/外語觀光保健人才培育學程/運動防護員證照規定課程"
   },
   {
+    "key": "KH-A551",
     "department": "KH",
     "course_id": "A551",
     "department_code": "A",
@@ -7463,6 +7730,7 @@
     "notes": "休閒健康促進學群/外語導遊人才培育學程/外語觀光醫療學程"
   },
   {
+    "key": "KH-A554",
     "department": "KH",
     "course_id": "A554",
     "department_code": "A",
@@ -7492,6 +7760,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-A561",
     "department": "KH",
     "course_id": "A561",
     "department_code": "A",
@@ -7520,6 +7789,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-B181",
     "department": "KH",
     "course_id": "B181",
     "department_code": "A",
@@ -7548,6 +7818,7 @@
     "notes": "核心必修"
   },
   {
+    "key": "KH-C605",
     "department": "KH",
     "course_id": "C605",
     "department_code": "A",
@@ -7576,6 +7847,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "CCD-A04B",
     "department": "CCD",
     "course_id": "A04B",
     "department_code": "A",
@@ -7606,6 +7878,7 @@
     "notes": "教室: 大一工作室"
   },
   {
+    "key": "CCD-A05A",
     "department": "CCD",
     "course_id": "A05A",
     "department_code": "A",
@@ -7635,6 +7908,7 @@
     "notes": "工坊木竹教室"
   },
   {
+    "key": "CCD-A05B",
     "department": "CCD",
     "course_id": "A05B",
     "department_code": "A",
@@ -7664,6 +7938,7 @@
     "notes": "工坊塑造教室"
   },
   {
+    "key": "CCD-A503",
     "department": "CCD",
     "course_id": "A503",
     "department_code": "A",
@@ -7693,6 +7968,7 @@
     "notes": "教室-H1-108"
   },
   {
+    "key": "CCD-A506",
     "department": "CCD",
     "course_id": "A506",
     "department_code": "A",
@@ -7721,6 +7997,7 @@
     "notes": "教室:H1-108"
   },
   {
+    "key": "CCD-A51A",
     "department": "CCD",
     "course_id": "A51A",
     "department_code": "A",
@@ -7749,6 +8026,7 @@
     "notes": "H1-112，電腦繪圖-A、B擇一選修，請勿重複選課"
   },
   {
+    "key": "CCD-A51B",
     "department": "CCD",
     "course_id": "A51B",
     "department_code": "A",
@@ -7777,6 +8055,7 @@
     "notes": "H1-112，電腦繪圖-A、B擇一選修，請勿重複選課"
   },
   {
+    "key": "CCD-A523",
     "department": "CCD",
     "course_id": "A523",
     "department_code": "A",
@@ -7805,6 +8084,7 @@
     "notes": "H1-332"
   },
   {
+    "key": "CCD-B031",
     "department": "CCD",
     "course_id": "B031",
     "department_code": "A",
@@ -7833,6 +8113,7 @@
     "notes": "教室:H1-110"
   },
   {
+    "key": "GR-A13D",
     "department": "GR",
     "course_id": "A13D",
     "department_code": "A",
@@ -7861,6 +8142,7 @@
     "notes": "網球/飛盤/大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "DA-A02A",
     "department": "DA",
     "course_id": "A02A",
     "department_code": "A",
@@ -7895,6 +8177,7 @@
     "notes": "教室：h1-101，教師：馬瑜嬪+王煦中"
   },
   {
+    "key": "DA-A02B",
     "department": "DA",
     "course_id": "A02B",
     "department_code": "A",
@@ -7929,6 +8212,7 @@
     "notes": "教室：藝文空間，教師：蔡寧+蔡宜君建築師"
   },
   {
+    "key": "DA-A032",
     "department": "DA",
     "course_id": "A032",
     "department_code": "A",
@@ -7958,6 +8242,7 @@
     "notes": "教室：H1-108圖學教室"
   },
   {
+    "key": "DA-B501",
     "department": "DA",
     "course_id": "B501",
     "department_code": "A",
@@ -7986,6 +8271,7 @@
     "notes": "教室：圖資610電腦教室"
   },
   {
+    "key": "GR-A14D",
     "department": "GR",
     "course_id": "A14D",
     "department_code": "A",
@@ -8014,6 +8300,7 @@
     "notes": "桌球/木球/大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "EL-A012",
     "department": "EL",
     "course_id": "A012",
     "department_code": "A",
@@ -8049,6 +8336,7 @@
     "notes": "限東語系及東語系輔系、雙主修同學修課。"
   },
   {
+    "key": "EL-A052",
     "department": "EL",
     "course_id": "A052",
     "department_code": "A",
@@ -8077,6 +8365,7 @@
     "notes": ""
   },
   {
+    "key": "EL-A06B",
     "department": "EL",
     "course_id": "A06B",
     "department_code": "A",
@@ -8112,6 +8401,7 @@
     "notes": "限東語系及東語系輔系、雙主修同學修課"
   },
   {
+    "key": "EL-A082",
     "department": "EL",
     "course_id": "A082",
     "department_code": "A",
@@ -8140,6 +8430,7 @@
     "notes": "限東語系及東語系輔系、雙主修同學修課，隸屬人文與商管學程。該課程指定修習,無法選課之學生請洽授課教師評估"
   },
   {
+    "key": "EL-A09B",
     "department": "EL",
     "course_id": "A09B",
     "department_code": "A",
@@ -8175,6 +8466,7 @@
     "notes": "限東語系及東語系輔系、雙主修同學修課，隸屬台越交流法商菁英人才培育學程、外語觀光保健人才培育學程、人文與商管學程。星期二：教室H2-202 星期四：教室H1-111"
   },
   {
+    "key": "EL-A112",
     "department": "EL",
     "course_id": "A112",
     "department_code": "A",
@@ -8203,6 +8495,7 @@
     "notes": ""
   },
   {
+    "key": "EL-A541",
     "department": "EL",
     "course_id": "A541",
     "department_code": "A",
@@ -8231,6 +8524,7 @@
     "notes": ""
   },
   {
+    "key": "EL-A562",
     "department": "EL",
     "course_id": "A562",
     "department_code": "A",
@@ -8259,6 +8553,7 @@
     "notes": ""
   },
   {
+    "key": "EL-A56B",
     "department": "EL",
     "course_id": "A56B",
     "department_code": "A",
@@ -8287,6 +8582,7 @@
     "notes": "限東語系及東語系輔系、雙主修同學修課"
   },
   {
+    "key": "EL-A61B",
     "department": "EL",
     "course_id": "A61B",
     "department_code": "A",
@@ -8316,6 +8612,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S17B",
     "department": "GR",
     "course_id": "S17B",
     "department_code": "A",
@@ -8344,6 +8641,7 @@
     "notes": "網球/匹克球(地點:學生活動中心) /大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "DAP-A005",
     "department": "DAP",
     "course_id": "A005",
     "department_code": "A",
@@ -8372,6 +8670,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-A01B",
     "department": "DAP",
     "course_id": "A01B",
     "department_code": "A",
@@ -8420,6 +8719,7 @@
     "notes": "授課老師：李坤哲，專長術科（棒球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週一(5-8節)、二(1-4節)、四(5-8節）棒球場上課"
   },
   {
+    "key": "DAP-A02B",
     "department": "DAP",
     "course_id": "A02B",
     "department_code": "A",
@@ -8468,6 +8768,7 @@
     "notes": "授課老師：王明月，專長術科（桌球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週一(5-8節)、二(1-4節)、四(5-8節)桌球場上課"
   },
   {
+    "key": "DAP-A03B",
     "department": "DAP",
     "course_id": "A03B",
     "department_code": "A",
@@ -8516,6 +8817,7 @@
     "notes": "授課老師：林季嬋，專長術科（游泳）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週一(5-8節)、二(1-4節)、四(5-8節)游泳池水用4水道上課"
   },
   {
+    "key": "DAP-A04B",
     "department": "DAP",
     "course_id": "A04B",
     "department_code": "A",
@@ -8564,6 +8866,7 @@
     "notes": "授課老師：黃全成，專長術科（羽球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週一(5-8節)、二(1-4節)、四(5-8節)羽球場上課"
   },
   {
+    "key": "DAP-A051",
     "department": "DAP",
     "course_id": "A051",
     "department_code": "A",
@@ -8592,6 +8895,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-A05B",
     "department": "DAP",
     "course_id": "A05B",
     "department_code": "A",
@@ -8640,6 +8944,7 @@
     "notes": "授課老師：陳建志、莊明諺，專長術科（足球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週一(5-8節)、二(1-4節)、四(5-8節)桌球場上課"
   },
   {
+    "key": "DAP-A06B",
     "department": "DAP",
     "course_id": "A06B",
     "department_code": "A",
@@ -8688,6 +8993,7 @@
     "notes": "授課老師：葉天相，專長術科（木球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週一（5-8節）、二(1-4節)、四（5-8節）木球場上課"
   },
   {
+    "key": "DAP-A501",
     "department": "DAP",
     "course_id": "A501",
     "department_code": "A",
@@ -8716,6 +9022,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-A512",
     "department": "DAP",
     "course_id": "A512",
     "department_code": "A",
@@ -8744,6 +9051,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-B05C",
     "department": "DAP",
     "course_id": "B05C",
     "department_code": "A",
@@ -8772,6 +9080,7 @@
     "notes": "207-6教室、重量訓練教室(一)(二)"
   },
   {
+    "key": "DAP-B06D",
     "department": "DAP",
     "course_id": "B06D",
     "department_code": "A",
@@ -8800,6 +9109,7 @@
     "notes": "游泳池使用4水道"
   },
   {
+    "key": "GR-S18B",
     "department": "GR",
     "course_id": "S18B",
     "department_code": "A",
@@ -8828,6 +9138,7 @@
     "notes": "籃球/排球(地點:第二排球場) /大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "CHS-A763",
     "department": "CHS",
     "course_id": "A763",
     "department_code": "A",
@@ -8848,6 +9159,7 @@
     "notes": "藝創系王政弘老師為主負責教師，隸屬學程：跨領域數位人文設計應用微學程(核心選修)，本課程可抵人文院所屬學系畢業選修學分(已修過課者不重複折抵)，教室藝創系H1-112電腦教室，上課時間：2月19日、3月4日、3月18日、4月1日、4月15日、4月29日、5月13日、5月27日、6月17日，共九次，14點10分至16點05分。"
   },
   {
+    "key": "GR-S21B",
     "department": "GR",
     "course_id": "S21B",
     "department_code": "A",
@@ -8876,6 +9188,7 @@
     "notes": "桌球/木球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "LA-A001",
     "department": "LA",
     "course_id": "A001",
     "department_code": "A",
@@ -8911,6 +9224,7 @@
     "notes": "星期三7、8節為隔週上課，星期四第7、8節為固定上課。"
   },
   {
+    "key": "LA-A041",
     "department": "LA",
     "course_id": "A041",
     "department_code": "A",
@@ -8939,6 +9253,7 @@
     "notes": ""
   },
   {
+    "key": "LA-A09B",
     "department": "LA",
     "course_id": "A09B",
     "department_code": "A",
@@ -8967,6 +9282,7 @@
     "notes": "法律系大學部必修核心課程，限本系一年級及本系轉學生、本系重修生，人數不超過60人為原則。"
   },
   {
+    "key": "LA-A521",
     "department": "LA",
     "course_id": "A521",
     "department_code": "A",
@@ -8995,6 +9311,7 @@
     "notes": ""
   },
   {
+    "key": "LA-B011",
     "department": "LA",
     "course_id": "B011",
     "department_code": "A",
@@ -9030,6 +9347,7 @@
     "notes": "與政法系合班上課，星期四第3、4節為固定上課，星期五5、6節為隔週上課。"
   },
   {
+    "key": "GL-A03B",
     "department": "GL",
     "course_id": "A03B",
     "department_code": "A",
@@ -9058,6 +9376,7 @@
     "notes": "共同必修課程"
   },
   {
+    "key": "GL-A061",
     "department": "GL",
     "course_id": "A061",
     "department_code": "A",
@@ -9087,6 +9406,7 @@
     "notes": "共同必修課程"
   },
   {
+    "key": "GL-A071",
     "department": "GL",
     "course_id": "A071",
     "department_code": "A",
@@ -9115,6 +9435,7 @@
     "notes": "共同必修課程"
   },
   {
+    "key": "GL-A10B",
     "department": "GL",
     "course_id": "A10B",
     "department_code": "A",
@@ -9143,6 +9464,7 @@
     "notes": "共同必修課程"
   },
   {
+    "key": "GL-B032",
     "department": "GL",
     "course_id": "B032",
     "department_code": "A",
@@ -9172,6 +9494,7 @@
     "notes": "共同必修課程"
   },
   {
+    "key": "GR-S22B",
     "department": "GR",
     "course_id": "S22B",
     "department_code": "A",
@@ -9200,6 +9523,7 @@
     "notes": "羽球(地點:學生活動中心)/匹克球/大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "LA-B011",
     "department": "LA",
     "course_id": "B011",
     "department_code": "A",
@@ -9235,6 +9559,7 @@
     "notes": "共同必修課程 與法律系合班上課"
   },
   {
+    "key": "FL-A03B",
     "department": "FL",
     "course_id": "A03B",
     "department_code": "A",
@@ -9270,6 +9595,7 @@
     "notes": "限財法大學部一、二、三年級學生選修。週二5.6節課程為隔週上課。"
   },
   {
+    "key": "FL-A081",
     "department": "FL",
     "course_id": "A081",
     "department_code": "A",
@@ -9281,7 +9607,7 @@
     "requirement_type": "必",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "45",
+    "online_number": "46",
     "balance": "60",
     "teacher": "佘志民",
     "classroom": "L02-107",
@@ -9299,6 +9625,7 @@
     "notes": "限非應用經濟學系學生選修"
   },
   {
+    "key": "FL-A11B",
     "department": "FL",
     "course_id": "A11B",
     "department_code": "A",
@@ -9327,6 +9654,7 @@
     "notes": ""
   },
   {
+    "key": "FL-A21B",
     "department": "FL",
     "course_id": "A21B",
     "department_code": "A",
@@ -9355,6 +9683,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S23B",
     "department": "GR",
     "course_id": "S23B",
     "department_code": "A",
@@ -9383,6 +9712,7 @@
     "notes": "桌球/木球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "AE-A00B",
     "department": "AE",
     "course_id": "A00B",
     "department_code": "A",
@@ -9418,6 +9748,7 @@
     "notes": "人文與商管學程；台越法商菁英人才學程；星期四第1節為實習"
   },
   {
+    "key": "AE-A01B",
     "department": "AE",
     "course_id": "A01B",
     "department_code": "A",
@@ -9448,6 +9779,7 @@
     "notes": "星期五第8節為實習；台越法商菁英人才學程"
   },
   {
+    "key": "AE-A092",
     "department": "AE",
     "course_id": "A092",
     "department_code": "A",
@@ -9483,6 +9815,7 @@
     "notes": "星期一第1節為實習"
   },
   {
+    "key": "AE-A103",
     "department": "AE",
     "course_id": "A103",
     "department_code": "A",
@@ -9512,6 +9845,7 @@
     "notes": "台越法商菁英人才學程"
   },
   {
+    "key": "AE-A57B",
     "department": "AE",
     "course_id": "A57B",
     "department_code": "A",
@@ -9541,6 +9875,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S31B",
     "department": "GR",
     "course_id": "S31B",
     "department_code": "A",
@@ -9569,6 +9904,7 @@
     "notes": "壘球/桌球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "FI-A01B",
     "department": "FI",
     "course_id": "A01B",
     "department_code": "A",
@@ -9598,6 +9934,7 @@
     "notes": "M01-B102"
   },
   {
+    "key": "FI-A02B",
     "department": "FI",
     "course_id": "A02B",
     "department_code": "A",
@@ -9627,6 +9964,7 @@
     "notes": "M01-104"
   },
   {
+    "key": "FI-A061",
     "department": "FI",
     "course_id": "A061",
     "department_code": "A",
@@ -9655,6 +9993,7 @@
     "notes": "M01-102"
   },
   {
+    "key": "FI-B02B",
     "department": "FI",
     "course_id": "B02B",
     "department_code": "A",
@@ -9684,6 +10023,7 @@
     "notes": "M01-B102"
   },
   {
+    "key": "GR-S32B",
     "department": "GR",
     "course_id": "S32B",
     "department_code": "A",
@@ -9712,6 +10052,7 @@
     "notes": "籃網球(地點:洪四川運動廣場)/羽球(地點:體健休大樓) / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-S33B",
     "department": "GR",
     "course_id": "S33B",
     "department_code": "A",
@@ -9740,6 +10081,7 @@
     "notes": "網球/匹克球(地點:學生活動中心)大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "IM-A051",
     "department": "IM",
     "course_id": "A051",
     "department_code": "A",
@@ -9769,6 +10111,7 @@
     "notes": "限修本系，其他系所同學如須加簽請洽任課老師，教室為M01-B102。"
   },
   {
+    "key": "IM-A081",
     "department": "IM",
     "course_id": "A081",
     "department_code": "A",
@@ -9798,6 +10141,7 @@
     "notes": "限修本系，其他系所同學如須加簽請洽任課老師，教室為M01-201。"
   },
   {
+    "key": "IM-A15A",
     "department": "IM",
     "course_id": "A15A",
     "department_code": "A",
@@ -9827,6 +10171,7 @@
     "notes": "限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "IM-B031",
     "department": "IM",
     "course_id": "B031",
     "department_code": "A",
@@ -9856,6 +10201,7 @@
     "notes": "教室為M01-208。限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "CCM-A601",
     "department": "CCM",
     "course_id": "A601",
     "department_code": "A",
@@ -9885,6 +10231,7 @@
     "notes": "本課程是否可抵本院學系畢業學分請洽各屬系所"
   },
   {
+    "key": "AM-A01B",
     "department": "AM",
     "course_id": "A01B",
     "department_code": "A",
@@ -9920,6 +10267,7 @@
     "notes": "請安排大教室。"
   },
   {
+    "key": "AM-A02B",
     "department": "AM",
     "course_id": "A02B",
     "department_code": "A",
@@ -9954,6 +10302,7 @@
     "notes": "請安排大教室。"
   },
   {
+    "key": "AM-A03B",
     "department": "AM",
     "course_id": "A03B",
     "department_code": "A",
@@ -9988,6 +10337,7 @@
     "notes": "請安排大教室。"
   },
   {
+    "key": "AM-A05B",
     "department": "AM",
     "course_id": "A05B",
     "department_code": "A",
@@ -10016,6 +10366,7 @@
     "notes": ""
   },
   {
+    "key": "AM-A112",
     "department": "AM",
     "course_id": "A112",
     "department_code": "A",
@@ -10045,6 +10396,7 @@
     "notes": "上課教室：理B101室。第一階段選課：限大一、大四及延畢同學選修；第二階段開放"
   },
   {
+    "key": "AM-A54B",
     "department": "AM",
     "course_id": "A54B",
     "department_code": "A",
@@ -10074,6 +10426,7 @@
     "notes": "系必選"
   },
   {
+    "key": "GR-S41B",
     "department": "GR",
     "course_id": "S41B",
     "department_code": "A",
@@ -10102,6 +10455,7 @@
     "notes": "網球/桌球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "AC-A01B",
     "department": "AC",
     "course_id": "A01B",
     "department_code": "A",
@@ -10131,6 +10485,7 @@
     "notes": "請安排108"
   },
   {
+    "key": "AC-A02B",
     "department": "AC",
     "course_id": "A02B",
     "department_code": "A",
@@ -10160,6 +10515,7 @@
     "notes": "本系大一單號,,理203"
   },
   {
+    "key": "AC-A03B",
     "department": "AC",
     "course_id": "A03B",
     "department_code": "A",
@@ -10189,6 +10545,7 @@
     "notes": "本系大一雙號,理203"
   },
   {
+    "key": "AC-A05B",
     "department": "AC",
     "course_id": "A05B",
     "department_code": "A",
@@ -10218,6 +10575,7 @@
     "notes": "C02-3004"
   },
   {
+    "key": "AC-A09B",
     "department": "AC",
     "course_id": "A09B",
     "department_code": "A",
@@ -10247,6 +10605,7 @@
     "notes": ""
   },
   {
+    "key": "AC-A12B",
     "department": "AC",
     "course_id": "A12B",
     "department_code": "A",
@@ -10276,6 +10635,7 @@
     "notes": "上課需有大黑板的教室"
   },
   {
+    "key": "AC-B11A",
     "department": "AC",
     "course_id": "B11A",
     "department_code": "A",
@@ -10305,6 +10665,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S42B",
     "department": "GR",
     "course_id": "S42B",
     "department_code": "A",
@@ -10333,6 +10694,7 @@
     "notes": "排球(地點:第二排球場)/羽球(地點:體健休大樓) / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "AP-A01B",
     "department": "AP",
     "course_id": "A01B",
     "department_code": "A",
@@ -10362,6 +10724,7 @@
     "notes": ""
   },
   {
+    "key": "AP-A03B",
     "department": "AP",
     "course_id": "A03B",
     "department_code": "A",
@@ -10391,6 +10754,7 @@
     "notes": "請安排大教室。"
   },
   {
+    "key": "AP-A041",
     "department": "AP",
     "course_id": "A041",
     "department_code": "A",
@@ -10420,6 +10784,7 @@
     "notes": "限本系雙號學生選課"
   },
   {
+    "key": "AP-A042",
     "department": "AP",
     "course_id": "A042",
     "department_code": "A",
@@ -10449,6 +10814,7 @@
     "notes": "限本系單號學生選課"
   },
   {
+    "key": "AP-A05B",
     "department": "AP",
     "course_id": "A05B",
     "department_code": "A",
@@ -10478,6 +10844,7 @@
     "notes": ""
   },
   {
+    "key": "AP-A06B",
     "department": "AP",
     "course_id": "A06B",
     "department_code": "A",
@@ -10507,6 +10874,7 @@
     "notes": ""
   },
   {
+    "key": "AP-A161",
     "department": "AP",
     "course_id": "A161",
     "department_code": "A",
@@ -10536,6 +10904,7 @@
     "notes": ""
   },
   {
+    "key": "AP-B512",
     "department": "AP",
     "course_id": "B512",
     "department_code": "A",
@@ -10565,6 +10934,7 @@
     "notes": "本課程與大二合開。"
   },
   {
+    "key": "GR-S43B",
     "department": "GR",
     "course_id": "S43B",
     "department_code": "A",
@@ -10593,6 +10963,7 @@
     "notes": "排球(地點:第二排球場)/籃球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "EE-A01B",
     "department": "EE",
     "course_id": "A01B",
     "department_code": "A",
@@ -10622,6 +10993,7 @@
     "notes": "一A；請安排圖資大樓電腦教室"
   },
   {
+    "key": "EE-A02B",
     "department": "EE",
     "course_id": "A02B",
     "department_code": "A",
@@ -10651,6 +11023,7 @@
     "notes": "一A，因常以板書推導公式，需大面黑板書寫，而僅C01-B103教室有整片大面黑板"
   },
   {
+    "key": "EE-A03B",
     "department": "EE",
     "course_id": "A03B",
     "department_code": "A",
@@ -10680,6 +11053,7 @@
     "notes": "一A；使用C01-211普通物理實驗室"
   },
   {
+    "key": "EE-A04B",
     "department": "EE",
     "course_id": "A04B",
     "department_code": "A",
@@ -10709,6 +11083,7 @@
     "notes": "一A；請安排工學院B104大教室"
   },
   {
+    "key": "EE-A052",
     "department": "EE",
     "course_id": "A052",
     "department_code": "A",
@@ -10738,6 +11113,7 @@
     "notes": "一A；請安排C01-201實驗室及C01- 301-1電工實驗室"
   },
   {
+    "key": "EE-A061",
     "department": "EE",
     "course_id": "A061",
     "department_code": "A",
@@ -10767,6 +11143,7 @@
     "notes": "一A，請安排工學院B104教室"
   },
   {
+    "key": "GR-S51B",
     "department": "GR",
     "course_id": "S51B",
     "department_code": "A",
@@ -10795,6 +11172,7 @@
     "notes": "木球/羽球(地點:體健休大樓) /大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "CE-A01B",
     "department": "CE",
     "course_id": "A01B",
     "department_code": "A",
@@ -10829,6 +11207,7 @@
     "notes": ""
   },
   {
+    "key": "CE-A041",
     "department": "CE",
     "course_id": "A041",
     "department_code": "A",
@@ -10863,6 +11242,7 @@
     "notes": ""
   },
   {
+    "key": "CE-A061",
     "department": "CE",
     "course_id": "A061",
     "department_code": "A",
@@ -10891,6 +11271,7 @@
     "notes": "使用圖資108教室"
   },
   {
+    "key": "CE-A071",
     "department": "CE",
     "course_id": "A071",
     "department_code": "A",
@@ -10920,6 +11301,7 @@
     "notes": "使用工學院大教室"
   },
   {
+    "key": "CE-A531",
     "department": "CE",
     "course_id": "A531",
     "department_code": "A",
@@ -10954,6 +11336,7 @@
     "notes": ""
   },
   {
+    "key": "CE-A582",
     "department": "CE",
     "course_id": "A582",
     "department_code": "A",
@@ -10988,6 +11371,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S52B",
     "department": "GR",
     "course_id": "S52B",
     "department_code": "A",
@@ -11016,6 +11400,7 @@
     "notes": "桌球/木球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "CS-A02B",
     "department": "CS",
     "course_id": "A02B",
     "department_code": "A",
@@ -11045,6 +11430,7 @@
     "notes": ""
   },
   {
+    "key": "CS-A041",
     "department": "CS",
     "course_id": "A041",
     "department_code": "A",
@@ -11074,6 +11460,7 @@
     "notes": ""
   },
   {
+    "key": "CS-A051",
     "department": "CS",
     "course_id": "A051",
     "department_code": "A",
@@ -11103,6 +11490,7 @@
     "notes": ""
   },
   {
+    "key": "CS-A07B",
     "department": "CS",
     "course_id": "A07B",
     "department_code": "A",
@@ -11132,6 +11520,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S55B",
     "department": "GR",
     "course_id": "S55B",
     "department_code": "A",
@@ -11160,6 +11549,7 @@
     "notes": "排球(地點:第二排球場)/籃球 /大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "CM-A01B",
     "department": "CM",
     "course_id": "A01B",
     "department_code": "A",
@@ -11189,6 +11579,7 @@
     "notes": ""
   },
   {
+    "key": "CM-A031",
     "department": "CM",
     "course_id": "A031",
     "department_code": "A",
@@ -11218,6 +11609,7 @@
     "notes": ""
   },
   {
+    "key": "CM-A04B",
     "department": "CM",
     "course_id": "A04B",
     "department_code": "A",
@@ -11246,6 +11638,7 @@
     "notes": "屬高值化金屬製備學程"
   },
   {
+    "key": "CM-A07B",
     "department": "CM",
     "course_id": "A07B",
     "department_code": "A",
@@ -11275,6 +11668,7 @@
     "notes": "屬高值化金屬製備學程"
   },
   {
+    "key": "CM-A191",
     "department": "CM",
     "course_id": "A191",
     "department_code": "A",
@@ -11309,6 +11703,7 @@
     "notes": ""
   },
   {
+    "key": "CM-B01A",
     "department": "CM",
     "course_id": "B01A",
     "department_code": "A",
@@ -11338,6 +11733,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S56B",
     "department": "GR",
     "course_id": "S56B",
     "department_code": "A",
@@ -11366,6 +11762,7 @@
     "notes": "羽球(地點:學生活動中心)/匹克球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-S61B",
     "department": "GR",
     "course_id": "S61B",
     "department_code": "A",
@@ -11394,6 +11791,7 @@
     "notes": "籃球(地點:洪四川運動廣場)/排球(地點:第二排球場) / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "LS-A01B",
     "department": "LS",
     "course_id": "A01B",
     "department_code": "A",
@@ -11423,6 +11821,7 @@
     "notes": ""
   },
   {
+    "key": "LS-A02B",
     "department": "LS",
     "course_id": "A02B",
     "department_code": "A",
@@ -11452,6 +11851,7 @@
     "notes": "使用C02-202實驗室、本系一年級雙號學生"
   },
   {
+    "key": "LS-A03B",
     "department": "LS",
     "course_id": "A03B",
     "department_code": "A",
@@ -11481,6 +11881,7 @@
     "notes": "使用C02-202實驗室、本系一年級單號學生"
   },
   {
+    "key": "LS-A041",
     "department": "LS",
     "course_id": "A041",
     "department_code": "A",
@@ -11510,6 +11911,7 @@
     "notes": ""
   },
   {
+    "key": "LS-A07B",
     "department": "LS",
     "course_id": "A07B",
     "department_code": "A",
@@ -11539,6 +11941,7 @@
     "notes": ""
   },
   {
+    "key": "LS-A502",
     "department": "LS",
     "course_id": "A502",
     "department_code": "A",
@@ -11567,6 +11970,7 @@
     "notes": ""
   },
   {
+    "key": "LS-A512",
     "department": "LS",
     "course_id": "A512",
     "department_code": "A",
@@ -11596,6 +12000,7 @@
     "notes": ""
   },
   {
+    "key": "LS-B582",
     "department": "LS",
     "course_id": "B582",
     "department_code": "A",
@@ -11625,6 +12030,7 @@
     "notes": ""
   },
   {
+    "key": "AB-A01B",
     "department": "AB",
     "course_id": "A01B",
     "department_code": "A",
@@ -11654,6 +12060,7 @@
     "notes": "外系同學請洽授課教師"
   },
   {
+    "key": "AB-A03B",
     "department": "AB",
     "course_id": "A03B",
     "department_code": "A",
@@ -11683,6 +12090,7 @@
     "notes": ""
   },
   {
+    "key": "AB-A052",
     "department": "AB",
     "course_id": "A052",
     "department_code": "A",
@@ -11712,6 +12120,7 @@
     "notes": "外系同學請洽授課老師"
   },
   {
+    "key": "AB-A191",
     "department": "AB",
     "course_id": "A191",
     "department_code": "A",
@@ -11741,6 +12150,7 @@
     "notes": "企管模組"
   },
   {
+    "key": "AB-A541",
     "department": "AB",
     "course_id": "A541",
     "department_code": "A",
@@ -11770,6 +12180,7 @@
     "notes": ""
   },
   {
+    "key": "GR-S71B",
     "department": "GR",
     "course_id": "S71B",
     "department_code": "A",
@@ -11798,6 +12209,7 @@
     "notes": "木球/匹克球(地點:學生活動中心) / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "CE-c912",
     "department": "CE",
     "course_id": "c912",
     "department_code": "A",
@@ -11826,6 +12238,7 @@
     "notes": "本課程土環系主開並與創院合開，屬「再生能源科技管理與應用微學程」；創新學院課程適用「跨院選修可抵免通識，至多承認6學分」規定，教室:圖資二樓宅創空間"
   },
   {
+    "key": "IFD-A50I",
     "department": "IFD",
     "course_id": "A50I",
     "department_code": "A",
@@ -11855,6 +12268,7 @@
     "notes": "本課程屬「XR 微學程」、「體感科技與數位創新學程」；創新學院主開並與資管系合開，創新學院課程適用「跨院選修可抵免通識，至多承認6學分」規定，教室為圖資610電腦教室。"
   },
   {
+    "key": "IFD-A61D",
     "department": "IFD",
     "course_id": "A61D",
     "department_code": "A",
@@ -11883,6 +12297,7 @@
     "notes": "本課程屬「XR 微學程」、「體感科技與數位創新學程」、「跨領域數位人文設計應用微學程」；創新學院課程適用「跨院選修可抵免通識，至多承認6學分」規定，教室:圖資610電腦教室"
   },
   {
+    "key": "IFD-A61F",
     "department": "IFD",
     "course_id": "A61F",
     "department_code": "A",
@@ -11911,6 +12326,7 @@
     "notes": "本課程屬「XR 微學程」、「體感科技與數位創新學程」、「跨領域數位人文設計應用微學程」；創新學院課程適用「跨院選修可抵免通識，至多承認6學分」規定，教室:圖資610電腦教室"
   },
   {
+    "key": "IFD-A713",
     "department": "IFD",
     "course_id": "A713",
     "department_code": "A",
@@ -11940,6 +12356,7 @@
     "notes": "上課時間：5/16 (四),5/23 (四),5/30 (四),6/6 (四)（皆為 18:20-21:00)，微學分至多折抵通識跨域選修2學分；教室為圖資大樓二樓創客坊。"
   },
   {
+    "key": "IFD-A764",
     "department": "IFD",
     "course_id": "A764",
     "department_code": "A",
@@ -11969,6 +12386,7 @@
     "notes": "本課程主開創新學院，適用「跨院選修可抵免通識，至多承認6學分」規定，教室為理學院106教室。"
   },
   {
+    "key": "IFD-A771",
     "department": "IFD",
     "course_id": "A771",
     "department_code": "A",
@@ -12001,6 +12419,7 @@
     "notes": "上課時間：3/02(六),3/23(六),4/20(六),5/04(六),5/18(六),6/01(六)（皆為 9:05-12:00＆13:10-16:05)，共6節課。適用「跨院選修可抵免通識」至多折抵6學分，教室為圖資大樓宅創空間。"
   },
   {
+    "key": "IFD-A811",
     "department": "IFD",
     "course_id": "A811",
     "department_code": "A",
@@ -12029,6 +12448,7 @@
     "notes": "創新學院主開並與亞太系合開，創新學院課程適用「跨院選修可抵免通識，至多承認6學分」規定，教室為行政大樓4樓微型空間。"
   },
   {
+    "key": "IFD-A812",
     "department": "IFD",
     "course_id": "A812",
     "department_code": "A",
@@ -12058,6 +12478,7 @@
     "notes": "主開創新學院並與通識中心合開，教室為圖資610教室。"
   },
   {
+    "key": "IFD-A832",
     "department": "IFD",
     "course_id": "A832",
     "department_code": "A",
@@ -12087,6 +12508,7 @@
     "notes": "上課時間：3/08(五),3/22(五),3/29(五)（皆為 14:10-17:10)，4/12(五)、4/19(五)、4/26(五)採分組分日至高中端場域實踐。微學分至多折抵通識跨域選修2學分；教室為圖資大樓二樓創客坊。"
   },
   {
+    "key": "IM-F633",
     "department": "IM",
     "course_id": "F633",
     "department_code": "A",
@@ -12116,6 +12538,7 @@
     "notes": "資管主開並創院合開，教室為圖資大樓2樓創客坊。"
   },
   {
+    "key": "EE-A01D",
     "department": "EE",
     "course_id": "A01D",
     "department_code": "A",
@@ -12145,6 +12568,7 @@
     "notes": "一B；請安排圖資大樓電腦教室"
   },
   {
+    "key": "EE-A02D",
     "department": "EE",
     "course_id": "A02D",
     "department_code": "A",
@@ -12174,6 +12598,7 @@
     "notes": "一B，修課人數經常超過75人，請優先安排C01-B104教室"
   },
   {
+    "key": "EE-A03D",
     "department": "EE",
     "course_id": "A03D",
     "department_code": "A",
@@ -12203,6 +12628,7 @@
     "notes": "一B；使用C01-211普通物理實驗室"
   },
   {
+    "key": "EE-A053",
     "department": "EE",
     "course_id": "A053",
     "department_code": "A",
@@ -12232,6 +12658,7 @@
     "notes": "一B；請安排C01-301-1電工實驗室及201實驗室"
   },
   {
+    "key": "EE-A062",
     "department": "EE",
     "course_id": "A062",
     "department_code": "A",
@@ -12261,6 +12688,7 @@
     "notes": "一B；請安排工學院B1大教室"
   },
   {
+    "key": "EE-A10B",
     "department": "EE",
     "course_id": "A10B",
     "department_code": "A",
@@ -12290,6 +12718,7 @@
     "notes": "一B；請安排工學院B1大教室"
   },
   {
+    "key": "GR-S51D",
     "department": "GR",
     "course_id": "S51D",
     "department_code": "A",
@@ -12318,6 +12747,7 @@
     "notes": "羽球(地點:體健休大樓)/足球 / 大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB11",
     "department": "GR",
     "course_id": "SB11",
     "department_code": "A",
@@ -12346,6 +12776,7 @@
     "notes": "限西語二、法律二、財法二、應數二、生科二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB12",
     "department": "GR",
     "course_id": "SB12",
     "department_code": "A",
@@ -12374,6 +12805,7 @@
     "notes": "限電機二A、電機二B、亞太二選修/大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB13",
     "department": "GR",
     "course_id": "SB13",
     "department_code": "A",
@@ -12402,6 +12834,7 @@
     "notes": "限藝創二、建築二、東語二、運健休二、政法二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB14",
     "department": "GR",
     "course_id": "SB14",
     "department_code": "A",
@@ -12430,6 +12863,7 @@
     "notes": "限應物二、應經二、金管二、土環二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB15",
     "department": "GR",
     "course_id": "SB15",
     "department_code": "A",
@@ -12458,6 +12892,7 @@
     "notes": "限運技二、資管二、應化二、資工二、化材二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB21",
     "department": "GR",
     "course_id": "SB21",
     "department_code": "A",
@@ -12486,6 +12921,7 @@
     "notes": "限藝創二、建築二、東語二、運健休二、政法二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB22",
     "department": "GR",
     "course_id": "SB22",
     "department_code": "A",
@@ -12514,6 +12950,7 @@
     "notes": "限運技二、資管二、應化二、資工二、化材二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB31",
     "department": "GR",
     "course_id": "SB31",
     "department_code": "A",
@@ -12525,7 +12962,7 @@
     "requirement_type": "必",
     "limit": "50",
     "registration_confirmed": "0",
-    "online_number": "67",
+    "online_number": "68",
     "balance": "50",
     "teacher": "耿仕榮",
     "classroom": "",
@@ -12542,6 +12979,7 @@
     "notes": "上課地點:體健休大樓。限西語二、法律二、財法二、應數二、生科二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB32",
     "department": "GR",
     "course_id": "SB32",
     "department_code": "A",
@@ -12570,6 +13008,7 @@
     "notes": "上課地點:體健休大樓。限電機二A、電機二B、亞太二選修/大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB33",
     "department": "GR",
     "course_id": "SB33",
     "department_code": "A",
@@ -12598,6 +13037,7 @@
     "notes": "上課地點:體健休大樓。限應物二、應經二、金管二、土環二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB34",
     "department": "GR",
     "course_id": "SB34",
     "department_code": "A",
@@ -12626,6 +13066,7 @@
     "notes": "上課地點:學生活動中心。限運技二、資管二、應化二、資工二、化材二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB41",
     "department": "GR",
     "course_id": "SB41",
     "department_code": "A",
@@ -12654,6 +13095,7 @@
     "notes": "限藝創二、建築二、東語二、運健休二、政法二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB51",
     "department": "GR",
     "course_id": "SB51",
     "department_code": "A",
@@ -12682,6 +13124,7 @@
     "notes": "限西語二、法律二、財法二、應數二、生科二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB52",
     "department": "GR",
     "course_id": "SB52",
     "department_code": "A",
@@ -12710,6 +13153,7 @@
     "notes": "限藝創二、建築二、東語二、運健休二、政法二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB53",
     "department": "GR",
     "course_id": "SB53",
     "department_code": "A",
@@ -12738,6 +13182,7 @@
     "notes": "限應物二、應經二、金管二、土環二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB61",
     "department": "GR",
     "course_id": "SB61",
     "department_code": "A",
@@ -12766,6 +13211,7 @@
     "notes": "上課地點:第二排球場。限西語二、法律二、財法二、應數二、生科二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB62",
     "department": "GR",
     "course_id": "SB62",
     "department_code": "A",
@@ -12794,6 +13240,7 @@
     "notes": "上課地點:第二排球場。限藝創二、建築二、東語二、運健休二、政法二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB63",
     "department": "GR",
     "course_id": "SB63",
     "department_code": "A",
@@ -12822,6 +13269,7 @@
     "notes": "上課地點:第二排球場。限應物二、應經二、金管二、土環二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB64",
     "department": "GR",
     "course_id": "SB64",
     "department_code": "A",
@@ -12850,6 +13298,7 @@
     "notes": "上課地點:第二排球場。限運技二、資管二、應化二、資工二、化材二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SB83",
     "department": "GR",
     "course_id": "SB83",
     "department_code": "A",
@@ -12878,6 +13327,7 @@
     "notes": "上課地點:學生活動中心。限電機二A、電機二B、亞太二選修/大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SC13",
     "department": "GR",
     "course_id": "SC13",
     "department_code": "A",
@@ -12906,6 +13356,7 @@
     "notes": "限西語二、法律二、財法二、應數二、生科二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "GR-SC21",
     "department": "GR",
     "course_id": "SC21",
     "department_code": "A",
@@ -12934,6 +13385,7 @@
     "notes": "限運技二、資管二、應化二、資工二、化材二選修。大三、四重補修學生請於第三階段直接上網選課，不用再到通識中心加簽。注意:上、下學期選項重覆選修不算學分。"
   },
   {
+    "key": "WL-A52D",
     "department": "WL",
     "course_id": "A52D",
     "department_code": "A",
@@ -12969,6 +13421,7 @@
     "notes": "本系規定其學生畢業前至少須修習8學分，【人文與商管學程】須另外加簽。【全英語授課】"
   },
   {
+    "key": "WL-B023",
     "department": "WL",
     "course_id": "B023",
     "department_code": "A",
@@ -12998,6 +13451,7 @@
     "notes": "限修本系二年級。全班分A、B兩組，依學生學號編列班級，由老師指定加選。學生請於老師指定加選後，於選課期間內上系統選課。補重修學生、人文與商管學程之修習學生請另加簽。全外語授課-英語"
   },
   {
+    "key": "WL-B024",
     "department": "WL",
     "course_id": "B024",
     "department_code": "A",
@@ -13027,6 +13481,7 @@
     "notes": "限修本系二年級。全班分A、B兩組，依學生學號編列班級，A班單號、B班雙號。【人文與商管學程】請另加簽，全外語授課-英語。"
   },
   {
+    "key": "WL-B04B",
     "department": "WL",
     "course_id": "B04B",
     "department_code": "A",
@@ -13056,6 +13511,7 @@
     "notes": "限修本系二年級。全班分A、B兩組，依學生學號編列班級，A班單號、B班雙號。重補修學生請另加簽，全英語授課。"
   },
   {
+    "key": "WL-B05B",
     "department": "WL",
     "course_id": "B05B",
     "department_code": "A",
@@ -13085,6 +13541,7 @@
     "notes": "全班分A、B兩組，依學生學號編列班級，A班單號、B班雙號。重補修學生請另加簽"
   },
   {
+    "key": "WL-B06B",
     "department": "WL",
     "course_id": "B06B",
     "department_code": "A",
@@ -13114,6 +13571,7 @@
     "notes": "限修本系二年級，大二、大三需重修者請找老師加簽。"
   },
   {
+    "key": "WL-B07B",
     "department": "WL",
     "course_id": "B07B",
     "department_code": "A",
@@ -13143,6 +13601,7 @@
     "notes": "限修本系二年級，補、重修請另加簽。"
   },
   {
+    "key": "WL-B53B",
     "department": "WL",
     "course_id": "B53B",
     "department_code": "A",
@@ -13171,6 +13630,7 @@
     "notes": "本系學生畢業前至少須修習8學分。先修：西一(上)(下)或已有西語基礎者。"
   },
   {
+    "key": "WL-B61A",
     "department": "WL",
     "course_id": "B61A",
     "department_code": "A",
@@ -13206,6 +13666,7 @@
     "notes": "本系規定其學生畢業前至少需修習同一語言8學分。"
   },
   {
+    "key": "KH-B213",
     "department": "KH",
     "course_id": "B213",
     "department_code": "A",
@@ -13234,6 +13695,7 @@
     "notes": "核心必修"
   },
   {
+    "key": "KH-B502",
     "department": "KH",
     "course_id": "B502",
     "department_code": "A",
@@ -13262,6 +13724,7 @@
     "notes": "運動健康促進學群"
   },
   {
+    "key": "KH-B552",
     "department": "KH",
     "course_id": "B552",
     "department_code": "A",
@@ -13290,6 +13753,7 @@
     "notes": "休閒健康促進學群/外語導遊人才培育學程"
   },
   {
+    "key": "KH-B573",
     "department": "KH",
     "course_id": "B573",
     "department_code": "A",
@@ -13318,6 +13782,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-B574",
     "department": "KH",
     "course_id": "B574",
     "department_code": "A",
@@ -13346,6 +13811,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-B583",
     "department": "KH",
     "course_id": "B583",
     "department_code": "A",
@@ -13375,6 +13841,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "KH-B593",
     "department": "KH",
     "course_id": "B593",
     "department_code": "A",
@@ -13404,6 +13871,7 @@
     "notes": "運動健康促進學群(運動防護員規定課程)"
   },
   {
+    "key": "KH-B594",
     "department": "KH",
     "course_id": "B594",
     "department_code": "A",
@@ -13432,6 +13900,7 @@
     "notes": "運動健康促進學群"
   },
   {
+    "key": "KH-B595",
     "department": "KH",
     "course_id": "B595",
     "department_code": "A",
@@ -13460,6 +13929,7 @@
     "notes": "運動健康促進學群/梁可欣老師/運動防護員證照規定課程"
   },
   {
+    "key": "KH-B604",
     "department": "KH",
     "course_id": "B604",
     "department_code": "A",
@@ -13488,6 +13958,7 @@
     "notes": "運動健康促進學群"
   },
   {
+    "key": "KH-B654",
     "department": "KH",
     "course_id": "B654",
     "department_code": "A",
@@ -13516,6 +13987,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "KH-B661",
     "department": "KH",
     "course_id": "B661",
     "department_code": "A",
@@ -13544,6 +14016,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "KH-B671",
     "department": "KH",
     "course_id": "B671",
     "department_code": "A",
@@ -13572,6 +14045,7 @@
     "notes": "運動健康促進學群"
   },
   {
+    "key": "KH-B681",
     "department": "KH",
     "course_id": "B681",
     "department_code": "A",
@@ -13601,6 +14075,7 @@
     "notes": "本課程認列核心選修"
   },
   {
+    "key": "KH-B682",
     "department": "KH",
     "course_id": "B682",
     "department_code": "A",
@@ -13630,6 +14105,7 @@
     "notes": "本課程認列核心選修"
   },
   {
+    "key": "KH-B683",
     "department": "KH",
     "course_id": "B683",
     "department_code": "A",
@@ -13659,6 +14135,7 @@
     "notes": "本課程認列本系運動健康促進學群"
   },
   {
+    "key": "CCD-B011",
     "department": "CCD",
     "course_id": "B011",
     "department_code": "A",
@@ -13689,6 +14166,7 @@
     "notes": "教室:大二工作室"
   },
   {
+    "key": "CCD-B510",
     "department": "CCD",
     "course_id": "B510",
     "department_code": "A",
@@ -13717,6 +14195,7 @@
     "notes": "教室:H1-108"
   },
   {
+    "key": "CCD-B535",
     "department": "CCD",
     "course_id": "B535",
     "department_code": "A",
@@ -13745,6 +14224,7 @@
     "notes": "教室:H1-110"
   },
   {
+    "key": "CCD-B543",
     "department": "CCD",
     "course_id": "B543",
     "department_code": "A",
@@ -13775,6 +14255,7 @@
     "notes": ""
   },
   {
+    "key": "CCD-B552",
     "department": "CCD",
     "course_id": "B552",
     "department_code": "A",
@@ -13806,6 +14287,7 @@
     "notes": "教室:大二工作室"
   },
   {
+    "key": "CCD-B563",
     "department": "CCD",
     "course_id": "B563",
     "department_code": "A",
@@ -13836,6 +14318,7 @@
     "notes": "教室:大二工作室"
   },
   {
+    "key": "DA-B010",
     "department": "DA",
     "course_id": "B010",
     "department_code": "A",
@@ -13864,6 +14347,7 @@
     "notes": "教室：h1-107"
   },
   {
+    "key": "DA-B022",
     "department": "DA",
     "course_id": "B022",
     "department_code": "A",
@@ -13892,6 +14376,7 @@
     "notes": "教室：H1-102"
   },
   {
+    "key": "DA-B023",
     "department": "DA",
     "course_id": "B023",
     "department_code": "A",
@@ -13920,6 +14405,7 @@
     "notes": "教室H1-108"
   },
   {
+    "key": "DA-B05A",
     "department": "DA",
     "course_id": "B05A",
     "department_code": "A",
@@ -13954,6 +14440,7 @@
     "notes": "教室：H1--101。"
   },
   {
+    "key": "DA-B05B",
     "department": "DA",
     "course_id": "B05B",
     "department_code": "A",
@@ -13988,6 +14475,7 @@
     "notes": "教室：藝文空間"
   },
   {
+    "key": "DA-C54B",
     "department": "DA",
     "course_id": "C54B",
     "department_code": "A",
@@ -14016,6 +14504,7 @@
     "notes": "圖資610電腦教室"
   },
   {
+    "key": "EL-B10B",
     "department": "EL",
     "course_id": "B10B",
     "department_code": "A",
@@ -14051,6 +14540,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B14B",
     "department": "EL",
     "course_id": "B14B",
     "department_code": "A",
@@ -14079,6 +14569,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B16A",
     "department": "EL",
     "course_id": "B16A",
     "department_code": "A",
@@ -14107,6 +14598,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B16B",
     "department": "EL",
     "course_id": "B16B",
     "department_code": "A",
@@ -14135,6 +14627,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B17B",
     "department": "EL",
     "course_id": "B17B",
     "department_code": "A",
@@ -14163,6 +14656,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B59B",
     "department": "EL",
     "course_id": "B59B",
     "department_code": "A",
@@ -14191,6 +14685,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B61B",
     "department": "EL",
     "course_id": "B61B",
     "department_code": "A",
@@ -14219,6 +14714,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B621",
     "department": "EL",
     "course_id": "B621",
     "department_code": "A",
@@ -14247,6 +14743,7 @@
     "notes": ""
   },
   {
+    "key": "EL-B632",
     "department": "EL",
     "course_id": "B632",
     "department_code": "A",
@@ -14275,6 +14772,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C03B",
     "department": "EL",
     "course_id": "C03B",
     "department_code": "A",
@@ -14310,6 +14808,7 @@
     "notes": "限東語系及東語系輔系、雙主修同學修課，人文與商管學程"
   },
   {
+    "key": "EL-C04B",
     "department": "EL",
     "course_id": "C04B",
     "department_code": "A",
@@ -14338,6 +14837,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C06B",
     "department": "EL",
     "course_id": "C06B",
     "department_code": "A",
@@ -14366,6 +14866,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C07B",
     "department": "EL",
     "course_id": "C07B",
     "department_code": "A",
@@ -14401,6 +14902,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C08B",
     "department": "EL",
     "course_id": "C08B",
     "department_code": "A",
@@ -14429,6 +14931,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C10B",
     "department": "EL",
     "course_id": "C10B",
     "department_code": "A",
@@ -14457,6 +14960,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C62B",
     "department": "EL",
     "course_id": "C62B",
     "department_code": "A",
@@ -14485,6 +14989,7 @@
     "notes": "限東語系韓語組大二學生選修"
   },
   {
+    "key": "DAP-A05D",
     "department": "DAP",
     "course_id": "A05D",
     "department_code": "A",
@@ -14524,6 +15029,7 @@
     "notes": "授課老師：陳建志與莊明諺，專長術科(足球)-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二（1-4節）、四（5-8節）足球場上課"
   },
   {
+    "key": "DAP-B003",
     "department": "DAP",
     "course_id": "B003",
     "department_code": "A",
@@ -14552,6 +15058,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-B01B",
     "department": "DAP",
     "course_id": "B01B",
     "department_code": "A",
@@ -14591,6 +15098,7 @@
     "notes": "授課老師：李坤哲，專長術科（棒球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四(5-8節)棒球場上課"
   },
   {
+    "key": "DAP-B02B",
     "department": "DAP",
     "course_id": "B02B",
     "department_code": "A",
@@ -14630,6 +15138,7 @@
     "notes": "授課老師：王明月，專長術科（桌球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四(5-8節)桌球場上課"
   },
   {
+    "key": "DAP-B03B",
     "department": "DAP",
     "course_id": "B03B",
     "department_code": "A",
@@ -14669,6 +15178,7 @@
     "notes": "授課老師：林季嬋，專長術科（游泳）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四(5-8節)游泳池水用4水道上課"
   },
   {
+    "key": "DAP-B04B",
     "department": "DAP",
     "course_id": "B04B",
     "department_code": "A",
@@ -14708,6 +15218,7 @@
     "notes": "授課老師：黃全成，專長術科（羽球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二（1-4節）、四（5-8節）羽球場上課"
   },
   {
+    "key": "DAP-B071",
     "department": "DAP",
     "course_id": "B071",
     "department_code": "A",
@@ -14736,6 +15247,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-B07B",
     "department": "DAP",
     "course_id": "B07B",
     "department_code": "A",
@@ -14775,6 +15287,7 @@
     "notes": "授課老師：葉天相，專長術科（木球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、五(5-8節)木球場上課"
   },
   {
+    "key": "DAP-B501",
     "department": "DAP",
     "course_id": "B501",
     "department_code": "A",
@@ -14803,6 +15316,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-B521",
     "department": "DAP",
     "course_id": "B521",
     "department_code": "A",
@@ -14831,6 +15345,7 @@
     "notes": "207-6教室、重量訓練教室(一)(二)"
   },
   {
+    "key": "DAP-B533",
     "department": "DAP",
     "course_id": "B533",
     "department_code": "A",
@@ -14859,6 +15374,7 @@
     "notes": "桌球場"
   },
   {
+    "key": "DAP-B535",
     "department": "DAP",
     "course_id": "B535",
     "department_code": "A",
@@ -14887,6 +15403,7 @@
     "notes": "田徑場"
   },
   {
+    "key": "DAP-B54B",
     "department": "DAP",
     "course_id": "B54B",
     "department_code": "A",
@@ -14915,6 +15432,7 @@
     "notes": "游泳池使用4水道"
   },
   {
+    "key": "DAP-B551",
     "department": "DAP",
     "course_id": "B551",
     "department_code": "A",
@@ -14943,6 +15461,7 @@
     "notes": "207-6教室"
   },
   {
+    "key": "GL-C191",
     "department": "GL",
     "course_id": "C191",
     "department_code": "A",
@@ -14971,6 +15490,7 @@
     "notes": "與政法系合班上課"
   },
   {
+    "key": "LA-B021",
     "department": "LA",
     "course_id": "B021",
     "department_code": "A",
@@ -14999,6 +15519,7 @@
     "notes": "法律／財法／政法合班上課"
   },
   {
+    "key": "LA-B03B",
     "department": "LA",
     "course_id": "B03B",
     "department_code": "A",
@@ -15010,7 +15531,7 @@
     "requirement_type": "必",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "44",
+    "online_number": "45",
     "balance": "60",
     "teacher": "陳正根",
     "classroom": "L02-102",
@@ -15028,6 +15549,7 @@
     "notes": ""
   },
   {
+    "key": "LA-B05B",
     "department": "LA",
     "course_id": "B05B",
     "department_code": "A",
@@ -15056,6 +15578,7 @@
     "notes": "德/日二選一為必修，須修過日文(一)"
   },
   {
+    "key": "LA-B06B",
     "department": "LA",
     "course_id": "B06B",
     "department_code": "A",
@@ -15084,6 +15607,7 @@
     "notes": "1.德/日二選一為必修。2.法學院同學優先選課。3.須修過德文(一)。"
   },
   {
+    "key": "LA-B101",
     "department": "LA",
     "course_id": "B101",
     "department_code": "A",
@@ -15112,6 +15636,7 @@
     "notes": ""
   },
   {
+    "key": "LA-B17B",
     "department": "LA",
     "course_id": "B17B",
     "department_code": "A",
@@ -15140,6 +15665,7 @@
     "notes": "與政法系大二合班上課"
   },
   {
+    "key": "LA-B544",
     "department": "LA",
     "course_id": "B544",
     "department_code": "A",
@@ -15168,6 +15694,7 @@
     "notes": ""
   },
   {
+    "key": "LA-B556",
     "department": "LA",
     "course_id": "B556",
     "department_code": "A",
@@ -15196,6 +15723,7 @@
     "notes": ""
   },
   {
+    "key": "LA-C001",
     "department": "LA",
     "course_id": "C001",
     "department_code": "A",
@@ -15224,6 +15752,7 @@
     "notes": "限法學院大學部二年級以上同學選課"
   },
   {
+    "key": "GL-B012",
     "department": "GL",
     "course_id": "B012",
     "department_code": "A",
@@ -15252,6 +15781,7 @@
     "notes": "110學年度起課程名稱修改為行政法"
   },
   {
+    "key": "GL-B02B",
     "department": "GL",
     "course_id": "B02B",
     "department_code": "A",
@@ -15280,6 +15810,7 @@
     "notes": "共同必修課程"
   },
   {
+    "key": "GL-B05B",
     "department": "GL",
     "course_id": "B05B",
     "department_code": "A",
@@ -15308,6 +15839,7 @@
     "notes": "選讀政治學群者，4科擇2必修"
   },
   {
+    "key": "GL-B102",
     "department": "GL",
     "course_id": "B102",
     "department_code": "A",
@@ -15336,6 +15868,7 @@
     "notes": "1. 自110-2起改為(I)(II)4學分109學年度(含)以前入學學生可選擇修習(I)所缺1學分以選修課補足 2. 限政法系大學部選修 3. 限修畢債總（一）"
   },
   {
+    "key": "GL-B501",
     "department": "GL",
     "course_id": "B501",
     "department_code": "A",
@@ -15364,6 +15897,7 @@
     "notes": "政治學群課程"
   },
   {
+    "key": "GL-C04A",
     "department": "GL",
     "course_id": "C04A",
     "department_code": "A",
@@ -15393,6 +15927,7 @@
     "notes": "限政法系學生"
   },
   {
+    "key": "GL-C212",
     "department": "GL",
     "course_id": "C212",
     "department_code": "A",
@@ -15421,6 +15956,7 @@
     "notes": "110學年度起改為共同必修課程,開設於2年級，109學年度(含)以前入學學生為政治學群課程"
   },
   {
+    "key": "GL-D52A",
     "department": "GL",
     "course_id": "D52A",
     "department_code": "A",
@@ -15450,6 +15986,7 @@
     "notes": "1.隔週單周上課。2.開放法學院全年級修課。3.新制為共同必修課程，舊制為選修課程。第8節為小考，請修課同學需預留該節次，請選修同學留意。"
   },
   {
+    "key": "LA-B17B",
     "department": "LA",
     "course_id": "B17B",
     "department_code": "A",
@@ -15478,6 +16015,7 @@
     "notes": "與法律系合班上課"
   },
   {
+    "key": "FL-B02A",
     "department": "FL",
     "course_id": "B02A",
     "department_code": "A",
@@ -15506,6 +16044,7 @@
     "notes": ""
   },
   {
+    "key": "FL-B04B",
     "department": "FL",
     "course_id": "B04B",
     "department_code": "A",
@@ -15534,6 +16073,7 @@
     "notes": "限財法大學部二、三年級學生選修"
   },
   {
+    "key": "FL-B092",
     "department": "FL",
     "course_id": "B092",
     "department_code": "A",
@@ -15563,6 +16103,7 @@
     "notes": ""
   },
   {
+    "key": "FL-B11A",
     "department": "FL",
     "course_id": "B11A",
     "department_code": "A",
@@ -15592,6 +16133,7 @@
     "notes": ""
   },
   {
+    "key": "FL-Q071",
     "department": "FL",
     "course_id": "Q071",
     "department_code": "A",
@@ -15628,6 +16170,7 @@
     "notes": "週五上課時間為10-12節、週六第2-4節，隸屬服務與智慧型創新創業學分學程。黃清溪教授係旅居日本之日本拓殖大學之教授,每學期自日本返台授課,每次停留一至二月,故上課時間集中於黃老師返台期間之週五晚上三小時及週六上午三小時。欲修習本課程之同學,請斟酌其他課程之排課時間避免衝堂情形,實際上課時間將於開學後公告於系網頁,請選課同學留意。"
   },
   {
+    "key": "LA-B021",
     "department": "LA",
     "course_id": "B021",
     "department_code": "A",
@@ -15656,6 +16199,7 @@
     "notes": "法律、財法、政法合班上課"
   },
   {
+    "key": "AE-B03B",
     "department": "AE",
     "course_id": "B03B",
     "department_code": "A",
@@ -15691,6 +16235,7 @@
     "notes": "星期二第1堂為實習課；人文與商管學程"
   },
   {
+    "key": "AE-B59B",
     "department": "AE",
     "course_id": "B59B",
     "department_code": "A",
@@ -15720,6 +16265,7 @@
     "notes": ""
   },
   {
+    "key": "AE-C02B",
     "department": "AE",
     "course_id": "C02B",
     "department_code": "A",
@@ -15749,6 +16295,7 @@
     "notes": ""
   },
   {
+    "key": "AE-C03B",
     "department": "AE",
     "course_id": "C03B",
     "department_code": "A",
@@ -15778,6 +16325,7 @@
     "notes": ""
   },
   {
+    "key": "AE-D571",
     "department": "AE",
     "course_id": "D571",
     "department_code": "A",
@@ -15807,6 +16355,7 @@
     "notes": "大學部二、三、四年級合班授課。"
   },
   {
+    "key": "FI-B01B",
     "department": "FI",
     "course_id": "B01B",
     "department_code": "A",
@@ -15836,6 +16385,7 @@
     "notes": "M01-B109"
   },
   {
+    "key": "FI-B051",
     "department": "FI",
     "course_id": "B051",
     "department_code": "A",
@@ -15865,6 +16415,7 @@
     "notes": "M01-201"
   },
   {
+    "key": "FI-B07B",
     "department": "FI",
     "course_id": "B07B",
     "department_code": "A",
@@ -15894,6 +16445,7 @@
     "notes": "M01-B102"
   },
   {
+    "key": "FI-B52B",
     "department": "FI",
     "course_id": "B52B",
     "department_code": "A",
@@ -15923,6 +16475,7 @@
     "notes": "M01-204"
   },
   {
+    "key": "FI-B661",
     "department": "FI",
     "course_id": "B661",
     "department_code": "A",
@@ -15952,6 +16505,7 @@
     "notes": "M01-102，與大三合開-謝佳勲老師"
   },
   {
+    "key": "FI-B671",
     "department": "FI",
     "course_id": "B671",
     "department_code": "A",
@@ -15981,6 +16535,7 @@
     "notes": "M01-204"
   },
   {
+    "key": "FI-B69B",
     "department": "FI",
     "course_id": "B69B",
     "department_code": "A",
@@ -16010,6 +16565,7 @@
     "notes": "M01-102"
   },
   {
+    "key": "FI-B721",
     "department": "FI",
     "course_id": "B721",
     "department_code": "A",
@@ -16039,6 +16595,7 @@
     "notes": "M01-204；全英語授課"
   },
   {
+    "key": "FI-C612",
     "department": "FI",
     "course_id": "C612",
     "department_code": "A",
@@ -16068,6 +16625,7 @@
     "notes": "M01-102，與大三合開-謝佳勲老師"
   },
   {
+    "key": "FI-C661",
     "department": "FI",
     "course_id": "C661",
     "department_code": "A",
@@ -16097,6 +16655,7 @@
     "notes": "M01-102"
   },
   {
+    "key": "IFD-A50I",
     "department": "IFD",
     "course_id": "A50I",
     "department_code": "A",
@@ -16126,6 +16685,7 @@
     "notes": "主開為創新學院。教室為L01-610。"
   },
   {
+    "key": "IM-B02B",
     "department": "IM",
     "course_id": "B02B",
     "department_code": "A",
@@ -16155,6 +16715,7 @@
     "notes": "教室為M01-105。限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "IM-B051",
     "department": "IM",
     "course_id": "B051",
     "department_code": "A",
@@ -16184,6 +16745,7 @@
     "notes": "限修本系，其他系所同學如須加簽請洽任課老師，教室為M01-B102。"
   },
   {
+    "key": "IM-B101",
     "department": "IM",
     "course_id": "B101",
     "department_code": "A",
@@ -16213,6 +16775,7 @@
     "notes": "限修本系，其他系所同學如須加簽請洽任課老師。教室為M01-105。"
   },
   {
+    "key": "IM-B121",
     "department": "IM",
     "course_id": "B121",
     "department_code": "A",
@@ -16242,6 +16805,7 @@
     "notes": "限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "AM-B01B",
     "department": "AM",
     "course_id": "B01B",
     "department_code": "A",
@@ -16277,6 +16841,7 @@
     "notes": "請安排大教室"
   },
   {
+    "key": "AM-B02B",
     "department": "AM",
     "course_id": "B02B",
     "department_code": "A",
@@ -16311,6 +16876,7 @@
     "notes": "請安排大教室。"
   },
   {
+    "key": "AM-B041",
     "department": "AM",
     "course_id": "B041",
     "department_code": "A",
@@ -16345,6 +16911,7 @@
     "notes": "請安排大教室。"
   },
   {
+    "key": "AM-B50B",
     "department": "AM",
     "course_id": "B50B",
     "department_code": "A",
@@ -16373,6 +16940,7 @@
     "notes": ""
   },
   {
+    "key": "AM-B541",
     "department": "AM",
     "course_id": "B541",
     "department_code": "A",
@@ -16407,6 +16975,7 @@
     "notes": ""
   },
   {
+    "key": "AC-B01B",
     "department": "AC",
     "course_id": "B01B",
     "department_code": "A",
@@ -16437,6 +17006,7 @@
     "notes": "需有大黑板(108、105)"
   },
   {
+    "key": "AC-B051",
     "department": "AC",
     "course_id": "B051",
     "department_code": "A",
@@ -16466,6 +17036,7 @@
     "notes": "本系大二單號,co2-203"
   },
   {
+    "key": "AC-B052",
     "department": "AC",
     "course_id": "B052",
     "department_code": "A",
@@ -16495,6 +17066,7 @@
     "notes": "大二雙號C02-203"
   },
   {
+    "key": "AC-B072",
     "department": "AC",
     "course_id": "B072",
     "department_code": "A",
@@ -16524,6 +17096,7 @@
     "notes": "上課教室:C02-206"
   },
   {
+    "key": "AC-B561",
     "department": "AC",
     "course_id": "B561",
     "department_code": "A",
@@ -16553,6 +17126,7 @@
     "notes": "英語授課"
   },
   {
+    "key": "AC-C02A",
     "department": "AC",
     "course_id": "C02A",
     "department_code": "A",
@@ -16582,6 +17156,7 @@
     "notes": ""
   },
   {
+    "key": "AP-B03B",
     "department": "AP",
     "course_id": "B03B",
     "department_code": "A",
@@ -16611,6 +17186,7 @@
     "notes": "請安排大教室"
   },
   {
+    "key": "AP-B051",
     "department": "AP",
     "course_id": "B051",
     "department_code": "A",
@@ -16640,6 +17216,7 @@
     "notes": ""
   },
   {
+    "key": "AP-B061",
     "department": "AP",
     "course_id": "B061",
     "department_code": "A",
@@ -16669,6 +17246,7 @@
     "notes": "本課程已改為『必選』，請100級(含)以後本系的學生一定要選修本課程，以免影響畢業資格。"
   },
   {
+    "key": "AP-B101",
     "department": "AP",
     "course_id": "B101",
     "department_code": "A",
@@ -16698,6 +17276,7 @@
     "notes": "本課程已改為『必選』，請105級(含)以後本系的學生一定要選修本課程，以免影響畢業資格。"
   },
   {
+    "key": "AP-B121",
     "department": "AP",
     "course_id": "B121",
     "department_code": "A",
@@ -16727,6 +17306,7 @@
     "notes": ""
   },
   {
+    "key": "AP-B512",
     "department": "AP",
     "course_id": "B512",
     "department_code": "A",
@@ -16756,6 +17336,7 @@
     "notes": "本課程與大一合開。"
   },
   {
+    "key": "AP-B53B",
     "department": "AP",
     "course_id": "B53B",
     "department_code": "A",
@@ -16785,6 +17366,7 @@
     "notes": ""
   },
   {
+    "key": "AP-B58B",
     "department": "AP",
     "course_id": "B58B",
     "department_code": "A",
@@ -16814,6 +17396,7 @@
     "notes": ""
   },
   {
+    "key": "EE-B01B",
     "department": "EE",
     "course_id": "B01B",
     "department_code": "A",
@@ -16843,6 +17426,7 @@
     "notes": "二A"
   },
   {
+    "key": "EE-B02D",
     "department": "EE",
     "course_id": "B02D",
     "department_code": "A",
@@ -16872,6 +17456,7 @@
     "notes": "二A；請安排 C01-202"
   },
   {
+    "key": "EE-B04B",
     "department": "EE",
     "course_id": "B04B",
     "department_code": "A",
@@ -16901,6 +17486,7 @@
     "notes": "二A；請安排C01-301-1實驗室"
   },
   {
+    "key": "EE-B05B",
     "department": "EE",
     "course_id": "B05B",
     "department_code": "A",
@@ -16930,6 +17516,7 @@
     "notes": "二A；因以板書上課需大面黑板書寫，而僅C01-B103教室有大面黑板，請優先安排C01-B103教室。"
   },
   {
+    "key": "EE-B501",
     "department": "EE",
     "course_id": "B501",
     "department_code": "A",
@@ -16959,6 +17546,7 @@
     "notes": "二AB，請安排C01-201"
   },
   {
+    "key": "EE-B551",
     "department": "EE",
     "course_id": "B551",
     "department_code": "A",
@@ -16988,6 +17576,7 @@
     "notes": "二AB合開；請安排工學院B1大教室"
   },
   {
+    "key": "EE-B561",
     "department": "EE",
     "course_id": "B561",
     "department_code": "A",
@@ -17017,6 +17606,7 @@
     "notes": "二AB合開(請安排工114演講廳)"
   },
   {
+    "key": "EE-C761",
     "department": "EE",
     "course_id": "C761",
     "department_code": "A",
@@ -17046,6 +17636,7 @@
     "notes": "二AB、三AB合開；需曾修習計算機概論(二)及格"
   },
   {
+    "key": "CE-A601",
     "department": "CE",
     "course_id": "A601",
     "department_code": "A",
@@ -17075,6 +17666,7 @@
     "notes": "大二大三合開。軟體需求使用圖資107電腦教室"
   },
   {
+    "key": "CE-B02B",
     "department": "CE",
     "course_id": "B02B",
     "department_code": "A",
@@ -17105,6 +17697,7 @@
     "notes": "使用工113實驗室"
   },
   {
+    "key": "CE-B031",
     "department": "CE",
     "course_id": "B031",
     "department_code": "A",
@@ -17134,6 +17727,7 @@
     "notes": "使用工101實驗室"
   },
   {
+    "key": "CE-B04B",
     "department": "CE",
     "course_id": "B04B",
     "department_code": "A",
@@ -17168,6 +17762,7 @@
     "notes": ""
   },
   {
+    "key": "CE-B061",
     "department": "CE",
     "course_id": "B061",
     "department_code": "A",
@@ -17202,6 +17797,7 @@
     "notes": "使用工學院大教室"
   },
   {
+    "key": "CE-B071",
     "department": "CE",
     "course_id": "B071",
     "department_code": "A",
@@ -17236,6 +17832,7 @@
     "notes": ""
   },
   {
+    "key": "CE-B641",
     "department": "CE",
     "course_id": "B641",
     "department_code": "A",
@@ -17270,6 +17867,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C663",
     "department": "CE",
     "course_id": "C663",
     "department_code": "A",
@@ -17304,6 +17902,7 @@
     "notes": ""
   },
   {
+    "key": "CE-D711",
     "department": "CE",
     "course_id": "D711",
     "department_code": "A",
@@ -17333,6 +17932,7 @@
     "notes": "先修測量學及格(使用工501-1教室)"
   },
   {
+    "key": "CS-B011",
     "department": "CS",
     "course_id": "B011",
     "department_code": "A",
@@ -17362,6 +17962,7 @@
     "notes": ""
   },
   {
+    "key": "CS-B042",
     "department": "CS",
     "course_id": "B042",
     "department_code": "A",
@@ -17391,6 +17992,7 @@
     "notes": ""
   },
   {
+    "key": "CS-B061",
     "department": "CS",
     "course_id": "B061",
     "department_code": "A",
@@ -17420,6 +18022,7 @@
     "notes": ""
   },
   {
+    "key": "CS-B071",
     "department": "CS",
     "course_id": "B071",
     "department_code": "A",
@@ -17449,6 +18052,7 @@
     "notes": ""
   },
   {
+    "key": "CS-B543",
     "department": "CS",
     "course_id": "B543",
     "department_code": "A",
@@ -17478,6 +18082,7 @@
     "notes": ""
   },
   {
+    "key": "CS-D521",
     "department": "CS",
     "course_id": "D521",
     "department_code": "A",
@@ -17507,6 +18112,7 @@
     "notes": ""
   },
   {
+    "key": "CM-B00B",
     "department": "CM",
     "course_id": "B00B",
     "department_code": "A",
@@ -17536,6 +18142,7 @@
     "notes": ""
   },
   {
+    "key": "CM-B031",
     "department": "CM",
     "course_id": "B031",
     "department_code": "A",
@@ -17565,6 +18172,7 @@
     "notes": "請學號單號同學選修本課程，教室使用112實驗室與普通教室"
   },
   {
+    "key": "CM-B080",
     "department": "CM",
     "course_id": "B080",
     "department_code": "A",
@@ -17594,6 +18202,7 @@
     "notes": "請學號雙號同學選修本課程，教室使用112實驗室與普通教室"
   },
   {
+    "key": "CM-B092",
     "department": "CM",
     "course_id": "B092",
     "department_code": "A",
@@ -17623,6 +18232,7 @@
     "notes": ""
   },
   {
+    "key": "CM-B592",
     "department": "CM",
     "course_id": "B592",
     "department_code": "A",
@@ -17652,6 +18262,7 @@
     "notes": ""
   },
   {
+    "key": "CM-C091",
     "department": "CM",
     "course_id": "C091",
     "department_code": "A",
@@ -17681,6 +18292,7 @@
     "notes": ""
   },
   {
+    "key": "CM-C512",
     "department": "CM",
     "course_id": "C512",
     "department_code": "A",
@@ -17710,6 +18322,7 @@
     "notes": "屬高值化金屬製備學程"
   },
   {
+    "key": "CM-C651",
     "department": "CM",
     "course_id": "C651",
     "department_code": "A",
@@ -17739,6 +18352,7 @@
     "notes": "屬「磁電材料」跨院系學分學程"
   },
   {
+    "key": "LS-B121",
     "department": "LS",
     "course_id": "B121",
     "department_code": "A",
@@ -17750,7 +18364,7 @@
     "requirement_type": "必",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "34",
+    "online_number": "35",
     "balance": "60",
     "teacher": "陳彥澄",
     "classroom": "C02-102",
@@ -17768,6 +18382,7 @@
     "notes": ""
   },
   {
+    "key": "LS-B531",
     "department": "LS",
     "course_id": "B531",
     "department_code": "A",
@@ -17797,6 +18412,7 @@
     "notes": ""
   },
   {
+    "key": "LS-B561",
     "department": "LS",
     "course_id": "B561",
     "department_code": "A",
@@ -17826,6 +18442,7 @@
     "notes": ""
   },
   {
+    "key": "LS-B671",
     "department": "LS",
     "course_id": "B671",
     "department_code": "A",
@@ -17861,6 +18478,7 @@
     "notes": ""
   },
   {
+    "key": "LS-C01A",
     "department": "LS",
     "course_id": "C01A",
     "department_code": "A",
@@ -17872,7 +18490,7 @@
     "requirement_type": "必",
     "limit": "61",
     "registration_confirmed": "0",
-    "online_number": "36",
+    "online_number": "37",
     "balance": "61",
     "teacher": "葛孟杰",
     "classroom": "C02-102",
@@ -17890,6 +18508,7 @@
     "notes": ""
   },
   {
+    "key": "LS-C092",
     "department": "LS",
     "course_id": "C092",
     "department_code": "A",
@@ -17901,7 +18520,7 @@
     "requirement_type": "必",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "35",
+    "online_number": "36",
     "balance": "60",
     "teacher": "侯玥如",
     "classroom": "C02-101",
@@ -17919,6 +18538,7 @@
     "notes": ""
   },
   {
+    "key": "LS-C691",
     "department": "LS",
     "course_id": "C691",
     "department_code": "A",
@@ -17948,6 +18568,7 @@
     "notes": "使用C02-201實驗室"
   },
   {
+    "key": "LS-D561",
     "department": "LS",
     "course_id": "D561",
     "department_code": "A",
@@ -17959,7 +18580,7 @@
     "requirement_type": "必",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "33",
+    "online_number": "34",
     "balance": "60",
     "teacher": "黃重期",
     "classroom": "C02-101",
@@ -17977,6 +18598,7 @@
     "notes": ""
   },
   {
+    "key": "AB-B03B",
     "department": "AB",
     "course_id": "B03B",
     "department_code": "A",
@@ -18006,6 +18628,7 @@
     "notes": ""
   },
   {
+    "key": "AB-B091",
     "department": "AB",
     "course_id": "B091",
     "department_code": "A",
@@ -18035,6 +18658,7 @@
     "notes": "企管模組，他系同學欲選修請洽授課教師"
   },
   {
+    "key": "AB-B14A",
     "department": "AB",
     "course_id": "B14A",
     "department_code": "A",
@@ -18064,6 +18688,7 @@
     "notes": "人文與商管學程"
   },
   {
+    "key": "AB-B171",
     "department": "AB",
     "course_id": "B171",
     "department_code": "A",
@@ -18093,6 +18718,7 @@
     "notes": "亞太模組"
   },
   {
+    "key": "AB-B173",
     "department": "AB",
     "course_id": "B173",
     "department_code": "A",
@@ -18122,6 +18748,7 @@
     "notes": "亞太模組，全英文授課"
   },
   {
+    "key": "AB-B531",
     "department": "AB",
     "course_id": "B531",
     "department_code": "A",
@@ -18151,6 +18778,7 @@
     "notes": "工管模組，3,4年級可選修，外系同學請洽授課教師"
   },
   {
+    "key": "AB-C69B",
     "department": "AB",
     "course_id": "C69B",
     "department_code": "A",
@@ -18179,6 +18807,7 @@
     "notes": ""
   },
   {
+    "key": "IFD-A811",
     "department": "IFD",
     "course_id": "A811",
     "department_code": "A",
@@ -18207,6 +18836,7 @@
     "notes": "與教發中心合開"
   },
   {
+    "key": "EE-B01D",
     "department": "EE",
     "course_id": "B01D",
     "department_code": "A",
@@ -18236,6 +18866,7 @@
     "notes": "二B"
   },
   {
+    "key": "EE-B02B",
     "department": "EE",
     "course_id": "B02B",
     "department_code": "A",
@@ -18265,6 +18896,7 @@
     "notes": "二B；請安排C01-202"
   },
   {
+    "key": "EE-B04D",
     "department": "EE",
     "course_id": "B04D",
     "department_code": "A",
@@ -18294,6 +18926,7 @@
     "notes": "二B；請安排C01-301-1實驗室"
   },
   {
+    "key": "EE-B05D",
     "department": "EE",
     "course_id": "B05D",
     "department_code": "A",
@@ -18323,6 +18956,7 @@
     "notes": "二B；請安排工學院B1大教室"
   },
   {
+    "key": "EE-B501",
     "department": "EE",
     "course_id": "B501",
     "department_code": "A",
@@ -18352,6 +18986,7 @@
     "notes": "二AB，請安排C01-201"
   },
   {
+    "key": "EE-B551",
     "department": "EE",
     "course_id": "B551",
     "department_code": "A",
@@ -18381,6 +19016,7 @@
     "notes": "二AB合開；請安排工學院B1大教室"
   },
   {
+    "key": "EE-B561",
     "department": "EE",
     "course_id": "B561",
     "department_code": "A",
@@ -18410,6 +19046,7 @@
     "notes": "二AB合開(請安排工114演講廳)"
   },
   {
+    "key": "EE-C761",
     "department": "EE",
     "course_id": "C761",
     "department_code": "A",
@@ -18439,6 +19076,7 @@
     "notes": "二AB、三AB合開；需曾修習計算機概論(二)及格"
   },
   {
+    "key": "WL-B58B",
     "department": "WL",
     "course_id": "B58B",
     "department_code": "A",
@@ -18467,6 +19105,7 @@
     "notes": "【人文與商管學程】須另外加簽。"
   },
   {
+    "key": "WL-C06B",
     "department": "WL",
     "course_id": "C06B",
     "department_code": "A",
@@ -18496,6 +19135,7 @@
     "notes": "限修本系三年級，補重修請另加簽。【全英語授課】"
   },
   {
+    "key": "WL-C07B",
     "department": "WL",
     "course_id": "C07B",
     "department_code": "A",
@@ -18525,6 +19165,7 @@
     "notes": "限修本系三年級以上。"
   },
   {
+    "key": "WL-C64B",
     "department": "WL",
     "course_id": "C64B",
     "department_code": "A",
@@ -18553,6 +19194,7 @@
     "notes": "【語言學類】限修本系大三、大四。"
   },
   {
+    "key": "WL-C902",
     "department": "WL",
     "course_id": "C902",
     "department_code": "A",
@@ -18581,6 +19223,7 @@
     "notes": "指定外加實習課程，課程總實習時數須達160小時。"
   },
   {
+    "key": "WL-D692",
     "department": "WL",
     "course_id": "D692",
     "department_code": "A",
@@ -18610,6 +19253,7 @@
     "notes": "【文學文化類】【人文與商管學程】請另加簽。"
   },
   {
+    "key": "WL-D694",
     "department": "WL",
     "course_id": "D694",
     "department_code": "A",
@@ -18639,6 +19283,7 @@
     "notes": "【文學文化類】限修本系三、四年級。"
   },
   {
+    "key": "WL-D73A",
     "department": "WL",
     "course_id": "D73A",
     "department_code": "A",
@@ -18668,6 +19313,7 @@
     "notes": "【文學文化類】限修本系三、四年級。"
   },
   {
+    "key": "WL-F501",
     "department": "WL",
     "course_id": "F501",
     "department_code": "A",
@@ -18697,6 +19343,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【語言學類】"
   },
   {
+    "key": "WL-F506",
     "department": "WL",
     "course_id": "F506",
     "department_code": "A",
@@ -18726,6 +19373,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【語言學類】"
   },
   {
+    "key": "WL-F521",
     "department": "WL",
     "course_id": "F521",
     "department_code": "A",
@@ -18755,6 +19403,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【人文與商管學程】須另加簽，【語言學類】全外語授課-英語"
   },
   {
+    "key": "WL-F522",
     "department": "WL",
     "course_id": "F522",
     "department_code": "A",
@@ -18784,6 +19433,7 @@
     "notes": "【文學文化類】此碩士班課程開放本系大學部三、四年級學生選修。"
   },
   {
+    "key": "WL-F612",
     "department": "WL",
     "course_id": "F612",
     "department_code": "A",
@@ -18813,6 +19463,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【文學文化類】。歡迎人社院國際學院碩士班及大學部三四年級跨域選修。全英語授課"
   },
   {
+    "key": "KH-B201",
     "department": "KH",
     "course_id": "B201",
     "department_code": "A",
@@ -18842,6 +19493,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-B542",
     "department": "KH",
     "course_id": "B542",
     "department_code": "A",
@@ -18871,6 +19523,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-B551",
     "department": "KH",
     "course_id": "B551",
     "department_code": "A",
@@ -18900,6 +19553,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-B612",
     "department": "KH",
     "course_id": "B612",
     "department_code": "A",
@@ -18928,6 +19582,7 @@
     "notes": "運動健康促進學群"
   },
   {
+    "key": "KH-C102",
     "department": "KH",
     "course_id": "C102",
     "department_code": "A",
@@ -18957,6 +19612,7 @@
     "notes": "核心必修"
   },
   {
+    "key": "KH-C541",
     "department": "KH",
     "course_id": "C541",
     "department_code": "A",
@@ -18985,6 +19641,7 @@
     "notes": "運動健康促進學群"
   },
   {
+    "key": "KH-C597",
     "department": "KH",
     "course_id": "C597",
     "department_code": "A",
@@ -19013,6 +19670,7 @@
     "notes": "休閒健康促進學群(運健休學系法學素養課程)"
   },
   {
+    "key": "KH-C604",
     "department": "KH",
     "course_id": "C604",
     "department_code": "A",
@@ -19041,6 +19699,7 @@
     "notes": "運動健康促進學群/運動防護員證照規定課程"
   },
   {
+    "key": "KH-C606",
     "department": "KH",
     "course_id": "C606",
     "department_code": "A",
@@ -19069,6 +19728,7 @@
     "notes": "運動健康促進學群/運動防護員證照規定課程"
   },
   {
+    "key": "KH-C626",
     "department": "KH",
     "course_id": "C626",
     "department_code": "A",
@@ -19097,6 +19757,7 @@
     "notes": "運動健康促進學群/林榮男老師"
   },
   {
+    "key": "KH-C632",
     "department": "KH",
     "course_id": "C632",
     "department_code": "A",
@@ -19126,6 +19787,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "KH-C682",
     "department": "KH",
     "course_id": "C682",
     "department_code": "A",
@@ -19154,6 +19816,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "KH-C684",
     "department": "KH",
     "course_id": "C684",
     "department_code": "A",
@@ -19182,6 +19845,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "KH-D061",
     "department": "KH",
     "course_id": "D061",
     "department_code": "A",
@@ -19210,6 +19874,7 @@
     "notes": "核心選修/外語導遊人才培育學程"
   },
   {
+    "key": "KH-D523",
     "department": "KH",
     "course_id": "D523",
     "department_code": "A",
@@ -19238,6 +19903,7 @@
     "notes": "運動健康促進學群(運動防護員規定課程)"
   },
   {
+    "key": "KH-D583",
     "department": "KH",
     "course_id": "D583",
     "department_code": "A",
@@ -19266,6 +19932,7 @@
     "notes": "運動健康促進學群(運動防護員規定課程)"
   },
   {
+    "key": "KH-D611",
     "department": "KH",
     "course_id": "D611",
     "department_code": "A",
@@ -19294,6 +19961,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "CCD-C022",
     "department": "CCD",
     "course_id": "C022",
     "department_code": "A",
@@ -19324,6 +19992,7 @@
     "notes": "教室:H1-110"
   },
   {
+    "key": "CCD-C512",
     "department": "CCD",
     "course_id": "C512",
     "department_code": "A",
@@ -19354,6 +20023,7 @@
     "notes": "教室:工坊文產教室"
   },
   {
+    "key": "CCD-C524",
     "department": "CCD",
     "course_id": "C524",
     "department_code": "A",
@@ -19383,6 +20053,7 @@
     "notes": "教室:H1-112"
   },
   {
+    "key": "CCD-C525",
     "department": "CCD",
     "course_id": "C525",
     "department_code": "A",
@@ -19411,6 +20082,7 @@
     "notes": "教室:H1-112"
   },
   {
+    "key": "CCD-C52B",
     "department": "CCD",
     "course_id": "C52B",
     "department_code": "A",
@@ -19442,6 +20114,7 @@
     "notes": "王政弘老師:H1-112；蔡雪麗老師:H1-110"
   },
   {
+    "key": "CCD-C532",
     "department": "CCD",
     "course_id": "C532",
     "department_code": "A",
@@ -19473,6 +20146,7 @@
     "notes": "賴廷鴻老師:金工教室；沈明旺老師:木竹教室；陳冠勳老師:塑性教室"
   },
   {
+    "key": "CCD-C553",
     "department": "CCD",
     "course_id": "C553",
     "department_code": "A",
@@ -19501,6 +20175,7 @@
     "notes": "教室:H1-332"
   },
   {
+    "key": "CCD-C562",
     "department": "CCD",
     "course_id": "C562",
     "department_code": "A",
@@ -19531,6 +20206,7 @@
     "notes": "教室:工坊玉石教室"
   },
   {
+    "key": "DA-B030",
     "department": "DA",
     "course_id": "B030",
     "department_code": "A",
@@ -19560,6 +20236,7 @@
     "notes": ""
   },
   {
+    "key": "DA-C02A",
     "department": "DA",
     "course_id": "C02A",
     "department_code": "A",
@@ -19594,6 +20271,7 @@
     "notes": "教室：h1-101教室"
   },
   {
+    "key": "DA-C02B",
     "department": "DA",
     "course_id": "C02B",
     "department_code": "A",
@@ -19628,6 +20306,7 @@
     "notes": "教室：藝文空間"
   },
   {
+    "key": "DA-C032",
     "department": "DA",
     "course_id": "C032",
     "department_code": "A",
@@ -19656,6 +20335,7 @@
     "notes": "教室h1-103"
   },
   {
+    "key": "DA-C502",
     "department": "DA",
     "course_id": "C502",
     "department_code": "A",
@@ -19684,6 +20364,7 @@
     "notes": "教室：h1-102，教師：林光浩建築師"
   },
   {
+    "key": "DA-C54D",
     "department": "DA",
     "course_id": "C54D",
     "department_code": "A",
@@ -19712,6 +20393,7 @@
     "notes": "圖資610電腦教室"
   },
   {
+    "key": "DA-F524",
     "department": "DA",
     "course_id": "F524",
     "department_code": "A",
@@ -19740,6 +20422,7 @@
     "notes": "教室h1-102"
   },
   {
+    "key": "EL-B173",
     "department": "EL",
     "course_id": "B173",
     "department_code": "A",
@@ -19768,6 +20451,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C513",
     "department": "EL",
     "course_id": "C513",
     "department_code": "A",
@@ -19796,6 +20480,7 @@
     "notes": ""
   },
   {
+    "key": "EL-C66B",
     "department": "EL",
     "course_id": "C66B",
     "department_code": "A",
@@ -19824,6 +20509,7 @@
     "notes": ""
   },
   {
+    "key": "DAP-C002",
     "department": "DAP",
     "course_id": "C002",
     "department_code": "A",
@@ -19852,6 +20538,7 @@
     "notes": "207-6教室"
   },
   {
+    "key": "DAP-C01B",
     "department": "DAP",
     "course_id": "C01B",
     "department_code": "A",
@@ -19891,6 +20578,7 @@
     "notes": "授課老師：李坤哲，專長術科（棒球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二（1-4節）、四（5-8節）棒球場上課"
   },
   {
+    "key": "DAP-C02B",
     "department": "DAP",
     "course_id": "C02B",
     "department_code": "A",
@@ -19930,6 +20618,7 @@
     "notes": "授課老師：王明月，專長術科（桌球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、五(5-8節)桌球場上課"
   },
   {
+    "key": "DAP-C03B",
     "department": "DAP",
     "course_id": "C03B",
     "department_code": "A",
@@ -19969,6 +20658,7 @@
     "notes": "授課老師：林季嬋，專長術科（游泳）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二（1-4節）、四（5-8節）游泳池使用4水道上課"
   },
   {
+    "key": "DAP-C04B",
     "department": "DAP",
     "course_id": "C04B",
     "department_code": "A",
@@ -20008,6 +20698,7 @@
     "notes": "授課老師：黃全成，專長術科（羽球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二（1-4節）、四（5-8節）羽球場上課"
   },
   {
+    "key": "DAP-C05B",
     "department": "DAP",
     "course_id": "C05B",
     "department_code": "A",
@@ -20047,6 +20738,7 @@
     "notes": "授課老師：葉天相，專長術科（木球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四（5-8節）木球場上課"
   },
   {
+    "key": "DAP-C511",
     "department": "DAP",
     "course_id": "C511",
     "department_code": "A",
@@ -20075,6 +20767,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-C512",
     "department": "DAP",
     "course_id": "C512",
     "department_code": "A",
@@ -20103,6 +20796,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-C514",
     "department": "DAP",
     "course_id": "C514",
     "department_code": "A",
@@ -20131,6 +20825,7 @@
     "notes": "207-6教室"
   },
   {
+    "key": "DAP-C515",
     "department": "DAP",
     "course_id": "C515",
     "department_code": "A",
@@ -20159,6 +20854,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "DAP-C523",
     "department": "DAP",
     "course_id": "C523",
     "department_code": "A",
@@ -20187,6 +20883,7 @@
     "notes": "羽球場"
   },
   {
+    "key": "DAP-C524",
     "department": "DAP",
     "course_id": "C524",
     "department_code": "A",
@@ -20215,6 +20912,7 @@
     "notes": "體適能教室"
   },
   {
+    "key": "DAP-C54B",
     "department": "DAP",
     "course_id": "C54B",
     "department_code": "A",
@@ -20243,6 +20941,7 @@
     "notes": "重訓教室(一)(二)"
   },
   {
+    "key": "DAP-D511",
     "department": "DAP",
     "course_id": "D511",
     "department_code": "A",
@@ -20271,6 +20970,7 @@
     "notes": "洪四川運動廣場"
   },
   {
+    "key": "LA-B091",
     "department": "LA",
     "course_id": "B091",
     "department_code": "A",
@@ -20282,7 +20982,7 @@
     "requirement_type": "必",
     "limit": "120",
     "registration_confirmed": "0",
-    "online_number": "74",
+    "online_number": "75",
     "balance": "120",
     "teacher": "林昭志",
     "classroom": "",
@@ -20299,6 +20999,7 @@
     "notes": "限法學院大三以上修課；與財法系大三合班上課"
   },
   {
+    "key": "LA-C02B",
     "department": "LA",
     "course_id": "C02B",
     "department_code": "A",
@@ -20328,6 +21029,7 @@
     "notes": "限法律系大學部三年級以上學生選課"
   },
   {
+    "key": "LA-C03B",
     "department": "LA",
     "course_id": "C03B",
     "department_code": "A",
@@ -20357,6 +21059,7 @@
     "notes": "限法律系大學部三年級以上同學選課"
   },
   {
+    "key": "LA-C052",
     "department": "LA",
     "course_id": "C052",
     "department_code": "A",
@@ -20385,6 +21088,7 @@
     "notes": ""
   },
   {
+    "key": "LA-C151",
     "department": "LA",
     "course_id": "C151",
     "department_code": "A",
@@ -20413,6 +21117,7 @@
     "notes": ""
   },
   {
+    "key": "LA-C152",
     "department": "LA",
     "course_id": "C152",
     "department_code": "A",
@@ -20441,6 +21146,7 @@
     "notes": ""
   },
   {
+    "key": "LA-C911",
     "department": "LA",
     "course_id": "C911",
     "department_code": "A",
@@ -20469,6 +21175,7 @@
     "notes": ""
   },
   {
+    "key": "GL-B092",
     "department": "GL",
     "course_id": "B092",
     "department_code": "A",
@@ -20497,6 +21204,7 @@
     "notes": "新制為共同必修課程，舊制為整合課程"
   },
   {
+    "key": "GL-C05B",
     "department": "GL",
     "course_id": "C05B",
     "department_code": "A",
@@ -20525,6 +21233,7 @@
     "notes": "1.限政法系並修畢刑總及刑分 2.隔週上課(08:05-12:00)、3.110學年度起改為共同必修,選讀政治學群者，4科擇2必修,109學年度(含)以前入學學生政治學群者為選修、法律學群者為必修"
   },
   {
+    "key": "GL-C14B",
     "department": "GL",
     "course_id": "C14B",
     "department_code": "A",
@@ -20553,6 +21262,7 @@
     "notes": "政治學群"
   },
   {
+    "key": "GL-C191",
     "department": "GL",
     "course_id": "C191",
     "department_code": "A",
@@ -20581,6 +21291,7 @@
     "notes": "法律學群6科擇2科必修(與法律系合班上課)"
   },
   {
+    "key": "GL-C656",
     "department": "GL",
     "course_id": "C656",
     "department_code": "A",
@@ -20610,6 +21321,7 @@
     "notes": "1.1次3小時上課12周(上課週次於課程大綱內公布)2.法律學群課程，110學年度起與支付及信用工具法(票據法),證交法,保險法,海洋法*,海商法*,6選2。3.109學年度(含)以前入學學生為4選2(不含*課程)4.授課教師陳宣至律師"
   },
   {
+    "key": "LA-B021",
     "department": "LA",
     "course_id": "B021",
     "department_code": "A",
@@ -20638,6 +21350,7 @@
     "notes": "法律學群"
   },
   {
+    "key": "FL-C01B",
     "department": "FL",
     "course_id": "C01B",
     "department_code": "A",
@@ -20649,7 +21362,7 @@
     "requirement_type": "必",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "30",
+    "online_number": "31",
     "balance": "60",
     "teacher": "楊博欽",
     "classroom": "L02-201",
@@ -20667,6 +21380,7 @@
     "notes": "限財法大三、大四修課。授課教師:楊博欽老師。"
   },
   {
+    "key": "FL-C02B",
     "department": "FL",
     "course_id": "C02B",
     "department_code": "A",
@@ -20695,6 +21409,7 @@
     "notes": ""
   },
   {
+    "key": "FL-C20B",
     "department": "FL",
     "course_id": "C20B",
     "department_code": "A",
@@ -20706,7 +21421,7 @@
     "requirement_type": "必",
     "limit": "60",
     "registration_confirmed": "0",
-    "online_number": "35",
+    "online_number": "36",
     "balance": "60",
     "teacher": "曾千娟",
     "classroom": "L02-108",
@@ -20723,6 +21438,7 @@
     "notes": ""
   },
   {
+    "key": "FL-C601",
     "department": "FL",
     "course_id": "C601",
     "department_code": "A",
@@ -20751,6 +21467,7 @@
     "notes": "與生命科學系大四合開/財經法律專業學群/隸屬服務與智慧創新創業學分學程、生技產業跨領域學程"
   },
   {
+    "key": "FL-C761",
     "department": "FL",
     "course_id": "C761",
     "department_code": "A",
@@ -20779,6 +21496,7 @@
     "notes": "財經法律專業學群；隸屬產業、科技與財經法律學分學程、服務與智慧型創新創業學分學程"
   },
   {
+    "key": "LA-B091",
     "department": "LA",
     "course_id": "B091",
     "department_code": "A",
@@ -20790,7 +21508,7 @@
     "requirement_type": "選",
     "limit": "120",
     "registration_confirmed": "0",
-    "online_number": "74",
+    "online_number": "75",
     "balance": "120",
     "teacher": "林昭志",
     "classroom": "",
@@ -20807,6 +21525,7 @@
     "notes": "與法律系大學部三年級合班上課。限法學院大學部三年級以上學生選修。112學年起改為選修"
   },
   {
+    "key": "AE-C01A",
     "department": "AE",
     "course_id": "C01A",
     "department_code": "A",
@@ -20836,6 +21555,7 @@
     "notes": ""
   },
   {
+    "key": "AE-C545",
     "department": "AE",
     "course_id": "C545",
     "department_code": "A",
@@ -20865,6 +21585,7 @@
     "notes": "產業組織與金融市場之專業發展課程；大學部三、四年級合班授課。"
   },
   {
+    "key": "AE-C712",
     "department": "AE",
     "course_id": "C712",
     "department_code": "A",
@@ -20894,6 +21615,7 @@
     "notes": "本課程為學程之「專業發展課程」;大學部三、四年級合班授課。"
   },
   {
+    "key": "AE-C713",
     "department": "AE",
     "course_id": "C713",
     "department_code": "A",
@@ -20923,6 +21645,7 @@
     "notes": "本課程為學程之數量方法課程；大學部三、四年級合班授課"
   },
   {
+    "key": "AE-C721",
     "department": "AE",
     "course_id": "C721",
     "department_code": "A",
@@ -20952,6 +21675,7 @@
     "notes": "公共議題與經濟政策學程之指定選修課程；大學部三、四年級合班授課。"
   },
   {
+    "key": "AE-C761",
     "department": "AE",
     "course_id": "C761",
     "department_code": "A",
@@ -20981,6 +21705,7 @@
     "notes": "產業組織與金融市場學程之指定選修課程;「產業、科技與財經法律」學分學程；人文與商管學程。大學部三、四年級合班授課"
   },
   {
+    "key": "AE-D571",
     "department": "AE",
     "course_id": "D571",
     "department_code": "A",
@@ -21010,6 +21735,7 @@
     "notes": "大學部二、三、四年級合班授課。"
   },
   {
+    "key": "AE-D601",
     "department": "AE",
     "course_id": "D601",
     "department_code": "A",
@@ -21039,6 +21765,7 @@
     "notes": "產業組織與金融市場之專業發展課程；限應經系與東語系大學部三、四年級選修"
   },
   {
+    "key": "FI-B661",
     "department": "FI",
     "course_id": "B661",
     "department_code": "A",
@@ -21068,6 +21795,7 @@
     "notes": "M01-102，與大二合開-謝佳勲老師"
   },
   {
+    "key": "FI-C031",
     "department": "FI",
     "course_id": "C031",
     "department_code": "A",
@@ -21097,6 +21825,7 @@
     "notes": "M01-204"
   },
   {
+    "key": "FI-C041",
     "department": "FI",
     "course_id": "C041",
     "department_code": "A",
@@ -21126,6 +21855,7 @@
     "notes": "M01-204"
   },
   {
+    "key": "FI-C501",
     "department": "FI",
     "course_id": "C501",
     "department_code": "A",
@@ -21155,6 +21885,7 @@
     "notes": "M01-102"
   },
   {
+    "key": "FI-C531",
     "department": "FI",
     "course_id": "C531",
     "department_code": "A",
@@ -21184,6 +21915,7 @@
     "notes": "M01-204"
   },
   {
+    "key": "FI-C612",
     "department": "FI",
     "course_id": "C612",
     "department_code": "A",
@@ -21213,6 +21945,7 @@
     "notes": "M01-102，與大二合開-謝佳勲老師"
   },
   {
+    "key": "FI-C73B",
     "department": "FI",
     "course_id": "C73B",
     "department_code": "A",
@@ -21242,6 +21975,7 @@
     "notes": "M01-203，與應數系合開"
   },
   {
+    "key": "IFD-A50I",
     "department": "IFD",
     "course_id": "A50I",
     "department_code": "A",
@@ -21271,6 +22005,7 @@
     "notes": "主開為創新學院。教室為L01-610。"
   },
   {
+    "key": "IM-B621",
     "department": "IM",
     "course_id": "B621",
     "department_code": "A",
@@ -21300,6 +22035,7 @@
     "notes": "教室為M01-108。"
   },
   {
+    "key": "IM-C03A",
     "department": "IM",
     "course_id": "C03A",
     "department_code": "A",
@@ -21329,6 +22065,7 @@
     "notes": "教室為M01-105。"
   },
   {
+    "key": "IM-C041",
     "department": "IM",
     "course_id": "C041",
     "department_code": "A",
@@ -21358,6 +22095,7 @@
     "notes": "教室為M01-208。限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "IM-C562",
     "department": "IM",
     "course_id": "C562",
     "department_code": "A",
@@ -21387,6 +22125,7 @@
     "notes": "教室為M01-105。限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "IM-C633",
     "department": "IM",
     "course_id": "C633",
     "department_code": "A",
@@ -21415,6 +22154,7 @@
     "notes": ""
   },
   {
+    "key": "IM-C643",
     "department": "IM",
     "course_id": "C643",
     "department_code": "A",
@@ -21444,6 +22184,7 @@
     "notes": "教室為M01-105。限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "IM-C66A",
     "department": "IM",
     "course_id": "C66A",
     "department_code": "A",
@@ -21479,6 +22220,7 @@
     "notes": "此課程為指定加簽課程，教室為M01-208。"
   },
   {
+    "key": "IM-C66B",
     "department": "IM",
     "course_id": "C66B",
     "department_code": "A",
@@ -21514,6 +22256,7 @@
     "notes": "此課程為指定加簽課程，教室為M01-302。"
   },
   {
+    "key": "IM-C66C",
     "department": "IM",
     "course_id": "C66C",
     "department_code": "A",
@@ -21549,6 +22292,7 @@
     "notes": "此課程為指定加簽課程，教室為M01-417。"
   },
   {
+    "key": "IM-C66D",
     "department": "IM",
     "course_id": "C66D",
     "department_code": "A",
@@ -21584,6 +22328,7 @@
     "notes": "此課為指定加簽課程，教室為M01-105。"
   },
   {
+    "key": "IM-C721",
     "department": "IM",
     "course_id": "C721",
     "department_code": "A",
@@ -21613,6 +22358,7 @@
     "notes": "限修本系，其他系所同學如須加簽請洽任課老師。"
   },
   {
+    "key": "IM-F610",
     "department": "IM",
     "course_id": "F610",
     "department_code": "A",
@@ -21642,6 +22388,7 @@
     "notes": "教室為M01-208限修本系，與資管大四合開，外系同學欲修此課程，請找任課老師加簽。"
   },
   {
+    "key": "AM-C502",
     "department": "AM",
     "course_id": "C502",
     "department_code": "A",
@@ -21676,6 +22423,7 @@
     "notes": ""
   },
   {
+    "key": "AM-C511",
     "department": "AM",
     "course_id": "C511",
     "department_code": "A",
@@ -21710,6 +22458,7 @@
     "notes": ""
   },
   {
+    "key": "AM-C541",
     "department": "AM",
     "course_id": "C541",
     "department_code": "A",
@@ -21744,6 +22493,7 @@
     "notes": ""
   },
   {
+    "key": "AM-C651",
     "department": "AM",
     "course_id": "C651",
     "department_code": "A",
@@ -21778,6 +22528,7 @@
     "notes": "上課教室：理408室"
   },
   {
+    "key": "AM-C701",
     "department": "AM",
     "course_id": "C701",
     "department_code": "A",
@@ -21807,6 +22558,7 @@
     "notes": "上課教室：理408室"
   },
   {
+    "key": "AM-D573",
     "department": "AM",
     "course_id": "D573",
     "department_code": "A",
@@ -21841,6 +22593,7 @@
     "notes": ""
   },
   {
+    "key": "AM-D74B",
     "department": "AM",
     "course_id": "D74B",
     "department_code": "A",
@@ -21870,6 +22623,7 @@
     "notes": "上課教室：理408室"
   },
   {
+    "key": "AC-C01B",
     "department": "AC",
     "course_id": "C01B",
     "department_code": "A",
@@ -21899,6 +22653,7 @@
     "notes": "需大黑板上課"
   },
   {
+    "key": "AC-C02C",
     "department": "AC",
     "course_id": "C02C",
     "department_code": "A",
@@ -21928,6 +22683,7 @@
     "notes": ""
   },
   {
+    "key": "AC-C10A",
     "department": "AC",
     "course_id": "C10A",
     "department_code": "A",
@@ -21957,6 +22713,7 @@
     "notes": "大三單號/理學院203及理院普通教室"
   },
   {
+    "key": "AC-C10B",
     "department": "AC",
     "course_id": "C10B",
     "department_code": "A",
@@ -21986,6 +22743,7 @@
     "notes": "大三雙號/理學院204室及普通教室"
   },
   {
+    "key": "AC-C595",
     "department": "AC",
     "course_id": "C595",
     "department_code": "A",
@@ -22020,6 +22778,7 @@
     "notes": ""
   },
   {
+    "key": "AC-C601",
     "department": "AC",
     "course_id": "C601",
     "department_code": "A",
@@ -22048,6 +22807,7 @@
     "notes": "大三單號"
   },
   {
+    "key": "AC-C67B",
     "department": "AC",
     "course_id": "C67B",
     "department_code": "A",
@@ -22077,6 +22837,7 @@
     "notes": "屬材析分析學程"
   },
   {
+    "key": "AC-D011",
     "department": "AC",
     "course_id": "D011",
     "department_code": "A",
@@ -22105,6 +22866,7 @@
     "notes": "大三雙號"
   },
   {
+    "key": "AC-F753",
     "department": "AC",
     "course_id": "F753",
     "department_code": "A",
@@ -22134,6 +22896,7 @@
     "notes": "與碩班合開/需大黑板"
   },
   {
+    "key": "AP-C011",
     "department": "AP",
     "course_id": "C011",
     "department_code": "A",
@@ -22173,6 +22936,7 @@
     "notes": "1.本課程為『必修』且需在周三下午第5~6節課聽演講，請109學年度(含)以後本系的大學部學生一定要選修本課程，以免影響畢業資格。2.請同學依所屬指導教授組別選課。"
   },
   {
+    "key": "AP-C012",
     "department": "AP",
     "course_id": "C012",
     "department_code": "A",
@@ -22212,6 +22976,7 @@
     "notes": "1.本課程為『必修』且需在周三下午第5~6節課聽演講，請109學年度(含)以後本系的大學部學生一定要選修本課程，以免影響畢業資格。2.請同學依所屬指導教授組別選課。"
   },
   {
+    "key": "AP-C02B",
     "department": "AP",
     "course_id": "C02B",
     "department_code": "A",
@@ -22241,6 +23006,7 @@
     "notes": ""
   },
   {
+    "key": "AP-C60B",
     "department": "AP",
     "course_id": "C60B",
     "department_code": "A",
@@ -22270,6 +23036,7 @@
     "notes": ""
   },
   {
+    "key": "AP-C682",
     "department": "AP",
     "course_id": "C682",
     "department_code": "A",
@@ -22299,6 +23066,7 @@
     "notes": ""
   },
   {
+    "key": "AP-C68B",
     "department": "AP",
     "course_id": "C68B",
     "department_code": "A",
@@ -22328,6 +23096,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C651",
     "department": "EE",
     "course_id": "C651",
     "department_code": "A",
@@ -22357,6 +23126,7 @@
     "notes": "三AB合開；請安排工學院B103大教室。"
   },
   {
+    "key": "EE-C712",
     "department": "EE",
     "course_id": "C712",
     "department_code": "A",
@@ -22386,6 +23156,7 @@
     "notes": "三AB、四AB;請安排普通教室"
   },
   {
+    "key": "EE-C761",
     "department": "EE",
     "course_id": "C761",
     "department_code": "A",
@@ -22415,6 +23186,7 @@
     "notes": "二AB、三AB合開；需曾修習計算機概論(二)及格"
   },
   {
+    "key": "EE-C96A",
     "department": "EE",
     "course_id": "C96A",
     "department_code": "A",
@@ -22454,6 +23226,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96B",
     "department": "EE",
     "course_id": "C96B",
     "department_code": "A",
@@ -22493,6 +23266,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96C",
     "department": "EE",
     "course_id": "C96C",
     "department_code": "A",
@@ -22532,6 +23306,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96D",
     "department": "EE",
     "course_id": "C96D",
     "department_code": "A",
@@ -22571,6 +23346,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96E",
     "department": "EE",
     "course_id": "C96E",
     "department_code": "A",
@@ -22610,6 +23386,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96G",
     "department": "EE",
     "course_id": "C96G",
     "department_code": "A",
@@ -22649,6 +23426,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96H",
     "department": "EE",
     "course_id": "C96H",
     "department_code": "A",
@@ -22688,6 +23466,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96J",
     "department": "EE",
     "course_id": "C96J",
     "department_code": "A",
@@ -22727,6 +23506,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96K",
     "department": "EE",
     "course_id": "C96K",
     "department_code": "A",
@@ -22766,6 +23546,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96L",
     "department": "EE",
     "course_id": "C96L",
     "department_code": "A",
@@ -22805,6 +23586,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96M",
     "department": "EE",
     "course_id": "C96M",
     "department_code": "A",
@@ -22844,6 +23626,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96N",
     "department": "EE",
     "course_id": "C96N",
     "department_code": "A",
@@ -22883,6 +23666,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96O",
     "department": "EE",
     "course_id": "C96O",
     "department_code": "A",
@@ -22922,6 +23706,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96P",
     "department": "EE",
     "course_id": "C96P",
     "department_code": "A",
@@ -22961,6 +23746,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96Q",
     "department": "EE",
     "course_id": "C96Q",
     "department_code": "A",
@@ -23000,6 +23786,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96R",
     "department": "EE",
     "course_id": "C96R",
     "department_code": "A",
@@ -23039,6 +23826,7 @@
     "notes": ""
   },
   {
+    "key": "EE-D892",
     "department": "EE",
     "course_id": "D892",
     "department_code": "A",
@@ -23068,6 +23856,7 @@
     "notes": "三AB、四AB合開"
   },
   {
+    "key": "CE-A601",
     "department": "CE",
     "course_id": "A601",
     "department_code": "A",
@@ -23097,6 +23886,7 @@
     "notes": "大二大三合開。軟體需求使用圖資107電腦教室"
   },
   {
+    "key": "CE-C501",
     "department": "CE",
     "course_id": "C501",
     "department_code": "A",
@@ -23131,6 +23921,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C591",
     "department": "CE",
     "course_id": "C591",
     "department_code": "A",
@@ -23160,6 +23951,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C661",
     "department": "CE",
     "course_id": "C661",
     "department_code": "A",
@@ -23189,6 +23981,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C672",
     "department": "CE",
     "course_id": "C672",
     "department_code": "A",
@@ -23223,6 +24016,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C673",
     "department": "CE",
     "course_id": "C673",
     "department_code": "A",
@@ -23252,6 +24046,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C711",
     "department": "CE",
     "course_id": "C711",
     "department_code": "A",
@@ -23286,6 +24081,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C731",
     "department": "CE",
     "course_id": "C731",
     "department_code": "A",
@@ -23320,6 +24116,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C741",
     "department": "CE",
     "course_id": "C741",
     "department_code": "A",
@@ -23353,6 +24150,7 @@
     "notes": "專題研究(一)及(二)須一併修畢始可取得3學分"
   },
   {
+    "key": "CE-C811",
     "department": "CE",
     "course_id": "C811",
     "department_code": "A",
@@ -23387,6 +24185,7 @@
     "notes": ""
   },
   {
+    "key": "CE-c912",
     "department": "CE",
     "course_id": "c912",
     "department_code": "A",
@@ -23415,6 +24214,7 @@
     "notes": "與創新學院合開"
   },
   {
+    "key": "CS-C051",
     "department": "CS",
     "course_id": "C051",
     "department_code": "A",
@@ -23448,6 +24248,7 @@
     "notes": ""
   },
   {
+    "key": "CS-C061",
     "department": "CS",
     "course_id": "C061",
     "department_code": "A",
@@ -23477,6 +24278,7 @@
     "notes": ""
   },
   {
+    "key": "CS-C071",
     "department": "CS",
     "course_id": "C071",
     "department_code": "A",
@@ -23506,6 +24308,7 @@
     "notes": ""
   },
   {
+    "key": "CS-C551",
     "department": "CS",
     "course_id": "C551",
     "department_code": "A",
@@ -23535,6 +24338,7 @@
     "notes": ""
   },
   {
+    "key": "CS-C561",
     "department": "CS",
     "course_id": "C561",
     "department_code": "A",
@@ -23564,6 +24368,7 @@
     "notes": ""
   },
   {
+    "key": "CS-C573",
     "department": "CS",
     "course_id": "C573",
     "department_code": "A",
@@ -23593,6 +24398,7 @@
     "notes": ""
   },
   {
+    "key": "CM-B11B",
     "department": "CM",
     "course_id": "B11B",
     "department_code": "A",
@@ -23622,6 +24428,7 @@
     "notes": ""
   },
   {
+    "key": "CM-B531",
     "department": "CM",
     "course_id": "B531",
     "department_code": "A",
@@ -23651,6 +24458,7 @@
     "notes": ""
   },
   {
+    "key": "CM-C072",
     "department": "CM",
     "course_id": "C072",
     "department_code": "A",
@@ -23680,6 +24488,7 @@
     "notes": "教室使用工學院112實驗室與普通教室授課"
   },
   {
+    "key": "CM-C10B",
     "department": "CM",
     "course_id": "C10B",
     "department_code": "A",
@@ -23709,6 +24518,7 @@
     "notes": "屬高值化金屬製備特色人才培育學程"
   },
   {
+    "key": "CM-C642",
     "department": "CM",
     "course_id": "C642",
     "department_code": "A",
@@ -23748,6 +24558,7 @@
     "notes": ""
   },
   {
+    "key": "CM-D07A",
     "department": "CM",
     "course_id": "D07A",
     "department_code": "A",
@@ -23776,6 +24587,7 @@
     "notes": "使用工學院演講廳授課"
   },
   {
+    "key": "CM-D600",
     "department": "CM",
     "course_id": "D600",
     "department_code": "A",
@@ -23804,6 +24616,7 @@
     "notes": "與資工系合開/授課教師:黃耀霆"
   },
   {
+    "key": "CM-D613",
     "department": "CM",
     "course_id": "D613",
     "department_code": "A",
@@ -23833,6 +24646,7 @@
     "notes": "大三大四合開"
   },
   {
+    "key": "CM-D643",
     "department": "CM",
     "course_id": "D643",
     "department_code": "A",
@@ -23862,6 +24676,7 @@
     "notes": "大三大四合開"
   },
   {
+    "key": "CM-D651",
     "department": "CM",
     "course_id": "D651",
     "department_code": "A",
@@ -23891,6 +24706,7 @@
     "notes": "大三大四合開，本課程設計將有數週至公司實作，選修同學務必預留整天時間參與課程。林亞玄教師"
   },
   {
+    "key": "LS-B621",
     "department": "LS",
     "course_id": "B621",
     "department_code": "A",
@@ -23920,6 +24736,7 @@
     "notes": ""
   },
   {
+    "key": "LS-C02C",
     "department": "LS",
     "course_id": "C02C",
     "department_code": "A",
@@ -23949,6 +24766,7 @@
     "notes": "使用C02-202實驗室"
   },
   {
+    "key": "LS-C02D",
     "department": "LS",
     "course_id": "C02D",
     "department_code": "A",
@@ -23978,6 +24796,7 @@
     "notes": "使用C02-202實驗室"
   },
   {
+    "key": "LS-C071",
     "department": "LS",
     "course_id": "C071",
     "department_code": "A",
@@ -24007,6 +24826,7 @@
     "notes": ""
   },
   {
+    "key": "LS-C542",
     "department": "LS",
     "course_id": "C542",
     "department_code": "A",
@@ -24036,6 +24856,7 @@
     "notes": "開放生科系大二及大四選修,隸屬生技產業跨領域學程"
   },
   {
+    "key": "LS-C570",
     "department": "LS",
     "course_id": "C570",
     "department_code": "A",
@@ -24075,6 +24896,7 @@
     "notes": "各老師實驗室"
   },
   {
+    "key": "LS-C621",
     "department": "LS",
     "course_id": "C621",
     "department_code": "A",
@@ -24104,6 +24926,7 @@
     "notes": ""
   },
   {
+    "key": "LS-C732",
     "department": "LS",
     "course_id": "C732",
     "department_code": "A",
@@ -24132,6 +24955,7 @@
     "notes": ""
   },
   {
+    "key": "LS-C812",
     "department": "LS",
     "course_id": "C812",
     "department_code": "A",
@@ -24161,6 +24985,7 @@
     "notes": ""
   },
   {
+    "key": "AB-B623",
     "department": "AB",
     "course_id": "B623",
     "department_code": "A",
@@ -24189,6 +25014,7 @@
     "notes": "與大四合開"
   },
   {
+    "key": "AB-C023",
     "department": "AB",
     "course_id": "C023",
     "department_code": "A",
@@ -24217,6 +25043,7 @@
     "notes": ""
   },
   {
+    "key": "AB-C142",
     "department": "AB",
     "course_id": "C142",
     "department_code": "A",
@@ -24246,6 +25073,7 @@
     "notes": "人文與商管學程"
   },
   {
+    "key": "AB-C172",
     "department": "AB",
     "course_id": "C172",
     "department_code": "A",
@@ -24275,6 +25103,7 @@
     "notes": "企管模組"
   },
   {
+    "key": "AB-C531",
     "department": "AB",
     "course_id": "C531",
     "department_code": "A",
@@ -24303,6 +25132,7 @@
     "notes": "人文與商管學程"
   },
   {
+    "key": "AB-F591",
     "department": "AB",
     "course_id": "F591",
     "department_code": "A",
@@ -24332,6 +25162,7 @@
     "notes": "工管實務課程，與碩士班合開"
   },
   {
+    "key": "IFD-A811",
     "department": "IFD",
     "course_id": "A811",
     "department_code": "A",
@@ -24360,6 +25191,7 @@
     "notes": "與教發中心合開"
   },
   {
+    "key": "EE-C651",
     "department": "EE",
     "course_id": "C651",
     "department_code": "A",
@@ -24389,6 +25221,7 @@
     "notes": "三AB合開；請安排工學院B103大教室"
   },
   {
+    "key": "EE-C712",
     "department": "EE",
     "course_id": "C712",
     "department_code": "A",
@@ -24418,6 +25251,7 @@
     "notes": "三AB、四AB;請安排普通教室"
   },
   {
+    "key": "EE-C761",
     "department": "EE",
     "course_id": "C761",
     "department_code": "A",
@@ -24447,6 +25281,7 @@
     "notes": "二AB、三AB合開；需曾修習計算機概論(二)及格"
   },
   {
+    "key": "EE-C96A",
     "department": "EE",
     "course_id": "C96A",
     "department_code": "A",
@@ -24486,6 +25321,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96B",
     "department": "EE",
     "course_id": "C96B",
     "department_code": "A",
@@ -24525,6 +25361,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96C",
     "department": "EE",
     "course_id": "C96C",
     "department_code": "A",
@@ -24564,6 +25401,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96D",
     "department": "EE",
     "course_id": "C96D",
     "department_code": "A",
@@ -24603,6 +25441,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96E",
     "department": "EE",
     "course_id": "C96E",
     "department_code": "A",
@@ -24642,6 +25481,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96G",
     "department": "EE",
     "course_id": "C96G",
     "department_code": "A",
@@ -24681,6 +25521,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96H",
     "department": "EE",
     "course_id": "C96H",
     "department_code": "A",
@@ -24720,6 +25561,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96J",
     "department": "EE",
     "course_id": "C96J",
     "department_code": "A",
@@ -24759,6 +25601,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96K",
     "department": "EE",
     "course_id": "C96K",
     "department_code": "A",
@@ -24798,6 +25641,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96L",
     "department": "EE",
     "course_id": "C96L",
     "department_code": "A",
@@ -24837,6 +25681,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96M",
     "department": "EE",
     "course_id": "C96M",
     "department_code": "A",
@@ -24876,6 +25721,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96N",
     "department": "EE",
     "course_id": "C96N",
     "department_code": "A",
@@ -24915,6 +25761,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96O",
     "department": "EE",
     "course_id": "C96O",
     "department_code": "A",
@@ -24954,6 +25801,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96P",
     "department": "EE",
     "course_id": "C96P",
     "department_code": "A",
@@ -24993,6 +25841,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96Q",
     "department": "EE",
     "course_id": "C96Q",
     "department_code": "A",
@@ -25032,6 +25881,7 @@
     "notes": ""
   },
   {
+    "key": "EE-C96R",
     "department": "EE",
     "course_id": "C96R",
     "department_code": "A",
@@ -25071,6 +25921,7 @@
     "notes": ""
   },
   {
+    "key": "EE-D892",
     "department": "EE",
     "course_id": "D892",
     "department_code": "A",
@@ -25100,6 +25951,7 @@
     "notes": "三AB、四AB合開"
   },
   {
+    "key": "WL-C64B",
     "department": "WL",
     "course_id": "C64B",
     "department_code": "A",
@@ -25128,6 +25980,7 @@
     "notes": "【語言學類】限修本系大三、大四。"
   },
   {
+    "key": "WL-D694",
     "department": "WL",
     "course_id": "D694",
     "department_code": "A",
@@ -25157,6 +26010,7 @@
     "notes": "【文學文化類】限修本系三、四年級。"
   },
   {
+    "key": "WL-D73A",
     "department": "WL",
     "course_id": "D73A",
     "department_code": "A",
@@ -25186,6 +26040,7 @@
     "notes": "【文學文化類】限修本系三、四年級。"
   },
   {
+    "key": "WL-F501",
     "department": "WL",
     "course_id": "F501",
     "department_code": "A",
@@ -25215,6 +26070,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【語言學類】"
   },
   {
+    "key": "WL-F506",
     "department": "WL",
     "course_id": "F506",
     "department_code": "A",
@@ -25244,6 +26100,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【語言學類】"
   },
   {
+    "key": "WL-F521",
     "department": "WL",
     "course_id": "F521",
     "department_code": "A",
@@ -25273,6 +26130,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【人文與商管學程】須另加簽，【語言學類】全外語授課-英語"
   },
   {
+    "key": "WL-F612",
     "department": "WL",
     "course_id": "F612",
     "department_code": "A",
@@ -25302,6 +26160,7 @@
     "notes": "此碩士班課程開放本系大學部三、四年級選修。【文學文化類】。歡迎人社院國際學院碩士班及大學部三四年級跨域選修。全英語授課"
   },
   {
+    "key": "KH-A518",
     "department": "KH",
     "course_id": "A518",
     "department_code": "A",
@@ -25330,6 +26189,7 @@
     "notes": "運動健康促進學群(需符合本系運動防護實習實施要點之學生實習資格限制之學生始得修習)"
   },
   {
+    "key": "KH-B553",
     "department": "KH",
     "course_id": "B553",
     "department_code": "A",
@@ -25359,6 +26219,7 @@
     "notes": "休閒健康促進學群"
   },
   {
+    "key": "KH-D022",
     "department": "KH",
     "course_id": "D022",
     "department_code": "A",
@@ -25388,6 +26249,7 @@
     "notes": "核心必修"
   },
   {
+    "key": "KH-D572",
     "department": "KH",
     "course_id": "D572",
     "department_code": "A",
@@ -25417,6 +26279,7 @@
     "notes": "核心選修"
   },
   {
+    "key": "KH-D591",
     "department": "KH",
     "course_id": "D591",
     "department_code": "A",
@@ -25445,6 +26308,7 @@
     "notes": "運動健康促進學群/休閒健康促進學群"
   },
   {
+    "key": "CCD-D102",
     "department": "CCD",
     "course_id": "D102",
     "department_code": "A",
@@ -25456,7 +26320,7 @@
     "requirement_type": "必",
     "limit": "35",
     "registration_confirmed": "0",
-    "online_number": "13",
+    "online_number": "14",
     "balance": "35",
     "teacher": "陳冠勳沈明旺賴廷鴻",
     "classroom": "",
@@ -25479,6 +26343,7 @@
     "notes": "賴廷鴻老師:金工教室、沈明旺老師:木竹教室、陳冠勳老師:塑造教室"
   },
   {
+    "key": "CCD-D103",
     "department": "CCD",
     "course_id": "D103",
     "department_code": "A",
@@ -25513,6 +26378,7 @@
     "notes": "教室:翁群儀老師-文產教室、王政弘老師:H1-112"
   },
   {
+    "key": "DA-C031",
     "department": "DA",
     "course_id": "C031",
     "department_code": "A",
@@ -25541,6 +26407,7 @@
     "notes": "教師：傅昭睿，教室h1-103"
   },
   {
+    "key": "DA-C512",
     "department": "DA",
     "course_id": "C512",
     "department_code": "A",
@@ -25569,6 +26436,7 @@
     "notes": "教室：圖資610，本課程開放大三、大四共同上課。本課程為配合虛擬實境競賽的課程，擬修課同學須經任課老師簽名加簽。限修人數10人"
   },
   {
+    "key": "DA-D01C",
     "department": "DA",
     "course_id": "D01C",
     "department_code": "A",
@@ -25603,6 +26471,7 @@
     "notes": "教室：h1-108教室"
   },
   {
+    "key": "DA-D01D",
     "department": "DA",
     "course_id": "D01D",
     "department_code": "A",
@@ -25637,6 +26506,7 @@
     "notes": "教室：H1-101"
   },
   {
+    "key": "DA-D501",
     "department": "DA",
     "course_id": "D501",
     "department_code": "A",
@@ -25665,6 +26535,7 @@
     "notes": "教室：h1-102"
   },
   {
+    "key": "DA-D900",
     "department": "DA",
     "course_id": "D900",
     "department_code": "A",
@@ -25693,6 +26564,7 @@
     "notes": "教室h1-102,實習時數160小時"
   },
   {
+    "key": "EL-D01D",
     "department": "EL",
     "course_id": "D01D",
     "department_code": "A",
@@ -25721,6 +26593,7 @@
     "notes": "限東語系韓語組大四學生選課"
   },
   {
+    "key": "EL-D104",
     "department": "EL",
     "course_id": "D104",
     "department_code": "A",
@@ -25749,6 +26622,7 @@
     "notes": ""
   },
   {
+    "key": "EL-D105",
     "department": "EL",
     "course_id": "D105",
     "department_code": "A",
@@ -25777,6 +26651,7 @@
     "notes": ""
   },
   {
+    "key": "EL-D106",
     "department": "EL",
     "course_id": "D106",
     "department_code": "A",
@@ -25805,6 +26680,7 @@
     "notes": ""
   },
   {
+    "key": "EL-D18B",
     "department": "EL",
     "course_id": "D18B",
     "department_code": "A",
@@ -25840,6 +26716,7 @@
     "notes": "修課學生由授課教師設定指定加簽，並須完成至少校外486小時實習。"
   },
   {
+    "key": "EL-D50E",
     "department": "EL",
     "course_id": "D50E",
     "department_code": "A",
@@ -25868,6 +26745,7 @@
     "notes": ""
   },
   {
+    "key": "EL-D652",
     "department": "EL",
     "course_id": "D652",
     "department_code": "A",
@@ -25896,6 +26774,7 @@
     "notes": ""
   },
   {
+    "key": "EL-F56C",
     "department": "EL",
     "course_id": "F56C",
     "department_code": "A",
@@ -25924,6 +26803,7 @@
     "notes": ""
   },
   {
+    "key": "DAP-D01B",
     "department": "DAP",
     "course_id": "D01B",
     "department_code": "A",
@@ -25963,6 +26843,7 @@
     "notes": "授課老師：李坤哲，專長術科（棒球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四(5-8節)棒球場上課"
   },
   {
+    "key": "DAP-D02B",
     "department": "DAP",
     "course_id": "D02B",
     "department_code": "A",
@@ -26002,6 +26883,7 @@
     "notes": "授課老師：王明月，專長術科（桌球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四(5-8節)桌球場上課"
   },
   {
+    "key": "DAP-D03B",
     "department": "DAP",
     "course_id": "D03B",
     "department_code": "A",
@@ -26041,6 +26923,7 @@
     "notes": "授課老師：林季嬋，專長術科（游泳）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四(5-8節)游泳池水用4水道上課"
   },
   {
+    "key": "DAP-D04B",
     "department": "DAP",
     "course_id": "D04B",
     "department_code": "A",
@@ -26080,6 +26963,7 @@
     "notes": "授課老師：黃全成，專長術科（羽球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二（1-4節）、四（5-8節）羽球場上課"
   },
   {
+    "key": "DAP-D05B",
     "department": "DAP",
     "course_id": "D05B",
     "department_code": "A",
@@ -26119,6 +27003,7 @@
     "notes": "授課老師：葉天相，專長術科（木球）-Ⅱ、Ⅳ、Ⅵ、Ⅷ每週二(1-4節)、四（5-8節）木球場上課"
   },
   {
+    "key": "DAP-D502",
     "department": "DAP",
     "course_id": "D502",
     "department_code": "A",
@@ -26147,6 +27032,7 @@
     "notes": "207-6教室"
   },
   {
+    "key": "DAP-D522",
     "department": "DAP",
     "course_id": "D522",
     "department_code": "A",
@@ -26175,6 +27061,7 @@
     "notes": "207-4教室"
   },
   {
+    "key": "LA-C071",
     "department": "LA",
     "course_id": "C071",
     "department_code": "A",
@@ -26205,6 +27092,7 @@
     "notes": "黃清溪教授係旅居日本之日本拓植大學之教授,每月自日本返台授課,每次停留一至二週,故上課時間集中於黃老師返台期間。欲修習本課程之同學,請斟酌其他課程之排課時間避免衝堂情形,實際上課時間將於開學後公告於系網頁,請選課同學留意."
   },
   {
+    "key": "LA-D012",
     "department": "LA",
     "course_id": "D012",
     "department_code": "A",
@@ -26233,6 +27121,7 @@
     "notes": ""
   },
   {
+    "key": "LA-D504",
     "department": "LA",
     "course_id": "D504",
     "department_code": "A",
@@ -26261,6 +27150,7 @@
     "notes": ""
   },
   {
+    "key": "LA-D722",
     "department": "LA",
     "course_id": "D722",
     "department_code": "A",
@@ -26289,6 +27179,7 @@
     "notes": ""
   },
   {
+    "key": "GL-C021",
     "department": "GL",
     "course_id": "C021",
     "department_code": "A",
@@ -26317,6 +27208,7 @@
     "notes": "政治學群"
   },
   {
+    "key": "GL-D142",
     "department": "GL",
     "course_id": "D142",
     "department_code": "A",
@@ -26346,6 +27238,7 @@
     "notes": "1.法律學群。2.隔週上課(單)。請同學預留Y節為小考時段"
   },
   {
+    "key": "GL-D191",
     "department": "GL",
     "course_id": "D191",
     "department_code": "A",
@@ -26374,6 +27267,7 @@
     "notes": "新制為共同必修課程，舊制為整合課程。限本系大四及延畢生選修"
   },
   {
+    "key": "FL-C543",
     "department": "FL",
     "course_id": "C543",
     "department_code": "A",
@@ -26402,6 +27296,7 @@
     "notes": "全英語授課"
   },
   {
+    "key": "FL-D022",
     "department": "FL",
     "course_id": "D022",
     "department_code": "A",
@@ -26430,6 +27325,7 @@
     "notes": "與「公法、刑法、商事法實例演習」四選二。"
   },
   {
+    "key": "FL-D511",
     "department": "FL",
     "course_id": "D511",
     "department_code": "A",
@@ -26458,6 +27354,7 @@
     "notes": "財經法律專業學群"
   },
   {
+    "key": "FL-D512",
     "department": "FL",
     "course_id": "D512",
     "department_code": "A",
@@ -26486,6 +27383,7 @@
     "notes": "財經法律專業學群"
   },
   {
+    "key": "FL-D631",
     "department": "FL",
     "course_id": "D631",
     "department_code": "A",
@@ -26514,6 +27412,7 @@
     "notes": "財經法律專業學群；隸屬服務與智慧型創新創業學分學程"
   },
   {
+    "key": "FL-D902",
     "department": "FL",
     "course_id": "D902",
     "department_code": "A",
@@ -26542,6 +27441,7 @@
     "notes": "指定加簽，限通過學生校外實習面試學生選修。本課程總實習時數須達160小時以上。"
   },
   {
+    "key": "AE-C545",
     "department": "AE",
     "course_id": "C545",
     "department_code": "A",
@@ -26571,6 +27471,7 @@
     "notes": "產業組織與金融市場之專業發展課程；大學部三、四年級合班授課。"
   },
   {
+    "key": "AE-C712",
     "department": "AE",
     "course_id": "C712",
     "department_code": "A",
@@ -26600,6 +27501,7 @@
     "notes": "本課程為學程之「專業發展課程」;大學部三、四年級合班授課。"
   },
   {
+    "key": "AE-C713",
     "department": "AE",
     "course_id": "C713",
     "department_code": "A",
@@ -26629,6 +27531,7 @@
     "notes": "本課程為學程之數量方法課程；大學部三、四年級合班授課"
   },
   {
+    "key": "AE-C721",
     "department": "AE",
     "course_id": "C721",
     "department_code": "A",
@@ -26658,6 +27561,7 @@
     "notes": "公共議題與經濟政策學程之指定選修課程；大學部三、四年級合班授課。"
   },
   {
+    "key": "AE-C761",
     "department": "AE",
     "course_id": "C761",
     "department_code": "A",
@@ -26687,6 +27591,7 @@
     "notes": "產業組織與金融市場學程之指定選修課程;「產業、科技與財經法律」學分學程；人文與商管學程。大學部三、四年級合班授課"
   },
   {
+    "key": "AE-D50A",
     "department": "AE",
     "course_id": "D50A",
     "department_code": "A",
@@ -26716,6 +27621,7 @@
     "notes": "限大四及4+1同學選修;「產業與公共政策專題討論」與「金融與公共政策專題討論」，選擇其中一門課修習。"
   },
   {
+    "key": "AE-D50B",
     "department": "AE",
     "course_id": "D50B",
     "department_code": "A",
@@ -26745,6 +27651,7 @@
     "notes": "限大四及4+1同學選修;「產業與公共政策專題討論」與「金融與公共政策專題討論」，選擇其中一門課修習。"
   },
   {
+    "key": "AE-D571",
     "department": "AE",
     "course_id": "D571",
     "department_code": "A",
@@ -26774,6 +27681,7 @@
     "notes": "大學部二、三、四年級合班授課。"
   },
   {
+    "key": "AE-D601",
     "department": "AE",
     "course_id": "D601",
     "department_code": "A",
@@ -26803,6 +27711,7 @@
     "notes": "產業組織與金融市場之專業發展課程；限應經系與東語系大學部三、四年級選修"
   },
   {
+    "key": "FI-D541",
     "department": "FI",
     "course_id": "D541",
     "department_code": "A",
@@ -26832,6 +27741,7 @@
     "notes": "M01-203"
   },
   {
+    "key": "FI-D623",
     "department": "FI",
     "course_id": "D623",
     "department_code": "A",
@@ -26861,6 +27771,7 @@
     "notes": "待實習確認且任課教師認定後，始開放名額選修此門課程),課程總實習時數須達486小時"
   },
   {
+    "key": "IFD-A50I",
     "department": "IFD",
     "course_id": "A50I",
     "department_code": "A",
@@ -26890,6 +27801,7 @@
     "notes": "主開為創新學院。教室為L01-610。"
   },
   {
+    "key": "IM-D60A",
     "department": "IM",
     "course_id": "D60A",
     "department_code": "A",
@@ -26929,6 +27841,7 @@
     "notes": "此課程為指定加簽。"
   },
   {
+    "key": "IM-F581",
     "department": "IM",
     "course_id": "F581",
     "department_code": "A",
@@ -26958,6 +27871,7 @@
     "notes": "與資管碩一合開，教室為M01-417。限修本系，外系同學欲加簽，請洽任課老師。"
   },
   {
+    "key": "IM-F610",
     "department": "IM",
     "course_id": "F610",
     "department_code": "A",
@@ -26987,6 +27901,7 @@
     "notes": "教室為M01-208限修本系，與資管大三合開，外系同學欲修此課程，請找任課老師加簽。"
   },
   {
+    "key": "AM-C502",
     "department": "AM",
     "course_id": "C502",
     "department_code": "A",
@@ -27021,6 +27936,7 @@
     "notes": ""
   },
   {
+    "key": "AM-C511",
     "department": "AM",
     "course_id": "C511",
     "department_code": "A",
@@ -27055,6 +27971,7 @@
     "notes": ""
   },
   {
+    "key": "AM-C541",
     "department": "AM",
     "course_id": "C541",
     "department_code": "A",
@@ -27089,6 +28006,7 @@
     "notes": ""
   },
   {
+    "key": "AM-C651",
     "department": "AM",
     "course_id": "C651",
     "department_code": "A",
@@ -27123,6 +28041,7 @@
     "notes": "上課教室：理408室"
   },
   {
+    "key": "AM-C701",
     "department": "AM",
     "course_id": "C701",
     "department_code": "A",
@@ -27152,6 +28071,7 @@
     "notes": "上課教室：理408室"
   },
   {
+    "key": "AM-D573",
     "department": "AM",
     "course_id": "D573",
     "department_code": "A",
@@ -27186,6 +28106,7 @@
     "notes": ""
   },
   {
+    "key": "AM-D74B",
     "department": "AM",
     "course_id": "D74B",
     "department_code": "A",
@@ -27215,6 +28136,7 @@
     "notes": "上課教室：理408室"
   },
   {
+    "key": "AC-D70B",
     "department": "AC",
     "course_id": "D70B",
     "department_code": "A",
@@ -27243,6 +28165,7 @@
     "notes": "指定加簽，實習總時數需達486小時以上。"
   },
   {
+    "key": "AC-F512",
     "department": "AC",
     "course_id": "F512",
     "department_code": "A",
@@ -27272,6 +28195,7 @@
     "notes": "與碩班合開/需大黑板,請排106教室"
   },
   {
+    "key": "AC-F533",
     "department": "AC",
     "course_id": "F533",
     "department_code": "A",
@@ -27301,6 +28225,7 @@
     "notes": "與碩班合開課程，限本系大三以上修習。請排211"
   },
   {
+    "key": "AC-F573",
     "department": "AC",
     "course_id": "F573",
     "department_code": "A",
@@ -27330,6 +28255,7 @@
     "notes": "大四、碩班合開"
   },
   {
+    "key": "AC-F606",
     "department": "AC",
     "course_id": "F606",
     "department_code": "A",
@@ -27364,6 +28290,7 @@
     "notes": "與碩班合開,請排211"
   },
   {
+    "key": "AC-F611",
     "department": "AC",
     "course_id": "F611",
     "department_code": "A",
@@ -27393,6 +28320,7 @@
     "notes": "需大黑板,大四與碩班合開/材料分析學程"
   },
   {
+    "key": "AC-F671",
     "department": "AC",
     "course_id": "F671",
     "department_code": "A",
@@ -27422,6 +28350,7 @@
     "notes": "隸屬半導體光電製程學程/與碩班合開"
   },
   {
+    "key": "AC-F692",
     "department": "AC",
     "course_id": "F692",
     "department_code": "A",
@@ -27451,6 +28380,7 @@
     "notes": "與碩班合開,屬材料分析學程"
   },
   {
+    "key": "AC-F742",
     "department": "AC",
     "course_id": "F742",
     "department_code": "A",
@@ -27480,6 +28410,7 @@
     "notes": "與碩班合開"
   },
   {
+    "key": "AC-F753",
     "department": "AC",
     "course_id": "F753",
     "department_code": "A",
@@ -27509,6 +28440,7 @@
     "notes": "大三四與碩班合開/需大黑板,請安排106教室"
   },
   {
+    "key": "AC-F791",
     "department": "AC",
     "course_id": "F791",
     "department_code": "A",
@@ -27538,6 +28470,7 @@
     "notes": "與碩班合開,屬先進材料學程,請排211"
   },
   {
+    "key": "AP-F511",
     "department": "AP",
     "course_id": "F511",
     "department_code": "A",
@@ -27567,6 +28500,7 @@
     "notes": "本課程與碩一合開。"
   },
   {
+    "key": "AP-F59B",
     "department": "AP",
     "course_id": "F59B",
     "department_code": "A",
@@ -27596,6 +28530,7 @@
     "notes": "本課程與碩一合開。"
   },
   {
+    "key": "AP-F601",
     "department": "AP",
     "course_id": "F601",
     "department_code": "A",
@@ -27625,6 +28560,7 @@
     "notes": "本課程與碩一合開。"
   },
   {
+    "key": "AP-F631",
     "department": "AP",
     "course_id": "F631",
     "department_code": "A",
@@ -27654,6 +28590,7 @@
     "notes": "本課程與碩一合開。"
   },
   {
+    "key": "AP-F641",
     "department": "AP",
     "course_id": "F641",
     "department_code": "A",
@@ -27683,6 +28620,7 @@
     "notes": "本課程與碩一合開。"
   },
   {
+    "key": "AP-F66B",
     "department": "AP",
     "course_id": "F66B",
     "department_code": "A",
@@ -27712,6 +28650,7 @@
     "notes": "本課程與碩一合開。"
   },
   {
+    "key": "AP-F681",
     "department": "AP",
     "course_id": "F681",
     "department_code": "A",
@@ -27741,6 +28680,7 @@
     "notes": "本課程與碩一合開。"
   },
   {
+    "key": "EE-C712",
     "department": "EE",
     "course_id": "C712",
     "department_code": "A",
@@ -27770,6 +28710,7 @@
     "notes": "三AB、四AB;請安排普通教室"
   },
   {
+    "key": "EE-D50B",
     "department": "EE",
     "course_id": "D50B",
     "department_code": "A",
@@ -27821,6 +28762,7 @@
     "notes": "總實習時數應達450小時以上"
   },
   {
+    "key": "EE-D892",
     "department": "EE",
     "course_id": "D892",
     "department_code": "A",
@@ -27850,6 +28792,7 @@
     "notes": "三AB、四AB合開"
   },
   {
+    "key": "CE-C701",
     "department": "CE",
     "course_id": "C701",
     "department_code": "A",
@@ -27884,6 +28827,7 @@
     "notes": ""
   },
   {
+    "key": "CE-C851",
     "department": "CE",
     "course_id": "C851",
     "department_code": "A",
@@ -27913,6 +28857,7 @@
     "notes": ""
   },
   {
+    "key": "CE-D582",
     "department": "CE",
     "course_id": "D582",
     "department_code": "A",
@@ -27943,6 +28888,7 @@
     "notes": "法學畢業門檻課程，隔週上課。大四AB班合開"
   },
   {
+    "key": "CE-D622",
     "department": "CE",
     "course_id": "D622",
     "department_code": "A",
@@ -27971,6 +28917,7 @@
     "notes": "大三大四合開"
   },
   {
+    "key": "CE-D70B",
     "department": "CE",
     "course_id": "D70B",
     "department_code": "A",
@@ -28010,6 +28957,7 @@
     "notes": "限土環系大四學生選課,實習時數450小時"
   },
   {
+    "key": "CE-F702",
     "department": "CE",
     "course_id": "F702",
     "department_code": "A",
@@ -28039,6 +28987,7 @@
     "notes": "大四AB班合開"
   },
   {
+    "key": "CS-D02B",
     "department": "CS",
     "course_id": "D02B",
     "department_code": "A",
@@ -28050,7 +28999,7 @@
     "requirement_type": "必",
     "limit": "65",
     "registration_confirmed": "0",
-    "online_number": "38",
+    "online_number": "39",
     "balance": "65",
     "teacher": "蘇家輝",
     "classroom": "C01-114",
@@ -28067,6 +29016,7 @@
     "notes": "使用工院演講廳"
   },
   {
+    "key": "CM-D613",
     "department": "CM",
     "course_id": "D613",
     "department_code": "A",
@@ -28096,6 +29046,7 @@
     "notes": "大三大四合開"
   },
   {
+    "key": "CM-D62C",
     "department": "CM",
     "course_id": "D62C",
     "department_code": "A",
@@ -28135,6 +29086,7 @@
     "notes": "屬高值化金屬製備學程，實習須達450小時"
   },
   {
+    "key": "CM-D643",
     "department": "CM",
     "course_id": "D643",
     "department_code": "A",
@@ -28164,6 +29116,7 @@
     "notes": "大三大四合開"
   },
   {
+    "key": "CM-D651",
     "department": "CM",
     "course_id": "D651",
     "department_code": "A",
@@ -28193,6 +29146,7 @@
     "notes": "大三大四合開，本課程設計將有數週至公司實作，選修同學務必預留整天時間參與課程。 林亞玄教師"
   },
   {
+    "key": "FL-C601",
     "department": "FL",
     "course_id": "C601",
     "department_code": "A",
@@ -28221,6 +29175,7 @@
     "notes": "與財法三合開，使用法學院教室"
   },
   {
+    "key": "LS-D011",
     "department": "LS",
     "course_id": "D011",
     "department_code": "A",
@@ -28249,6 +29204,7 @@
     "notes": ""
   },
   {
+    "key": "LS-D501",
     "department": "LS",
     "course_id": "D501",
     "department_code": "A",
@@ -28277,6 +29233,7 @@
     "notes": ""
   },
   {
+    "key": "LS-D602",
     "department": "LS",
     "course_id": "D602",
     "department_code": "A",
@@ -28306,6 +29263,7 @@
     "notes": "開放大三選修"
   },
   {
+    "key": "LS-D671",
     "department": "LS",
     "course_id": "D671",
     "department_code": "A",
@@ -28335,6 +29293,7 @@
     "notes": "開放各學系大二以上選修"
   },
   {
+    "key": "AB-B623",
     "department": "AB",
     "course_id": "B623",
     "department_code": "A",
@@ -28363,6 +29322,7 @@
     "notes": "與大三合開"
   },
   {
+    "key": "AB-C531",
     "department": "AB",
     "course_id": "C531",
     "department_code": "A",
@@ -28391,6 +29351,7 @@
     "notes": ""
   },
   {
+    "key": "AB-D702",
     "department": "AB",
     "course_id": "D702",
     "department_code": "A",
@@ -28418,6 +29379,7 @@
     "notes": "參與實習同學指定加簽"
   },
   {
+    "key": "AB-F591",
     "department": "AB",
     "course_id": "F591",
     "department_code": "A",
@@ -28447,6 +29409,7 @@
     "notes": "工管實務課程，與碩士班合開"
   },
   {
+    "key": "IFD-A811",
     "department": "IFD",
     "course_id": "A811",
     "department_code": "A",
@@ -28475,6 +29438,7 @@
     "notes": "與教發中心合開"
   },
   {
+    "key": "EE-C712",
     "department": "EE",
     "course_id": "C712",
     "department_code": "A",
@@ -28504,6 +29468,7 @@
     "notes": "三AB、四AB;請安排普通教室"
   },
   {
+    "key": "EE-D50B",
     "department": "EE",
     "course_id": "D50B",
     "department_code": "A",
@@ -28555,6 +29520,7 @@
     "notes": "總實習時數應達450小時以上"
   },
   {
+    "key": "EE-D892",
     "department": "EE",
     "course_id": "D892",
     "department_code": "A",
@@ -28584,6 +29550,7 @@
     "notes": "三AB、四AB合開"
   },
   {
+    "key": "CE-D582",
     "department": "CE",
     "course_id": "D582",
     "department_code": "A",
@@ -28614,6 +29581,7 @@
     "notes": "法學畢業門檻課程，隔周上課，AB班合開"
   },
   {
+    "key": "CE-D583",
     "department": "CE",
     "course_id": "D583",
     "department_code": "A",
@@ -28643,6 +29611,7 @@
     "notes": ""
   },
   {
+    "key": "CE-D592",
     "department": "CE",
     "course_id": "D592",
     "department_code": "A",
@@ -28672,6 +29641,7 @@
     "notes": ""
   },
   {
+    "key": "CE-D70B",
     "department": "CE",
     "course_id": "D70B",
     "department_code": "A",
@@ -28711,6 +29681,7 @@
     "notes": "限土環系大四學生選課"
   },
   {
+    "key": "CE-F702",
     "department": "CE",
     "course_id": "F702",
     "department_code": "A",
@@ -28740,6 +29711,7 @@
     "notes": "大四AB班合開"
   },
   {
+    "key": "DA-E010",
     "department": "DA",
     "course_id": "E010",
     "department_code": "A",
@@ -28774,6 +29746,7 @@
     "notes": "教室：藝文空間。教師：陳逸杰1、陳啟仁2、趙建銘2、謝宗哲(1.5)、林建宇0.5"
   },
   {
+    "key": "DA-E011",
     "department": "DA",
     "course_id": "E011",
     "department_code": "A",
@@ -28808,6 +29781,7 @@
     "notes": "教室：藝文空間h1-101系辦。教師：梁凱翔1.5徐岩奇1.5黃郁仁2.5黃冠中2"
   },
   {
+    "key": "DA-E012",
     "department": "DA",
     "course_id": "E012",
     "department_code": "A",

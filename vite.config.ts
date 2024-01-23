@@ -28,4 +28,12 @@ export default defineConfig(async () => ({
       ignored: ["**/src-tauri/**"],
     },
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+        additionalData: "@root-entry-name: default;",
+      },
+    },
+  },
 }));

@@ -8,6 +8,7 @@ use chrono::{ Local, Datelike };
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Course {
+    key: String,
     department: String,
     course_id: String,
     department_code: String,
@@ -124,6 +125,7 @@ async fn main() -> Result<(), reqwest::Error> {
             };
 
             let course = Course {
+                key: format!("{}-{}", department, course_id),
                 department,
                 course_id,
                 department_code,

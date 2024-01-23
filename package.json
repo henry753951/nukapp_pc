@@ -26,6 +26,7 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.17",
     "clsx": "^2.1.0",
+    "less": "^4.2.0",
     "postcss": "^8.4.33",
     "sass": "^1.70.0",
     "tailwind": "^4.0.0",
