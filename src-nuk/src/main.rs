@@ -53,7 +53,6 @@ async fn main() -> Result<(), reqwest::Error> {
         let selector = Selector::parse("tr[align=\"center\"]").unwrap();
 
         let mut course_ls: Vec<Course> = Vec::new();
-        let mut course_id_set: HashSet<String> = HashSet::new();
 
         for element in document.select(&selector) {
             let cells: Vec<_> = element.select(&Selector::parse("td").unwrap()).collect();
@@ -62,13 +61,6 @@ async fn main() -> Result<(), reqwest::Error> {
 
             let department = cells[0].text().collect::<Vec<_>>().concat().trim().to_string();
             let mut course_id = cells[1].text().collect::<Vec<_>>().concat().trim().to_string();
-
-            // Ensure unique course_id
-            while course_id_set.contains(&course_id) {
-                course_id.push('_');
-            }
-            course_id_set.insert(course_id.clone());
-
             let department_code = cells[2].text().collect::<Vec<_>>().concat().trim().to_string();
             let grade = cells[3].text().collect::<Vec<_>>().concat().trim().to_string();
             let class_type = cells[4].text().collect::<Vec<_>>().concat().trim().to_string();

@@ -33,11 +33,12 @@
     },
     "windows": [
       {
+        "height": 800,
+        "width": 1200,
         "shadow": false,
         "decorations": false,
         "transparent": true,
-        "fullscreen": false,
-        "resizable": true,
+        "focus": true,
         "title": "nukapp_pc"
       }
     ]
