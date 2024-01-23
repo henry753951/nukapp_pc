@@ -3,8 +3,15 @@
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   // Colors
-  --color-surface: #00000059;
-  --base-color: #000000;
+  --light-unfocus-surface: #ffffff;
+  --dark-unfocus-surface: #000000;
+
+  --light-color-surface: rgba(255, 255, 255, 0.4);
+  --dark-color-surface: #00000021;
+
+  --light-base-color: #000000;
+  --dark-base-color: #ffffff;
+
   // Typography
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
