@@ -221,8 +221,8 @@
           </a-menu>
         </a-layout-sider>
         <a-layout>
-          <a-layout style="padding: 0 10px 5px">
-            <div class="flex justify-between" data-tauri-drag-region>
+          <a-layout>
+            <div class="flex justify-between px-2" data-tauri-drag-region>
               <a-breadcrumb style="margin: 10px 0">
                 <a-breadcrumb-item>Home</a-breadcrumb-item>
                 <a-breadcrumb-item>List</a-breadcrumb-item>
@@ -238,6 +238,7 @@
               }">
               <div
                 ref="layoutContent"
+                class="flex flex-col"
                 :style="{ overflow: 'auto', height: '100%' }">
                 <router-view />
               </div>

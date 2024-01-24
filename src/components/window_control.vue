@@ -1,10 +1,33 @@
 <script setup lang="ts">
   import { Window } from "@tauri-apps/api/window";
   const appWindow = Window.getCurrent();
+
+  // themeSwitch
+  import { Ref, ref, onMounted, watch } from "vue";
+  import { useThemeStore } from "../stores/theme";
+  const themeStore = useThemeStore();
+  const themeSwitchRef = ref(themeStore.theme);
+  const options = [
+    { value: "default", label: "跟隨系統" },
+    { value: "dark", label: "深色" },
+    { value: "light", label: "亮色"}
+  ];
+
+  watch(themeSwitchRef, (val) => {
+    themeStore.theme = val;
+  });
 </script>
 
 <template>
-  <div class="flex" data-tauri-drag-region>
+  <div class="flex items-center" data-tauri-drag-region>
+    <!--  -->
+    <div class="pr-2">
+      <a-select
+        v-model:value="themeSwitchRef"
+        style="width: 120px"
+        :options="options" />
+    </div>
+    <!--  -->
     <div class="flex gap-1 my-auto ml-auto justify-center window-control">
       <div @click="appWindow.minimize()" class="box">
         <vue-feather type="minus" size="15"></vue-feather>

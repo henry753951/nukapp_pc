@@ -12,17 +12,17 @@ struct Course {
     department: String,
     course_id: String,
     department_code: String,
-    grade: String,
+    grade: i32,
     class_type: String,
     course_name: String,
     syllabus_link: String,
-    credits: String,
+    credits: f32,
     requirement_type: String,
-    limit: String,
-    registration_confirmed: String,
-    online_number: String,
-    balance: String,
-    teacher: String,
+    limit: i32,
+    registration_confirmed: i32,
+    online_number: i32,
+    balance: i32,
+    teacher: Vec<String>,
     classroom: String,
     course_time: Vec<(String, Vec<String>)>,
     prerequisites: String,
@@ -63,7 +63,13 @@ async fn main() -> Result<(), reqwest::Error> {
             let department = cells[0].text().collect::<Vec<_>>().concat().trim().to_string();
             let mut course_id = cells[1].text().collect::<Vec<_>>().concat().trim().to_string();
             let department_code = cells[2].text().collect::<Vec<_>>().concat().trim().to_string();
-            let grade = cells[3].text().collect::<Vec<_>>().concat().trim().to_string();
+            let grade: i32 = cells[3]
+                .text()
+                .collect::<Vec<_>>()
+                .concat()
+                .trim()
+                .parse()
+                .expect("Failed to parse grade");
             let class_type = cells[4].text().collect::<Vec<_>>().concat().trim().to_string();
             let course_name = cells[5].text().collect::<Vec<_>>().concat().trim().to_string();
             let syllabus_link = cells[5]
@@ -74,23 +80,58 @@ async fn main() -> Result<(), reqwest::Error> {
                 .attr("href")
                 .unwrap()
                 .to_string();
-            let credits = cells[6].text().collect::<Vec<_>>().concat().trim().to_string();
-            let requirement_type = cells[7].text().collect::<Vec<_>>().concat().trim().to_string();
-            let limit = cells[8].text().collect::<Vec<_>>().concat().trim().to_string();
-            let registration_confirmed = cells[9]
+            let credits: f32 = cells[6]
                 .text()
                 .collect::<Vec<_>>()
                 .concat()
                 .trim()
-                .to_string();
-            let online_number = cells[10].text().collect::<Vec<_>>().concat().trim().to_string();
-            let balance = cells[11].text().collect::<Vec<_>>().concat().trim().to_string();
-            let teacher = cells[12].text().collect::<Vec<_>>().concat().trim().to_string();
+                .parse()
+                .expect("Failed to parse credits");
+            let requirement_type = cells[7].text().collect::<Vec<_>>().concat().trim().to_string();
+            let limit: i32 = cells[8]
+                .text()
+                .collect::<Vec<_>>()
+                .concat()
+                .trim()
+                .parse()
+                .expect("Failed to parse limit");
+            let registration_confirmed: i32 = cells[9]
+                .text()
+                .collect::<Vec<_>>()
+                .concat()
+                .trim()
+                .parse()
+                .expect("Failed to parse registration_confirmed");
+            let online_number: i32 = cells[10]
+                .text()
+                .collect::<Vec<_>>()
+                .concat()
+                .trim()
+                .parse()
+                .expect("Failed to parse online_number");
+            let balance: i32 = cells[11]
+                .text()
+                .collect::<Vec<_>>()
+                .concat()
+                .trim()
+                .parse()
+                .expect("Failed to parse balance");
+
+            let teacher = cells[12]
+                .inner_html()
+                .split("<br>")
+                .map(|s| s.to_string())
+                .collect::<Vec<String>>();
+            let teacher = teacher
+                .into_iter()
+                .filter(|s| !s.is_empty())
+                .collect::<Vec<String>>();
+
             let classroom = cells[13].text().collect::<Vec<_>>().concat().trim().to_string();
 
             let course_time = if is_full_row {
                 let mut times = Vec::new();
-                let days = vec!["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+                let days = vec!["一", "二", "三", "四", "五", "六", "日"];
 
                 for (i, day) in days.iter().enumerate() {
                     let time_data = cells[14 + i]
