@@ -1,5 +1,21 @@
 <template>
-  <a-table :row-selection="rowSelection" :columns="columns" :data-source="data">
+  <a-table
+    :row-selection="rowSelection"
+    :columns="columns"
+    :data-source="data"
+    :locale="{
+      emptyText: '沒有課程',
+      filterConfirm: '確定',
+      filterReset: '重置',
+      filterTitle: '篩選',
+      selectAll: '全選',
+      selectInvert: '反選',
+      sortTitle: '排序',
+    }"
+    
+    :pagination="{ position: ['bottomRight'],onChange: (_page:any, _pageSize:any) => {scrollToTop()},}"
+    sticky
+    :loading="loading">
     <template #bodyCell="{ column, text }">
       <template v-if="column.dataIndex === 'name'">
         <a>{{ text }}</a>
@@ -8,8 +24,10 @@
   </a-table>
 </template>
 <script lang="ts" setup>
+  import { invoke } from "@tauri-apps/api/core";
   import type { TableProps, TableColumnType } from "ant-design-vue";
   import { Key } from "ant-design-vue/es/_util/type";
+  import { ref, onMounted, inject } from "vue";
 
   interface DataType {
     key: string;
@@ -39,7 +57,8 @@
       dataIndex: "course_name",
     },
   ];
-  const data: DataType[] = [];
+  const data = ref<DataType[]>([]);
+  const loading = ref(true);
 
   const rowSelection: TableProps["rowSelection"] = {
     onChange: (selectedRowKeys: Key[], selectedRows: DataType[]) => {
@@ -54,4 +73,12 @@
       name: record.course_name,
     }),
   };
+
+  const scrollToTop = inject<() => void>("scrollToTop")!;
+  onMounted(async () => {
+    let all_course = (await invoke("get_all_course")) as DataType[];
+    console.log(all_course);
+    data.value = all_course;
+    loading.value = false;
+  });
 </script>

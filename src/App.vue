@@ -2,6 +2,7 @@
   import { logger } from "./logger";
 
   import { useRoute } from "vue-router";
+  import { provide, ref } from "vue";
   import { theme } from "ant-design-vue";
   import { useThemeStore } from "./stores/theme";
   // Components
@@ -18,6 +19,8 @@
     },
     data() {
       return {
+        layoutContent: null as HTMLDivElement | null,
+        debug: false,
         Sider: {
           openKeys: ["sub1", "sub2"],
           collapsed: false,
@@ -50,8 +53,14 @@
         isFocused: true,
       };
     },
+    provide() {
+      return {
+        scrollToTop: this.scrollToTop,
+      };
+    },
     mounted() {
       logger.info(`Platform: ${platformName}`);
+      this.layoutContent = this.$refs.layoutContent as HTMLDivElement;
       AppWindow.listen("tauri://focus", ({}) => {
         this.focused(true);
       });
@@ -85,6 +94,12 @@
       },
     },
     methods: {
+      scrollToTop() {
+        logger.info("Scroll to top");
+        if (this.layoutContent !== null) {
+          this.layoutContent!.scrollTop = 0;
+        }
+      },
       focused(focus: boolean) {
         this.isFocused = focus;
         if (!focus) {
@@ -160,7 +175,7 @@
 </script>
 
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="h-screen max-h-screen overflow-hidden flex flex-col">
     <a-config-provider :theme="themeData">
       <a-layout>
         <a-layout-sider
@@ -175,7 +190,6 @@
             mode="inline"
             :style="{
               overflow: 'auto',
-              height: '100vh',
               background: 'transparent',
             }">
             <a-menu-item key="/">
@@ -222,20 +236,25 @@
                 margin: 0,
                 minHeight: '280px',
               }">
-              <router-view />
+              <div
+                ref="layoutContent"
+                :style="{ overflow: 'auto', height: '100%' }">
+                <router-view />
+              </div>
             </a-layout-content>
           </a-layout>
         </a-layout>
       </a-layout>
     </a-config-provider>
     <!-- Debug -->
-    <div class="debug-view">
+    <div class="debug-view" v-if="debug">
       <!-- <p>Welcome to Tauri!</p>
       <p>Current theme: {{ themeStore.theme }}</p>
       <p>Current system theme: {{ systemTheme }}</p>
       <p>Current window focus: {{ isFocused }}</p> -->
       <p>{{ currentRoute.meta }}</p>
       <p>{{ currentPage }}</p>
+      <a-button @click="scrollToTop">TT</a-button>
       <a-flex :vertical="false">
         <a-button @click="$router.push('/')">Home</a-button>
         <a-button type="text" @click="$router.push('/about')"> About </a-button>
@@ -265,5 +284,7 @@
     border-radius: 10px;
     // drop shadow
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
 </style>
