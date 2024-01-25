@@ -5,6 +5,9 @@ use std::{ fs::{ File, OpenOptions }, io::{ Read, Write } };
 // mods
 mod config_reader;
 mod setup;
+mod nuk {
+    pub mod course;
+}
 
 #[tauri::command]
 fn greet(name: &str) -> String {
@@ -12,15 +15,26 @@ fn greet(name: &str) -> String {
     format!("Hello, {}!", name)
 }
 
-// return all_course.json to js
 #[tauri::command]
-fn get_all_course() -> Value {
+async fn get_all_course(refresh: bool) -> Value {
+    if refresh || !std::path::Path::new("all_course.json").exists() {
+        match nuk::course::fetch_new_courses().await {
+            Ok(result) => {
+                return result;
+            }
+            Err(err) => {
+                println!("Failed to fetch data: {}", err);
+            }
+        }
+    }
+
     let mut file = File::open("all_course.json").expect("Failed to open all_course.json");
     let mut contents = String::new();
     file.read_to_string(&mut contents).expect("Failed to read all_course.json");
     let json: Value = serde_json::from_str(&contents).expect("Failed to parse all_course.json");
     return json;
 }
+
 fn main() {
     tauri::Builder
         ::default()

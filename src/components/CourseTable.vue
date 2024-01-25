@@ -42,12 +42,28 @@
       <p>Coming soon</p>
     </div>
   </div>
+  <a-float-button-group shape="circle" :style="{ right: '24px' }">
+    <a-popconfirm
+      title="你確定要清空課表嗎？"
+      okType="danger"
+      placement="left"
+      ok-text="清空"
+      cancel-text="取消"
+      @confirm="emit('onCourseClear')">
+      <a-float-button>
+        <template #icon>
+          <VueFeather type="trash" size="20" />
+        </template>
+      </a-float-button>
+    </a-popconfirm>
+  </a-float-button-group>
 </template>
 <script setup lang="ts">
   import { ref, watch, computed, onMounted, onUnmounted, reactive } from "vue";
   import { BaseCourse, Course } from "../interface";
   import { logger } from "../logger";
   import { useCustomCourseDataStore } from "../stores/CustomCourseData";
+  import VueFeather from "vue-feather";
   const CustomDataStore = useCustomCourseDataStore();
 
   const outerCourseTable = ref<HTMLElement>();
@@ -144,6 +160,8 @@
 
   const emit = defineEmits<{
     (event: "onCourseClick", course: Course): void;
+    (event: "onCourseClear"): void;
+
   }>();
 </script>
 <style lang="scss" scoped>

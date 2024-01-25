@@ -34,7 +34,7 @@
               <a-flex vertical class="w-full">
                 <a-alert
                   v-show="!loading"
-                  message="資料最近更新時間: 2021/09/20 22:00:00"
+                  :message="'資料最近更新時間: ' + lastUpdateTime"
                   type="info"
                   show-icon
                   closable>
@@ -60,9 +60,9 @@
                     :disabled="filter.Year.disabled" />
                   <a-popover title="資料狀態">
                     <template #content>
-                      <span>最近更新時間 : 2021/09/20 22:00:00</span>
+                      <span>最近更新時間 : {{ lastUpdateTime }}</span>
                     </template>
-                    <a-button>更新資料</a-button>
+                    <a-button @click="getData(true)">更新資料</a-button>
                   </a-popover>
                 </a-flex>
               </a-flex>
@@ -144,7 +144,8 @@
           style="scrollbar-gutter: stable both-edges">
           <CourseTable
             :course-list="selectedCourses"
-            @on-course-click="showCourseModal" />
+            @on-course-click="showCourseModal"
+            @on-course-clear="clearSelectdCourse" />
         </div>
       </template>
     </VueSplitter>
@@ -160,6 +161,9 @@
   </div>
 </template>
 <script lang="ts" setup>
+  import { message } from "ant-design-vue";
+  import { NotificationPlacement, notification } from "ant-design-vue";
+
   import { BaseCourse } from "../interface";
   import { invoke } from "@tauri-apps/api/core";
   import type { TableProps, TableColumnType } from "ant-design-vue";
@@ -177,6 +181,7 @@
   import { logger } from "../logger";
   import VueFeather from "vue-feather";
   import SchoolData from "../data";
+
   // Components
   import CourseTable from "../components/CourseTable.vue";
   import VueSplitter from "@rmp135/vue-splitter";
@@ -184,6 +189,7 @@
   // data
   const SelectedCourseStore = useSelectedCourseStore();
 
+  const lastUpdateTime = ref("");
   const data = ref<BaseCourse[]>([]);
   const loading = ref(true);
   const selectedCourseKeys = ref(SelectedCourseStore.selectedCourseKeys);
@@ -281,7 +287,10 @@
     CheckCourseModalData.open = false;
     // CheckCourseModalData.course = {} as BaseCourse;
   };
-
+  const clearSelectdCourse = () => {
+    selectedCourseKeys.value = [];
+    selectedCourses.value = [];
+  };
   // computed
   const filteredData = computed(() => {
     let _data = data.value.filter((course) => {
@@ -333,6 +342,32 @@
       : checkCourseTimeConflict(course.course_time);
   };
 
+  const getData = async (refresh = false) => {
+    loading.value = true;
+
+    let jsondata = (await invoke("get_all_course", {
+      refresh: refresh,
+    })) as { course_ls: BaseCourse[]; updateTime: string };
+    console.log(jsondata);
+    let all_course = jsondata.course_ls;
+    data.value = all_course;
+    lastUpdateTime.value = jsondata.updateTime;
+    loading.value = false;
+    selectedCourses.value = all_course.filter((course) =>
+      selectedCourseKeys.value.includes(course.key)
+    );
+
+    if (refresh) {
+      logger.info("Refreshed");
+      notification.info({
+        message: `已更新資料`,
+        description:
+          "資料皆為學校官方資料，僅供參考，若有錯誤請至課務系統查詢",
+        placement: "bottomLeft" as NotificationPlacement,
+      });
+    }
+  };
+
   // Splitter
   const percent = ref(50);
   const limitedPercent = computed({
@@ -344,14 +379,8 @@
     },
   });
   // lifecycle
-  onMounted(async () => {
-    let all_course = (await invoke("get_all_course")) as BaseCourse[];
-    console.log(all_course);
-    data.value = all_course;
-    loading.value = false;
-    selectedCourses.value = all_course.filter((course) =>
-      selectedCourseKeys.value.includes(course.key)
-    );
+  onMounted(() => {
+    getData();
   });
 
   watch(
