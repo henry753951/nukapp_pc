@@ -12,6 +12,12 @@
   --light-base-color: #000000;
   --dark-base-color: #ffffff;
 
+  --light-heighlight-color: #ffffff;
+  --dark-heighlight-color: #000000;
+
+  --light-shadow-color: rgba(0, 0, 0, 0.1);
+  --dark-shadow-color: rgba(255, 255, 255, 0.1);
+
   // Typography
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -43,4 +49,21 @@
   --display4-size: 3.5rem;
   --display1-weight: 300;
   --display2-weight: 300;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-thumb {
+  background: #75757581;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--light-color-surface);
+}
+::-webkit-scrollbar-button {
+  display: none;
 }

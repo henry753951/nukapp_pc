@@ -2,9 +2,10 @@
   import { logger } from "./logger";
 
   import { useRoute } from "vue-router";
-  import { provide, ref } from "vue";
+  import { h, provide, ref } from "vue";
   import { theme } from "ant-design-vue";
   import { useThemeStore } from "./stores/theme";
+  import variables from "./variables";
   // Components
   import window_control from "./components/window_control.vue";
   // tauri
@@ -29,22 +30,22 @@
         themeData: {
           algorithm: theme.defaultAlgorithm,
           light_token: {
-            colorBgLayout: "#ffffff50",
+            colorBgLayout: "#ffffff80",
             colorPrimaryBg: "#00000015",
-            colorPrimary: "#141414",
-            colorSiderBg: "#ffffffc5",
+            colorPrimary: "#808080",
+            colorSiderBg: "#ffffff05",
           },
           dark_token: {
-            colorBgLayout: "#00000030",
+            colorBgLayout: "#00000080",
             colorPrimaryBg: "#ffffff15",
             colorPrimary: "#ffffff",
-            colorSiderBg: "#000000c5",
+            colorSiderBg: "#00000005",
           },
           token: {
-            colorBgLayout: "#ffffff50",
+            colorBgLayout: "#ffffff80",
             colorPrimaryBg: "#00000015",
-            colorPrimary: "#141414",
-            colorSiderBg: "#ffffffc5",
+            colorPrimary: "#808080",
+            colorSiderBg: "#ffffff05",
           },
         },
         mediaQueryList: null as MediaQueryList | null,
@@ -124,18 +125,9 @@
       },
       switchTheme(mode: string) {
         this.currentTheme = mode;
-        let variables = {
-          "--color-surface":
-            mode === "dark"
-              ? "var(  --dark-color-surface)"
-              : "var(  --light-color-surface)",
-          "--base-color":
-            mode === "dark"
-              ? "var(--dark-base-color)"
-              : "var(--light-base-color)",
-        };
-        for (let [key, value] of Object.entries(variables)) {
-          document.documentElement.style.setProperty(key, value);
+        for (let key of variables) {
+          let value = `var(--${mode}-${key})`;
+          document.documentElement.style.setProperty(`--${key}`, value);
         }
         this.themeData = {
           algorithm:
@@ -175,7 +167,7 @@
 </script>
 
 <template>
-  <div class="h-screen max-h-screen overflow-hidden flex flex-col">
+  <div class="h-screen max-h-screen flex flex-col">
     <a-config-provider :theme="themeData">
       <a-layout>
         <a-layout-sider
@@ -222,7 +214,10 @@
         </a-layout-sider>
         <a-layout>
           <a-layout>
-            <div class="flex justify-between px-2" data-tauri-drag-region>
+            <div
+              class="flex justify-between px-2 shadow-sm"
+              style="background-color: rgba(255, 255, 255, 0.06)"
+              data-tauri-drag-region>
               <a-breadcrumb style="margin: 10px 0">
                 <a-breadcrumb-item>Home</a-breadcrumb-item>
                 <a-breadcrumb-item>List</a-breadcrumb-item>
@@ -236,10 +231,7 @@
                 margin: 0,
                 minHeight: '280px',
               }">
-              <div
-                ref="layoutContent"
-                class="flex flex-col"
-                :style="{ overflow: 'auto', height: '100%' }">
+              <div ref="layoutContent" style="height: 100%">
                 <router-view />
               </div>
             </a-layout-content>

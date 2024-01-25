@@ -1,69 +1,166 @@
 <template>
-  <div>
-    <a-table
-      sticky
-      style="height: 100%"
-      :row-selection="rowSelection"
-      :columns="columns"
-      :data-source="data"
-      :loading="loading"
-      :rowClassName="(_record: DataType) => {
-        return checkCourseTimeConflictByCourse(_record) ? 'ConflictCourse' : ''
-      }"
-      :locale="{
-        emptyText: '沒有課程',
-        filterConfirm: '確定',
-        filterReset: '重置',
-        filterTitle: '篩選',
-        selectAll: '全選',
-        selectInvert: '反選',
-        sortTitle: '排序',
-      }"
-      :pagination="{ 
-      position: ['bottomRight'],
-      defaultPageSize: 20,
-      onChange: (_page:any, _pageSize:any) => {scrollToTop()}
-      }">
-      <template #bodyCell="{ column, value, record }">
-        <template v-if="column.dataIndex === 'teacher'">
-          <span>{{ value.join(", ") }}</span>
-        </template>
-        <template v-else-if="column.dataIndex === 'course_name'">
-          <a-space>
-            <a
-              :href="record.syllabus_link"
-              target="_blank"
-              rel="noopener noreferrer">
-              {{ value }}
-            </a>
-            <a-tooltip
-              placement="rightTop"
-              v-if="record.online_number >= record.limit">
-              <template #title>
-                <span>線上:{{ record.online_number }} / 名額:{{ record.limit }} </span>
+  <div class="flex flex-col h-full">
+    <VueSplitter v-model:percent="limitedPercent">
+      <template #left-pane>
+        <div
+          class="flex flex-col h-full w-full"
+          style="background-color: rgba(255, 255, 255, 0.1)">
+          <a-table
+            sticky
+            @resizeColumn="handleResizeColumn"
+            :row-selection="rowSelection"
+            :columns="columns"
+            :data-source="filteredData"
+            :loading="loading"
+            :scroll="{ x: 'max-content' }"
+            :rowClassName="(_record: BaseCourse) => {
+              return checkCourseTimeConflictByCourse(_record) ? 'ConflictCourse' : ''
+            }"
+            :locale="{
+              emptyText: '沒有課程',
+              filterConfirm: '確定',
+              filterReset: '重置',
+              filterTitle: '篩選',
+              selectAll: '全選',
+              selectInvert: '反選',
+              sortTitle: '排序',
+            }"
+            :pagination="{ 
+              position: ['bottomRight'],
+              defaultPageSize: 20,
+              onChange: (_page:any, _pageSize:any) => {scrollToTop()}
+            }">
+            <template #title>
+              <a-flex vertical class="w-full">
+                <a-alert
+                  v-show="!loading"
+                  message="資料最近更新時間: 2021/09/20 22:00:00"
+                  type="info"
+                  show-icon
+                  closable>
+                </a-alert>
+
+                <a-flex gap="5" class="my-2">
+                  <a-input-search
+                    placeholder="課程名稱或代碼"
+                    style="width: 200px; margin-right: auto"
+                    v-model:value="filter.tempSearch"
+                    @search="filter.search = filter.tempSearch" />
+                  <a-select
+                    style="width: 200px"
+                    placeholder="課程分類"
+                    @select="department_select"
+                    :options="filter.category.options"
+                    v-model:value="filter.category.value" />
+                  <a-select
+                    style="width: 100px"
+                    placeholder="年級"
+                    :options="filter.Year.options"
+                    v-model:value="filter.Year.value"
+                    :disabled="filter.Year.disabled" />
+                  <a-popover title="資料狀態">
+                    <template #content>
+                      <span>最近更新時間 : 2021/09/20 22:00:00</span>
+                    </template>
+                    <a-button>更新資料</a-button>
+                  </a-popover>
+                </a-flex>
+              </a-flex>
+            </template>
+
+            <template #bodyCell="{ column, value, record }">
+              <!-- course_name -->
+              <template v-if="column.dataIndex === 'course_name'">
+                <a-flex vertical>
+                  <a-space>
+                    <a
+                      :href="
+                        'https://course.nuk.edu.tw/QueryCourse/' +
+                        record.syllabus_link
+                      "
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {{ value }}
+                    </a>
+                    <a-tooltip
+                      placement="rightTop"
+                      v-if="record.online_number >= record.limit">
+                      <template #title>
+                        <span
+                          >線上:{{ record.online_number }} / 名額:{{
+                            record.limit
+                          }}
+                        </span>
+                      </template>
+                      <a-tag color="red"> 超額 </a-tag>
+                    </a-tooltip>
+                  </a-space>
+                  <div>
+                    {{ record.teacher.join(", ") }}
+                  </div>
+                </a-flex>
               </template>
-              <a-tag color="red"> 超額 </a-tag>
-            </a-tooltip>
-          </a-space>
-        </template>
-        <template v-else-if="column.dataIndex === 'credits'">
-          <a-space>
-            <span>{{ record.credits }} 學分 </span>
-            <a-tag
-              :bordered="false"
-              :color="record.requirement_type === '必' ? 'error' : 'cyan'">
-              {{ record.requirement_type }}</a-tag
-            >
-          </a-space>
-        </template>
-        <template v-else>
-          <span>{{ value }}</span>
-        </template>
+              <!-- course_time -->
+              <template v-else-if="column.dataIndex === 'course_time'">
+                <a-space>
+                  <span v-for="time in value">
+                    <span class="pr-1">{{ time[0] }} </span>
+                    <span>{{ time[1].join(",") }}</span>
+                    <br />
+                  </span>
+                </a-space>
+              </template>
+              <!-- credits / requirement_type-->
+              <template v-else-if="column.dataIndex === 'credits'">
+                <a-flex class="w-full" gap="5">
+                  <a-space>
+                    <span>{{ record.credits }} 學分 </span>
+                    <a-tag
+                      :bordered="false"
+                      :color="
+                        record.requirement_type === '必' ? 'error' : 'cyan'
+                      ">
+                      {{ record.requirement_type }}</a-tag
+                    >
+                  </a-space>
+                  <a-button shape="circle" @click="showCourseModal(record)">
+                    <a-flex align="center" justify="center">
+                      <vue-feather type="info" size="18"></vue-feather>
+                    </a-flex>
+                  </a-button>
+                </a-flex>
+              </template>
+              <!-- other -->
+              <template v-else>
+                <span>{{ value }}</span>
+              </template>
+            </template>
+          </a-table>
+        </div>
       </template>
-    </a-table>
+      <template #right-pane>
+        <div
+          class="h-full overflow-y-auto flex flex-col items-center"
+          style="scrollbar-gutter: stable both-edges">
+          <CourseTable
+            :course-list="selectedCourses"
+            @on-course-click="showCourseModal" />
+        </div>
+      </template>
+    </VueSplitter>
+    <a-drawer
+      :title="CheckCourseModalData.course.course_name"
+      placement="right"
+      :closable="true"
+      :open="CheckCourseModalData.open"
+      :get-container="true"
+      @close="onCloseCourseModal">
+      <p>{{ CheckCourseModalData.course }}</p>
+    </a-drawer>
   </div>
 </template>
 <script lang="ts" setup>
+  import { BaseCourse } from "../interface";
   import { invoke } from "@tauri-apps/api/core";
   import type { TableProps, TableColumnType } from "ant-design-vue";
   import { Key } from "ant-design-vue/es/_util/type";
@@ -79,57 +176,62 @@
   import { useSelectedCourseStore } from "../stores/selectedCourse";
   import { logger } from "../logger";
   import VueFeather from "vue-feather";
-  const SelectedCourseStore = useSelectedCourseStore();
+  import SchoolData from "../data";
+  // Components
+  import CourseTable from "../components/CourseTable.vue";
+  import VueSplitter from "@rmp135/vue-splitter";
+
   // data
-  const data = ref<DataType[]>([]);
+  const SelectedCourseStore = useSelectedCourseStore();
+
+  const data = ref<BaseCourse[]>([]);
   const loading = ref(true);
   const selectedCourseKeys = ref(SelectedCourseStore.selectedCourseKeys);
-  const selectedCourses = ref([] as DataType[]);
-  // table
-  interface DataType {
-    key: string;
-    department: string;
-    course_id: string;
-    department_code: string;
-    grade: number;
-    class_type: string;
-    course_name: string;
-    syllabus_link: string;
-    credits: number;
-    requirement_type: string;
-    limit: number;
-    registration_confirmed: number;
-    online_number: number;
-    balance: number;
-    teacher: Array<string>;
-    classroom: string;
-    course_time: Array<[string, string[]]>;
-    prerequisites: string;
-    notes: string;
-  }
+  const selectedCourses = ref([] as BaseCourse[]);
 
-  const columns: TableColumnType<DataType>[] = [
+  const filter = reactive({
+    tempSearch: "",
+    search: "",
+    category: {
+      options: [{ label: "不限", value: "不限" }, ...SchoolData.department],
+      value: "不限",
+    },
+    Year: {
+      disabled: false,
+      options: ["不限", "一年級", "二年級", "三年級", "四年級"].map(
+        (option, index) => ({ value: index, label: option })
+      ),
+      value: 0,
+    },
+  });
+
+  const CheckCourseModalData = reactive({
+    course: {} as BaseCourse,
+    open: false,
+  });
+
+  const columns: TableColumnType<BaseCourse>[] = reactive([
     {
       title: "課程名稱",
       dataIndex: "course_name",
-    },
-    {
-      title: "老師",
-      dataIndex: "teacher",
+      resizable: true,
+      minWidth: 200,
+      maxWidth: 500,
     },
     {
       title: "上課時間",
       dataIndex: "course_time",
+      resizable: true,
     },
     {
-      title: "資料時間 : 2021/09/01 00:00:00",
+      title: "",
       dataIndex: "credits",
     },
-  ];
+  ]);
 
   // methods
   const scrollToTop = inject<() => void>("scrollToTop")!;
-  const checkCourseTimeConflict = (course_time: DataType["course_time"]) => {
+  const checkCourseTimeConflict = (course_time: BaseCourse["course_time"]) => {
     let conflict = false;
 
     for (let selectedCourse of selectedCourses.value) {
@@ -154,18 +256,69 @@
 
     return conflict;
   };
+  const department_select = (value: string) => {
+    if (
+      SchoolData.department[0].options.some(
+        (option) => option.value === value
+      ) ||
+      SchoolData.department[1].options.some((option) => option.value === value)
+    ) {
+      filter.Year.value = 0;
+      filter.Year.disabled = true;
+    } else {
+      filter.Year.disabled = false;
+    }
+  };
+  function handleResizeColumn(w: any, col: { width: any }) {
+    col.width = w;
+  }
+  const showCourseModal = (record: BaseCourse) => {
+    CheckCourseModalData.open = true;
+    CheckCourseModalData.course = record;
+  };
+
+  const onCloseCourseModal = () => {
+    CheckCourseModalData.open = false;
+    // CheckCourseModalData.course = {} as BaseCourse;
+  };
 
   // computed
+  const filteredData = computed(() => {
+    let _data = data.value.filter((course) => {
+      return (
+        course.course_name.includes(filter.search) ||
+        `${course.department}${course.course_id}`.includes(filter.search)
+      );
+    });
+
+    if (filter.category.value !== "不限") {
+      _data = _data.filter((course) => {
+        return course.department === filter.category.value;
+      });
+    }
+
+    if (filter.Year.value !== 0) {
+      _data = _data.filter((course) => {
+        return course.grade === filter.Year.value;
+      });
+    }
+
+    return _data;
+  });
+
   const rowSelection = computed(() => {
     return {
       hideSelectAll: true,
       selectedRowKeys: unref(selectedCourseKeys),
-      onChange: (selectedRowKeys: Key[], selectedRows: DataType[]) => {
-        console.log("selectedRowKeys changed: ", selectedRowKeys);
-        selectedCourseKeys.value = selectedRowKeys as DataType["key"][];
-        selectedCourses.value = selectedRows;
+      preserveSelectedRowKeys: true,
+      onChange: (selectedRowKeys: Key[], _selectedRows: BaseCourse[]) => {
+        logger.info("SelectedRowKeys changed: ", selectedRowKeys);
+        selectedCourseKeys.value = selectedRowKeys as BaseCourse["key"][];
+        selectedCourses.value = data.value.filter((course) =>
+          selectedCourseKeys.value.includes(course.key)
+        );
       },
-      getCheckboxProps: (record: DataType) => ({
+      getCheckboxProps: (record: BaseCourse) => ({
         disabled: selectedCourseKeys.value.includes(record.key)
           ? false
           : checkCourseTimeConflict(record.course_time),
@@ -174,15 +327,25 @@
     };
   });
 
-  const checkCourseTimeConflictByCourse = (course: DataType) => {
+  const checkCourseTimeConflictByCourse = (course: BaseCourse) => {
     return selectedCourseKeys.value.includes(course.key)
       ? false
       : checkCourseTimeConflict(course.course_time);
   };
 
+  // Splitter
+  const percent = ref(50);
+  const limitedPercent = computed({
+    get() {
+      return percent.value;
+    },
+    set(val) {
+      percent.value = Math.max(20, Math.min(80, val));
+    },
+  });
   // lifecycle
   onMounted(async () => {
-    let all_course = (await invoke("get_all_course")) as DataType[];
+    let all_course = (await invoke("get_all_course")) as BaseCourse[];
     console.log(all_course);
     data.value = all_course;
     loading.value = false;
@@ -224,5 +387,14 @@
       transition: none;
       background-color: #ff7e800c !important;
     }
+  }
+  .ant-table-sticky-scroll-bar {
+    display: none;
+  }
+  .ant-table-sticky-scroll {
+    display: none !important;
+  }
+  .ant-table-pagination {
+    padding: 15px;
   }
 </style>

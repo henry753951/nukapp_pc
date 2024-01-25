@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@rmp135/vue-splitter': ^2.0.2
   '@tauri-apps/api': 2.0.0-alpha.14
   '@tauri-apps/cli': 2.0.0-alpha.21
   '@tauri-apps/plugin-os': 2.0.0-alpha.6
@@ -26,6 +27,7 @@ specifiers:
   vue-tsc: ^1.8.5
 
 dependencies:
+  '@rmp135/vue-splitter': 2.0.2
   '@tauri-apps/api': 2.0.0-alpha.14
   '@tauri-apps/plugin-os': 2.0.0-alpha.6
   ant-design-vue: 4.1.1_vue@3.4.15
@@ -419,6 +421,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@rmp135/vue-splitter/2.0.2:
+    resolution: {integrity: sha512-0MuNq56QDpJg2wkpFpo+NvS5xnQQwz5Tc7Wh4sNIumj+gAI5mdj0P11LA7nSDkVRVVY6Tl6ExaGkGk5loAvjkg==}
+    dev: false
 
   /@rollup/pluginutils/5.1.0:
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}

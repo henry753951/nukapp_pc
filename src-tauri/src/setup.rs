@@ -21,7 +21,7 @@ pub fn init(app: &mut App) -> std::result::Result<(), Box<dyn std::error::Error>
 
     // Windows
     #[cfg(target_os = "windows")]
-    apply_acrylic(&win, Some((20, 20, 20, 10)))
+    apply_acrylic(&win, Some((100, 100, 100, 55)))
         .expect("Unsupported platform! 'apply_blur' is only supported on Windows");
     // apply_tabbed(&win, Some(true)).expect("Failed to apply tabbed window style");
 
