@@ -36,4 +36,8 @@ export default defineConfig(async () => ({
       },
     },
   },
+
+  build: {
+    target: ["edge90", "chrome90", "firefox90", "safari15"],
+  },
 }));

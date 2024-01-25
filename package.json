@@ -10,6 +10,7 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@f3ve/vue-markdown-it": "^0.2.0",
     "@rmp135/vue-splitter": "^2.0.2",
     "@tauri-apps/api": "2.0.0-alpha.14",
     "@tauri-apps/plugin-os": "2.0.0-alpha.6",

@@ -166,7 +166,7 @@
 </script>
 <style lang="scss" scoped>
   .container {
-    transform-origin: top center;
+    transform-origin: top left;
     width: 650px !important;
     min-width: 650px !important;
     max-width: 650px !important;

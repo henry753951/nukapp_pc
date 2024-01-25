@@ -13,9 +13,13 @@
             :data-source="filteredData"
             :loading="loading"
             :scroll="{ x: 'max-content' }"
-            :rowClassName="(_record: BaseCourse) => {
-              return checkCourseTimeConflictByCourse(_record) ? 'ConflictCourse' : ''
-            }"
+            :rowClassName="
+              (_record: BaseCourse) => {
+                return checkCourseTimeConflictByCourse(_record)
+                  ? 'ConflictCourse'
+                  : '';
+              }
+            "
             :locale="{
               emptyText: '沒有課程',
               filterConfirm: '確定',
@@ -25,10 +29,12 @@
               selectInvert: '反選',
               sortTitle: '排序',
             }"
-            :pagination="{ 
+            :pagination="{
               position: ['bottomRight'],
               defaultPageSize: 20,
-              onChange: (_page:any, _pageSize:any) => {scrollToTop()}
+              onChange: (_page: any, _pageSize: any) => {
+                scrollToTop();
+              },
             }">
             <template #title>
               <a-flex vertical class="w-full">
@@ -156,7 +162,7 @@
       :open="CheckCourseModalData.open"
       :get-container="true"
       @close="onCloseCourseModal">
-      <p>{{ CheckCourseModalData.course }}</p>
+      <CourseDetail :course="CheckCourseModalData.course" />
     </a-drawer>
   </div>
 </template>
@@ -164,7 +170,7 @@
   import { message } from "ant-design-vue";
   import { NotificationPlacement, notification } from "ant-design-vue";
 
-  import { BaseCourse } from "../interface";
+  import { BaseCourse, Course } from "../interface";
   import { invoke } from "@tauri-apps/api/core";
   import type { TableProps, TableColumnType } from "ant-design-vue";
   import { Key } from "ant-design-vue/es/_util/type";
@@ -185,7 +191,7 @@
   // Components
   import CourseTable from "../components/CourseTable.vue";
   import VueSplitter from "@rmp135/vue-splitter";
-
+  import CourseDetail from "../components/CourseDetail.vue";
   // data
   const SelectedCourseStore = useSelectedCourseStore();
 
@@ -279,8 +285,12 @@
     col.width = w;
   }
   const showCourseModal = (record: BaseCourse) => {
-    CheckCourseModalData.open = true;
-    CheckCourseModalData.course = record;
+    if (record.key) {
+      logger.info("Show Course Modal");
+      console.log(record);
+      CheckCourseModalData.open = true;
+      CheckCourseModalData.course = record;
+    }
   };
 
   const onCloseCourseModal = () => {
@@ -302,7 +312,7 @@
 
     if (filter.category.value !== "不限") {
       _data = _data.filter((course) => {
-        return course.department === filter.category.value;
+        return course.department === filter.category.value.toUpperCase();
       });
     }
 
@@ -361,8 +371,7 @@
       logger.info("Refreshed");
       notification.info({
         message: `已更新資料`,
-        description:
-          "資料皆為學校官方資料，僅供參考，若有錯誤請至課務系統查詢",
+        description: "資料皆為學校官方資料，僅供參考，若有錯誤請至課務系統查詢",
         placement: "bottomLeft" as NotificationPlacement,
       });
     }
@@ -387,6 +396,14 @@
     () => selectedCourseKeys.value,
     (newVal) => {
       SelectedCourseStore.selectedCourseKeys = newVal as string[];
+    }
+  );
+  watch(
+    () => filter.tempSearch,
+    (newVal, oldVal) => {
+      if (newVal === "" && oldVal !== "") {
+        filter.search = "";
+      }
     }
   );
 </script>

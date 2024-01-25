@@ -46,7 +46,7 @@ pub async fn fetch_new_courses() -> Result<Value, reqwest::Error> {
         "Flag": "1",
         "OpenYear": year.to_string(),
         "Helf": semester.to_string(),
-        "Pclass": "A",
+        "Pclass": "",
     });
 
     let client = reqwest::Client::new();
@@ -195,7 +195,11 @@ pub async fn fetch_new_courses() -> Result<Value, reqwest::Error> {
         }
         let out = Output {
             // 2024/01/24 22:00:00
-            updateTime: chrono::offset::Utc::now().format("%Y/%m/%d %H:%M:%S").to_string(),
+            updateTime: chrono::offset::Utc
+                ::now()
+                .with_timezone(&chrono::offset::FixedOffset::east(8 * 3600))
+                .format("%Y/%m/%d %H:%M:%S")
+                .to_string(),
             course_ls: course_ls,
         };
         let json: Value = serde_json::to_value(&out).unwrap();
