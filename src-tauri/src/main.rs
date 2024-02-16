@@ -36,10 +36,9 @@ async fn get_all_course(refresh: bool) -> Value {
 }
 
 fn main() {
+    println!("Hello, NUK2");
     tauri::Builder
         ::default()
-        .plugin(tauri_plugin_os::init())
-        .plugin(tauri_plugin_window::init())
         .setup(setup::init)
         .invoke_handler(tauri::generate_handler![greet, get_all_course])
         .run(tauri::generate_context!())
