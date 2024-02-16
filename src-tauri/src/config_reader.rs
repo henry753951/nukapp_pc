@@ -26,7 +26,7 @@ impl ConfigReader {
             return json;
         } else {
             self.create_config_from_example();
-            return self.read_config()
+            return self.read_config();
         }
     }
 

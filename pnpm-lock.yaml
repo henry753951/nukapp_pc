@@ -5,6 +5,7 @@ specifiers:
   '@rmp135/vue-splitter': ^2.0.2
   '@tauri-apps/api': 2.0.0-alpha.14
   '@tauri-apps/cli': 2.0.0-beta.1
+  '@tauri-apps/plugin-os': 2.0.0-beta.0
   '@vitejs/plugin-vue': ^4.2.3
   ant-design-vue: 4.x
   autoprefixer: ^10.4.17
@@ -30,6 +31,7 @@ dependencies:
   '@f3ve/vue-markdown-it': 0.2.0_xa2pddqjzxkcvbqtldymvvqotm
   '@rmp135/vue-splitter': 2.0.2
   '@tauri-apps/api': 2.0.0-alpha.14
+  '@tauri-apps/plugin-os': 2.0.0-beta.0
   ant-design-vue: 4.1.1_vue@3.4.15
   feather-icons: 4.29.1
   pinia: 2.1.7_uvcdd7474ilntvuyfubqjxprie
@@ -658,6 +660,11 @@ packages:
     engines: {node: '>= 18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
     dev: false
 
+  /@tauri-apps/api/2.0.0-beta.0:
+    resolution: {integrity: sha512-WLoh/Vk8cgY7XrJV7Vpb6PssReBZWQCATfYBb1aCRDk+sp0NyPwumx6fZ2ECAKzAcs3OeanluwZcajruIW4CPQ==}
+    engines: {node: '>= 18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
+    dev: false
+
   /@tauri-apps/cli-darwin-arm64/2.0.0-beta.1:
     resolution: {integrity: sha512-d71utEr9H3fXAI6nKPaPuINpnvMQn+UIscOTzTMcrmIDqptOO0ix8z6C3HSvNxV0OjtlxzNJGWwOb24U0OYrgw==}
     engines: {node: '>= 10'}
@@ -764,6 +771,12 @@ packages:
       '@tauri-apps/cli-win32-ia32-msvc': 2.0.0-beta.1
       '@tauri-apps/cli-win32-x64-msvc': 2.0.0-beta.1
     dev: true
+
+  /@tauri-apps/plugin-os/2.0.0-beta.0:
+    resolution: {integrity: sha512-2a6yxfKS3RxPCAn6jIfbUJN0lVo8skth5kInnvmaE4IVmy7bNSRDtpYzKWMq4JzU48Ra3IEB4YJjYQx71+IIHA==}
+    dependencies:
+      '@tauri-apps/api': 2.0.0-beta.0
+    dev: false
 
   /@types/estree/1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
