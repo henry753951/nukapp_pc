@@ -38,14 +38,14 @@ jobs:
       - name: Sync node version and insatll nodejs
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 18.9.0
 
       # Using pnpm to install dependencies and build the app
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         id: pnpm-install
         with:
-          version: 8.6.0
+          version: 7.16.0
           run_install: false
 
       - name: Get pnpm store directory
