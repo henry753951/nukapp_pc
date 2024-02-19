@@ -14,7 +14,19 @@
       "open": true
     }
   },
+
   "tauri": {
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://releases.myapp.com/{{target}}/{{arch}}/{{current_version}}"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDhBQTBFOTlFNjM1REEyMzUKUldRMW9sMWpudW1naW1GeGdSNk5BNTZFNytXMjJxaldpUFlpVUFIeTQyWTlFb0V0VmRDLzhhR0MK",
+      "windows": {
+        "installMode": "passive"
+      }
+    },
     "bundle": {
       "resources": ["config.example.json", "./Data/"],
       "active": true,
