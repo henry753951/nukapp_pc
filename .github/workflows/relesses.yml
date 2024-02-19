@@ -13,8 +13,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [windows-latest]
-        # platform: [macos-latest, ubuntu-20.04, windows-latest]
+        # platform: [windows-latest]
+        platform: [macos-latest, ubuntu-20.04, windows-latest]
     runs-on: ${{ matrix.platform }}
     steps:
       - name: Checkout repository
