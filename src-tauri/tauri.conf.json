@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "nukapp_pc",
-    "version": "0.0.1"
+    "productName": "NUKApp",
+    "version": "0.0.2"
   },
   "plugins": {
     "shell": {

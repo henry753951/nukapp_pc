@@ -70,14 +70,14 @@ jobs:
           TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
 
       - name: Tauri Action
-        uses: tauri-apps/tauri-action@v0.3
+        uses: tauri-apps/tauri-action@v0.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
           TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
         with:
           tagName: ${{ github.ref_name }} # This only works if your workflow triggers on new tags.
-          releaseName: "App Name v__VERSION__"
-          releaseBody: "See the assets to download and install this version."
-          releaseDraft: true
+          releaseName: "NUKApp v__VERSION__"
+          releaseBody: "Release of NUKApp v__VERSION__"
+          releaseDraft: false
           prerelease: false
