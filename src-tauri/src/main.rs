@@ -17,9 +17,12 @@ fn greet(name: &str) -> String {
 
 #[tauri::command]
 async fn get_all_course(refresh: bool) -> Value {
-    if refresh || !std::path::Path::new("all_course.json").exists() {
+    let cache_path = "Data/all_course.json";
+    if refresh || !std::path::Path::new(cache_path).exists() {
         match nuk::course::fetch_new_courses().await {
             Ok(result) => {
+                let json_data = serde_json::to_string_pretty(&result).unwrap();
+                let _ = std::fs::write(cache_path, json_data.clone());
                 return result;
             }
             Err(err) => {
@@ -28,7 +31,7 @@ async fn get_all_course(refresh: bool) -> Value {
         }
     }
 
-    let mut file = File::open("all_course.json").expect("Failed to open all_course.json");
+    let mut file = File::open(cache_path).expect("Failed to open all_course.json");
     let mut contents = String::new();
     file.read_to_string(&mut contents).expect("Failed to read all_course.json");
     let json: Value = serde_json::from_str(&contents).expect("Failed to parse all_course.json");

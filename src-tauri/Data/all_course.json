@@ -1,5 +1,5 @@
 {
-  "updateTime": "2024/02/19 12:30:59",
+  "updateTime": "2024/02/19 12:51:14",
   "course_ls": [
     {
       "key": "SO-A012",
@@ -106,9 +106,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 32,
+      "registration_confirmed": 33,
       "online_number": 0,
-      "balance": 28,
+      "balance": 27,
       "teacher": [
         "郭錕霖"
       ],
@@ -199,9 +199,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 19,
+      "registration_confirmed": 21,
       "online_number": 0,
-      "balance": 41,
+      "balance": 39,
       "teacher": [
         "張秀瓊"
       ],
@@ -230,9 +230,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 51,
+      "registration_confirmed": 52,
       "online_number": 0,
-      "balance": 9,
+      "balance": 8,
       "teacher": [
         "蔣遠平"
       ],
@@ -261,9 +261,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 25,
+      "registration_confirmed": 26,
       "online_number": 0,
-      "balance": 35,
+      "balance": 34,
       "teacher": [
         "楊筑尹"
       ],
@@ -513,9 +513,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 40,
-      "registration_confirmed": 12,
+      "registration_confirmed": 13,
       "online_number": 0,
-      "balance": 28,
+      "balance": 27,
       "teacher": [
         "藍美雅"
       ],
@@ -544,9 +544,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 28,
+      "registration_confirmed": 30,
       "online_number": 0,
-      "balance": 32,
+      "balance": 30,
       "teacher": [
         "鄭為松"
       ],
@@ -575,9 +575,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 20,
+      "registration_confirmed": 23,
       "online_number": 0,
-      "balance": 40,
+      "balance": 37,
       "teacher": [
         "楊戊龍"
       ],
@@ -730,9 +730,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 46,
+      "registration_confirmed": 47,
       "online_number": 0,
-      "balance": 14,
+      "balance": 13,
       "teacher": [
         "蔡宗廷"
       ],
@@ -823,9 +823,9 @@
       "credits": 3.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 41,
+      "registration_confirmed": 43,
       "online_number": 0,
-      "balance": 19,
+      "balance": 17,
       "teacher": [
         "余進忠"
       ],
@@ -1076,9 +1076,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 40,
+      "registration_confirmed": 42,
       "online_number": 0,
-      "balance": 20,
+      "balance": 18,
       "teacher": [
         "錢秋茜"
       ],
@@ -1169,9 +1169,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 55,
+      "registration_confirmed": 59,
       "online_number": 0,
-      "balance": 5,
+      "balance": 1,
       "teacher": [
         "陳猷青"
       ],
@@ -1418,9 +1418,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 46,
+      "registration_confirmed": 49,
       "online_number": 0,
-      "balance": 14,
+      "balance": 11,
       "teacher": [
         "盧秀仁"
       ],
@@ -1480,9 +1480,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 40,
-      "registration_confirmed": 26,
+      "registration_confirmed": 27,
       "online_number": 0,
-      "balance": 14,
+      "balance": 13,
       "teacher": [
         "陳德興"
       ],
@@ -1604,9 +1604,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 36,
+      "registration_confirmed": 37,
       "online_number": 0,
-      "balance": 24,
+      "balance": 23,
       "teacher": [
         "楊書濠"
       ],
@@ -2690,9 +2690,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 50,
-      "registration_confirmed": 28,
+      "registration_confirmed": 33,
       "online_number": 0,
-      "balance": 22,
+      "balance": 17,
       "teacher": [
         "蔡毓娟"
       ],
@@ -2846,9 +2846,9 @@
       "credits": 2.0,
       "requirement_type": "必",
       "limit": 60,
-      "registration_confirmed": 38,
+      "registration_confirmed": 39,
       "online_number": 0,
-      "balance": 22,
+      "balance": 21,
       "teacher": [
         "蔡郁焄"
       ],
@@ -2877,9 +2877,9 @@
       "credits": 2.0,
       "requirement_type": "必",
       "limit": 60,
-      "registration_confirmed": 32,
+      "registration_confirmed": 34,
       "online_number": 0,
-      "balance": 28,
+      "balance": 26,
       "teacher": [
         "蔡郁焄"
       ],
@@ -2908,9 +2908,9 @@
       "credits": 2.0,
       "requirement_type": "必",
       "limit": 60,
-      "registration_confirmed": 8,
+      "registration_confirmed": 11,
       "online_number": 0,
-      "balance": 52,
+      "balance": 49,
       "teacher": [
         "蔡郁焄"
       ],
@@ -3187,9 +3187,9 @@
       "credits": 2.0,
       "requirement_type": "必",
       "limit": 60,
-      "registration_confirmed": 29,
+      "registration_confirmed": 30,
       "online_number": 0,
-      "balance": 31,
+      "balance": 30,
       "teacher": [
         "許正平"
       ],
@@ -4173,9 +4173,9 @@
       "credits": 2.0,
       "requirement_type": "必",
       "limit": 50,
-      "registration_confirmed": 41,
+      "registration_confirmed": 43,
       "online_number": 0,
-      "balance": 9,
+      "balance": 7,
       "teacher": [
         "曾雅惠"
       ],
@@ -4869,8 +4869,8 @@
       "syllabus_link": "tcontent.asp?OpenYear=112&Helf=2&Sclass=GR&Cono=A99B",
       "credits": 0.0,
       "requirement_type": "必",
-      "limit": 1,
-      "registration_confirmed": 1,
+      "limit": 2,
+      "registration_confirmed": 2,
       "online_number": 0,
       "balance": 0,
       "teacher": [
@@ -5111,9 +5111,9 @@
       "credits": 0.0,
       "requirement_type": "必",
       "limit": 25,
-      "registration_confirmed": 22,
+      "registration_confirmed": 24,
       "online_number": 0,
-      "balance": 3,
+      "balance": 1,
       "teacher": [
         "游明慧"
       ],
@@ -5321,9 +5321,9 @@
       "credits": 0.0,
       "requirement_type": "必",
       "limit": 80,
-      "registration_confirmed": 57,
+      "registration_confirmed": 58,
       "online_number": 0,
-      "balance": 23,
+      "balance": 22,
       "teacher": [
         "游明慧"
       ],
@@ -6659,9 +6659,9 @@
       "credits": 3.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 41,
+      "registration_confirmed": 43,
       "online_number": 0,
-      "balance": 19,
+      "balance": 17,
       "teacher": [
         "周孟麟"
       ],
@@ -10444,9 +10444,9 @@
       "credits": 3.0,
       "requirement_type": "必",
       "limit": 80,
-      "registration_confirmed": 77,
+      "registration_confirmed": 78,
       "online_number": 0,
-      "balance": 3,
+      "balance": 2,
       "teacher": [
         "吳怡慧"
       ],
@@ -10927,9 +10927,9 @@
       "credits": 3.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 37,
+      "registration_confirmed": 38,
       "online_number": 0,
-      "balance": 23,
+      "balance": 22,
       "teacher": [
         "曾智義"
       ],
@@ -11803,9 +11803,9 @@
       "credits": 1.0,
       "requirement_type": "必",
       "limit": 71,
-      "registration_confirmed": 55,
+      "registration_confirmed": 56,
       "online_number": 0,
-      "balance": 16,
+      "balance": 15,
       "teacher": [
         "施明昌"
       ],
@@ -12939,8 +12939,8 @@
       "syllabus_link": "tcontent.asp?OpenYear=112&Helf=2&Sclass=AB&Cono=A052",
       "credits": 3.0,
       "requirement_type": "必",
-      "limit": 71,
-      "registration_confirmed": 71,
+      "limit": 73,
+      "registration_confirmed": 73,
       "online_number": 0,
       "balance": 0,
       "teacher": [
@@ -13189,7 +13189,7 @@
       "class_type": "A",
       "course_name": "室內設計x迷你屋實作",
       "syllabus_link": "tcontent.asp?OpenYear=112&Helf=2&Sclass=IFD&Cono=A713",
-      "credits": 0.6,
+      "credits": 0.6000000238418579,
       "requirement_type": "選",
       "limit": 24,
       "registration_confirmed": 24,
@@ -13352,7 +13352,7 @@
       "class_type": "A",
       "course_name": "STEAM Maker：帶孩子玩科學，我也會！",
       "syllabus_link": "tcontent.asp?OpenYear=112&Helf=2&Sclass=IFD&Cono=A833",
-      "credits": 0.6,
+      "credits": 0.6000000238418579,
       "requirement_type": "選",
       "limit": 24,
       "registration_confirmed": 1,
@@ -13641,9 +13641,9 @@
       "credits": 0.0,
       "requirement_type": "必",
       "limit": 55,
-      "registration_confirmed": 54,
+      "registration_confirmed": 55,
       "online_number": 0,
-      "balance": 1,
+      "balance": 0,
       "teacher": [
         "林文俊"
       ],
@@ -14075,9 +14075,9 @@
       "credits": 0.0,
       "requirement_type": "必",
       "limit": 50,
-      "registration_confirmed": 17,
+      "registration_confirmed": 18,
       "online_number": 0,
-      "balance": 33,
+      "balance": 32,
       "teacher": [
         "黃蔚"
       ],
@@ -14590,8 +14590,8 @@
       "syllabus_link": "tcontent.asp?OpenYear=112&Helf=2&Sclass=KH&Cono=B213",
       "credits": 2.0,
       "requirement_type": "必",
-      "limit": 66,
-      "registration_confirmed": 66,
+      "limit": 67,
+      "registration_confirmed": 67,
       "online_number": 0,
       "balance": 0,
       "teacher": [
@@ -15126,9 +15126,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 30,
-      "registration_confirmed": 7,
+      "registration_confirmed": 8,
       "online_number": 0,
-      "balance": 23,
+      "balance": 22,
       "teacher": [
         "翁群儀"
       ],
@@ -15157,9 +15157,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 34,
+      "registration_confirmed": 35,
       "online_number": 0,
-      "balance": 26,
+      "balance": 25,
       "teacher": [
         "待公布"
       ],
@@ -16696,9 +16696,9 @@
       "credits": 2.0,
       "requirement_type": "必",
       "limit": 120,
-      "registration_confirmed": 108,
+      "registration_confirmed": 109,
       "online_number": 0,
-      "balance": 12,
+      "balance": 11,
       "teacher": [
         "謝志鵬"
       ],
@@ -17070,9 +17070,9 @@
       "credits": 2.0,
       "requirement_type": "必",
       "limit": 120,
-      "registration_confirmed": 108,
+      "registration_confirmed": 109,
       "online_number": 0,
-      "balance": 12,
+      "balance": 11,
       "teacher": [
         "謝志鵬"
       ],
@@ -18508,9 +18508,9 @@
       "credits": 3.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 40,
+      "registration_confirmed": 41,
       "online_number": 0,
-      "balance": 20,
+      "balance": 19,
       "teacher": [
         "韓岱君"
       ],
@@ -18572,9 +18572,9 @@
       "credits": 3.0,
       "requirement_type": "必",
       "limit": 79,
-      "registration_confirmed": 72,
+      "registration_confirmed": 73,
       "online_number": 0,
-      "balance": 7,
+      "balance": 6,
       "teacher": [
         "江德光"
       ],
@@ -18732,9 +18732,9 @@
       "credits": 3.0,
       "requirement_type": "選",
       "limit": 80,
-      "registration_confirmed": 53,
+      "registration_confirmed": 54,
       "online_number": 0,
-      "balance": 27,
+      "balance": 26,
       "teacher": [
         "施明昌"
       ],
@@ -20139,9 +20139,9 @@
       "credits": 3.0,
       "requirement_type": "必",
       "limit": 73,
-      "registration_confirmed": 65,
+      "registration_confirmed": 66,
       "online_number": 0,
-      "balance": 8,
+      "balance": 7,
       "teacher": [
         "陳春僥"
       ],
@@ -20267,9 +20267,9 @@
       "credits": 3.0,
       "requirement_type": "選",
       "limit": 80,
-      "registration_confirmed": 53,
+      "registration_confirmed": 54,
       "online_number": 0,
-      "balance": 27,
+      "balance": 26,
       "teacher": [
         "施明昌"
       ],
@@ -20966,9 +20966,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 58,
+      "registration_confirmed": 59,
       "online_number": 0,
-      "balance": 2,
+      "balance": 1,
       "teacher": [
         "陳孝文"
       ],
@@ -22576,9 +22576,9 @@
       "credits": 2.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 11,
+      "registration_confirmed": 12,
       "online_number": 0,
-      "balance": 49,
+      "balance": 48,
       "teacher": [
         "吳雪鳳"
       ],
@@ -23772,8 +23772,8 @@
       "syllabus_link": "tcontent.asp?OpenYear=112&Helf=2&Sclass=IM&Cono=C66C",
       "credits": 1.0,
       "requirement_type": "選",
-      "limit": 7,
-      "registration_confirmed": 7,
+      "limit": 8,
+      "registration_confirmed": 8,
       "online_number": 0,
       "balance": 0,
       "teacher": [
@@ -30151,9 +30151,9 @@
       "credits": 3.0,
       "requirement_type": "選",
       "limit": 60,
-      "registration_confirmed": 32,
+      "registration_confirmed": 33,
       "online_number": 0,
-      "balance": 28,
+      "balance": 27,
       "teacher": [
         "劉福鯤"
       ],

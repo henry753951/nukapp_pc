@@ -16,6 +16,7 @@
   },
   "tauri": {
     "bundle": {
+      "resources": ["config.example.json", "./Data/"],
       "active": true,
       "icon": [
         "config.example.json",
@@ -44,6 +45,18 @@
     ],
     "allowlist": {
       "window": {
+        "all": true
+      },
+      "fs": {
+        "all": true
+      },
+      "os": {
+        "all": true
+      },
+      "notification": {
+        "all": true
+      },
+      "app": {
         "all": true
       }
     }

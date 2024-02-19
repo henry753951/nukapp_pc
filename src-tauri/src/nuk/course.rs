@@ -7,7 +7,7 @@ use serde_json::json;
 use serde_json::Value;
 use std::collections::HashSet;
 use std::error::Error;
-use std::fs;
+
 #[derive(Serialize, Deserialize, Debug)]
 struct Output {
     updateTime: String,
@@ -266,8 +266,6 @@ pub async fn fetch_new_courses() -> Result<Value, reqwest::Error> {
             course_ls: course_ls,
         };
         let json: Value = serde_json::to_value(&out).unwrap();
-        let json_data = serde_json::to_string_pretty(&out).unwrap();
-        let _ = fs::write("all_course.json", json_data.clone());
         return Ok(json);
     } else {
         println!("Failed to fetch data.");
