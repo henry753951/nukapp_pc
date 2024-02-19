@@ -171,7 +171,7 @@
   import { NotificationPlacement, notification } from "ant-design-vue";
 
   import { BaseCourse, Course } from "../interface";
-  import { invoke } from "@tauri-apps/api/core";
+  import { invoke } from "@tauri-apps/api/tauri";
   import type { TableProps, TableColumnType } from "ant-design-vue";
   import { Key } from "ant-design-vue/es/_util/type";
   import {

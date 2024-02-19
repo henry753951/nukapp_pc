@@ -9,11 +9,10 @@
   // Components
   import window_control from "./components/window_control.vue";
   // tauri
-  import { Window } from "@tauri-apps/api/window";
+  import { appWindow } from "@tauri-apps/api/window";
   // import { platform } from "@tauri-apps/plugin-os";
   import { router } from "./router";
   // const platformName = await platform();
-  const AppWindow = Window.getCurrent();
   export default {
     components: {
       window_control,
@@ -62,10 +61,10 @@
     mounted() {
       // logger.info(`Platform: ${platformName}`);
       this.layoutContent = this.$refs.layoutContent as HTMLDivElement;
-      AppWindow.listen("tauri://focus", ({}) => {
+      appWindow.listen("tauri://focus", ({}) => {
         this.focused(true);
       });
-      AppWindow.listen("tauri://blur", ({}) => {
+      appWindow.listen("tauri://blur", ({}) => {
         this.focused(false);
       });
       // System theme

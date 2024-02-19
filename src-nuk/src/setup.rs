@@ -8,7 +8,7 @@ use window_vibrancy::{
 
 /// setup
 pub fn init(app: &mut App) -> std::result::Result<(), Box<dyn std::error::Error>> {
-    let window = app.get_window("main").unwrap();
+    let win = app.get_window("main").unwrap();
 
     let config_reader =
         ConfigReader::new("config.json".to_string(), "config.example.json".to_string());
@@ -16,17 +16,17 @@ pub fn init(app: &mut App) -> std::result::Result<(), Box<dyn std::error::Error>
 
     // macOS
     #[cfg(target_os = "macos")]
-    apply_vibrancy(&window, NSVisualEffectMaterial::FullScreenUI)
+    apply_vibrancy(&win, NSVisualEffectMaterial::FullScreenUI)
         .expect("Unsupported platform! 'apply_vibrancy' is only supported on macOS");
 
     // Windows
     #[cfg(target_os = "windows")]
-    apply_acrylic(&window, Some((100, 100, 100, 55)))
+    apply_acrylic(&win, Some((100, 100, 100, 55)))
         .expect("Unsupported platform! 'apply_blur' is only supported on Windows");
+    // apply_tabbed(&win, Some(true)).expect("Failed to apply tabbed window style");
 
     // set shadow
-    #[cfg(any(windows, target_os = "macos"))]
-    set_shadow(&window, true).unwrap();
+    let _ = win.set_shadow(true);
 
     Ok(())
 }

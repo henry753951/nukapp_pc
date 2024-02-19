@@ -1,48 +1,51 @@
 {
-  "app": {
-    "macOSPrivateApi": true,
-    "security": {
-      "csp": null
-    },
-    
-    "windows": [
-      {
-        "decorations": false,
-        "focus": true,
-        "height": 800,
-        "resizable": true,
-        "shadow": true,
-        "title": "nukapp_pc",
-        "transparent": true,
-        "width": 1200
-      }
-    ]
-  },
-
   "build": {
     "beforeBuildCommand": "pnpm build",
     "beforeDevCommand": "pnpm dev",
-    "devUrl": "http://localhost:1420",
-    "frontendDist": "../dist"
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
   },
-  "bundle": {
-    "active": true,
-    "icon": [
-      "config.example.json",
-      "icons/32x32.png",
-      "icons/128x128.png",
-      "icons/128x128@2x.png",
-      "icons/icon.icns",
-      "icons/icon.ico"
-    ],
-    "targets": "all"
+  "package": {
+    "productName": "nukapp_pc",
+    "version": "0.0.1"
   },
-  "identifier": "com.henry753951.nukapp-pc",
   "plugins": {
     "shell": {
       "open": true
     }
   },
-  "productName": "nukapp_pc",
-  "version": "0.0.1"
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "icon": [
+        "config.example.json",
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "com.henry753951.nukapp-pc",
+      "targets": "all"
+    },
+    "macOSPrivateApi": true,
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "height": 800,
+        "width": 1200,
+        "decorations": false,
+        "transparent": true,
+        "focus": true,
+        "title": "nukapp_pc"
+      }
+    ],
+    "allowlist": {
+      "window": {
+        "all": true
+      }
+    }
+  }
 }

@@ -15,5 +15,5 @@ pinia.use(piniaPluginPersistedstate);
 app.use(router);
 app.use(pinia);
 
-app.component(VueFeather.name, VueFeather);
+app.component(VueFeather.name!, VueFeather); // Add '!' to assert that VueFeather.name is not undefined
 app.mount("#app");

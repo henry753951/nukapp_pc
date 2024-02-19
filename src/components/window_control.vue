@@ -1,6 +1,5 @@
 <script setup lang="ts">
-  import { Window } from "@tauri-apps/api/window";
-  const appWindow = Window.getCurrent();
+import { appWindow } from "@tauri-apps/api/window";
 
   // themeSwitch
   import { Ref, ref, onMounted, watch } from "vue";
