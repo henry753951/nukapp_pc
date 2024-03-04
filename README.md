@@ -14,7 +14,7 @@ NUK App 2 提供以下功能：
 ## Release
 **下載(會自動識別作業系統) [https://nukapp-pc-updater.vercel.app/download](https://nukapp-pc-updater.vercel.app/download)**
 
-**下載指定版本可以對照下表於發布網站中選擇符合的系統下載安裝。**
+下載指定版本可以對照下表於發布網站中選擇符合的系統下載安裝。
 | 系統    |對應代號                |
 |---------|------------------------|
 | macOS   | /latest/dmg        |
