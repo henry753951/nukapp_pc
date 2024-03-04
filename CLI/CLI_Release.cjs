@@ -10,21 +10,24 @@ function updateVersion(version) {
   // Update version in tauri.conf.json
   console.log("📝  更新 tauri.conf.json...");
   const tauriConfPath = "src-tauri/tauri.conf.json";
-  
-  return fs.readFile(tauriConfPath, "utf8")
+
+  return fs
+    .readFile(tauriConfPath, "utf8")
     .then((tauriConf) => {
       tauriConf = JSON.parse(tauriConf);
       tauriConf.package.version = version;
       return fs.writeFile(tauriConfPath, JSON.stringify(tauriConf, null, 2));
     })
     .then(() => console.log("📝  tauri.conf.json 更新完成"))
-    .catch((error) => console.error("🚫  更新 tauri.conf.json 時發生錯誤：", error));
+    .catch((error) =>
+      console.error("🚫  更新 tauri.conf.json 時發生錯誤：", error)
+    );
 }
 
 function commitChanges(version) {
   // Stage and commit the change
   console.log("📦  git commit...");
-  
+
   return new Promise((resolve, reject) => {
     exec("git add src-tauri/tauri.conf.json", (error) => {
       if (error) {
@@ -32,7 +35,13 @@ function commitChanges(version) {
       } else {
         exec(`git commit -m "version ${version} release"`, (error) => {
           if (error) {
-            reject(error);
+            // if there is nothing to commit, resolve
+            if (error.message.includes("nothing to commit")) {
+              console.log("📦  沒有變更需要提交");
+              resolve();
+            } else {
+              reject(error);
+            }
           } else {
             console.log("📦  git commit done");
             resolve();
@@ -45,14 +54,28 @@ function commitChanges(version) {
 
 function createTag(version) {
   // Create a new tag
-  console.log("🏷️  git tag...");
+  console.log("🏷️   Creating tag...");
 
   return new Promise((resolve, reject) => {
     exec(`git tag v${version}`, (error) => {
       if (error) {
         reject(error);
       } else {
-        console.log(`🏷️  git tag v${version} created`);
+        resolve();
+      }
+    });
+  });
+}
+function pushVersion(version) {
+  // Push the tag to origin
+  console.log("🚀  git push...");
+
+  return new Promise((resolve, reject) => {
+    exec(`git push origin`, (error) => {
+      if (error) {
+        reject(error);
+      } else {
+        console.log(`🚀  git push origin done`);
         resolve();
       }
     });
@@ -61,14 +84,12 @@ function createTag(version) {
 
 function pushTag(version) {
   // Push the tag to origin
-  console.log("🚀  git push...");
-
   return new Promise((resolve, reject) => {
     exec(`git push origin v${version}`, (error) => {
       if (error) {
         reject(error);
       } else {
-        console.log(`🚀  git push origin v${version} done`);
+        console.log(`🏷️   git tag v${version} created`);
         resolve();
       }
     });
@@ -82,6 +103,7 @@ readline.question("❤️  請輸入版本號(例如 0.1.0): ", (input) => {
 
   updateVersion(version)
     .then(() => commitChanges(version))
+    .then(() => pushVersion(version))
     .then(() => createTag(version))
     .then(() => pushTag(version))
     .then(() => {
