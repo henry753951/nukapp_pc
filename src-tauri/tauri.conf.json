@@ -6,15 +6,13 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "NUKApp",
-    "version": "0.0.3"
+    "productName": "NUKApp"
   },
   "plugins": {
     "shell": {
       "open": true
     }
   },
-
   "tauri": {
     "updater": {
       "active": true,
@@ -28,7 +26,9 @@
       }
     },
     "bundle": {
-      "resources": ["config.example.json"],
+      "resources": [
+        "config.example.json"
+      ],
       "active": true,
       "icon": [
         "config.example.json",
