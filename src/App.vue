@@ -166,6 +166,7 @@
 </script>
 
 <template>
+  <div class="w-full h-1 fixed bg-transparent"></div>
   <div class="h-screen max-h-screen flex flex-col">
     <a-config-provider :theme="themeData">
       <a-layout>
@@ -180,7 +181,7 @@
             @click="changePage"
             mode="inline"
             :style="{
-              overflow: 'auto',
+              overflow: 'overlay',
               background: 'transparent',
             }">
             <a-menu-item key="/">
@@ -232,7 +233,9 @@
                 margin: 0,
                 minHeight: '280px',
               }">
-              <div ref="layoutContent" style="height: 100%">
+              <div
+                ref="layoutContent"
+                style="height: 100%; overflow-y: overlay; overflow-x: hidden">
                 <router-view />
               </div>
             </a-layout-content>

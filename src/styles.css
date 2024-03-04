@@ -20,8 +20,19 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 * {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: inherit;
+  user-select: none;
+}
+
+.splitter{
+  width: 3px!important;
+  background-color: var(--splitter-color);
+  opacity: 0.2;
 }

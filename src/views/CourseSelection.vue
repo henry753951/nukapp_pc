@@ -1,9 +1,17 @@
 <template>
   <div class="flex flex-col h-full">
-    <VueSplitter v-model:percent="limitedPercent">
+    <Splitter
+      v-model:percent="limitedPercent"
+      :hide-text="{
+        'left-pane': '課程清單',
+      }"
+      :hide-when-drag="{
+        'left-pane': true,
+      }"
+      >
       <template #left-pane>
         <div
-          class="flex flex-col h-full w-full"
+          class="flex flex-col w-full"
           style="background-color: rgba(255, 255, 255, 0.1)">
           <a-table
             sticky
@@ -84,7 +92,7 @@
                         'https://course.nuk.edu.tw/QueryCourse/' +
                         record.syllabus_link
                       "
-                      target="_blank"
+                      target="_tauri"
                       rel="noopener noreferrer">
                       {{ value }}
                     </a>
@@ -146,7 +154,7 @@
       </template>
       <template #right-pane>
         <div
-          class="h-full overflow-y-auto flex flex-col items-center"
+          class="h-full overflow-y-overlay flex flex-col items-center"
           style="scrollbar-gutter: stable both-edges">
           <CourseTable
             :course-list="selectedCourses"
@@ -154,7 +162,7 @@
             @on-course-clear="clearSelectdCourse" />
         </div>
       </template>
-    </VueSplitter>
+    </Splitter>
     <a-drawer
       :title="CheckCourseModalData.course.course_name"
       placement="right"
@@ -190,7 +198,7 @@
 
   // Components
   import CourseTable from "../components/CourseTable.vue";
-  import VueSplitter from "@rmp135/vue-splitter";
+  import Splitter from "../components/splitter.vue";
   import CourseDetail from "../components/CourseDetail.vue";
   // data
   const SelectedCourseStore = useSelectedCourseStore();

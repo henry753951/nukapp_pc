@@ -1,8 +1,8 @@
 [package]
 name = "nukapp_pc"
 version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "NUK App for PC"
+authors = ["Henry753951"]
 license = ""
 repository = ""
 edition = "2021"
@@ -13,7 +13,7 @@ edition = "2021"
 tauri-build = { version = "1.5.1", features = [] }
 
 [dependencies]
-tauri = { version = "1.6.0", features = [ "app-all", "notification-all", "os-all", "fs-all", "window-all", "macos-private-api"] }
+tauri = { version = "1.6.0", features = [ "updater", "app-all", "notification-all", "os-all", "fs-all", "window-all", "macos-private-api"] }
 window-shadows = "0.2.2"
 window-vibrancy = "0.4.3" # tauri v1 only use version 0.4 of this crate
 
@@ -24,7 +24,7 @@ jsonpath = "0.1.1"
 reqwest = { version = "0.11.23", features = ["json", "blocking"] }
 scraper = "0.18.1"
 tokio = { version = "1.35.1", features = ["macros", "rt-multi-thread"] }
-
+platform-dirs = "0.3.0"
 
 
 [features]

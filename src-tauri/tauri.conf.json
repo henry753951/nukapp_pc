@@ -28,7 +28,7 @@
       }
     },
     "bundle": {
-      "resources": ["config.example.json", "./Data/"],
+      "resources": ["config.example.json"],
       "active": true,
       "icon": [
         "config.example.json",

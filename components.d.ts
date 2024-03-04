@@ -39,6 +39,8 @@ declare module 'vue' {
     CourseTable: typeof import('./src/components/CourseTable.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Splitter: typeof import('./src/components/splitter.vue')['default']
+    VueSplitter: typeof import('./src/components/vue-splitter.vue')['default']
     Window_control: typeof import('./src/components/window_control.vue')['default']
   }
 }
