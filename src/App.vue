@@ -8,6 +8,7 @@
   import variables from "./variables";
   // Components
   import window_control from "./components/window_control.vue";
+  import LoginModal from "./components/modals/LoginModal.vue";
   // tauri
   import { appWindow } from "@tauri-apps/api/window";
   // import { platform } from "@tauri-apps/plugin-os";
@@ -16,6 +17,7 @@
   export default {
     components: {
       window_control,
+      LoginModal,
     },
     data() {
       return {
@@ -242,6 +244,7 @@
           </a-layout>
         </a-layout>
       </a-layout>
+      <LoginModal />
     </a-config-provider>
     <!-- Debug -->
     <div class="debug-view" v-if="debug">
