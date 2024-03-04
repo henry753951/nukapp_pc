@@ -24,7 +24,7 @@ NUK App 2 提供以下功能：
 | Linux   | /latest/appimage |
 | Linux (deb) | /latest/deb    |
 | Windows | /latest/exe       |
-| Windows (64-bit) | /latest/win64 |
+| Windows | /latest/msi |
 - [發布頁面](https://nukapp-pc-updater.vercel.app)
 - [Github Release](https://github.com/henry753951/nukapp_pc/releases)
 
