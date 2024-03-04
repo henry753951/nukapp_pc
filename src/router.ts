@@ -3,6 +3,7 @@ import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Settings from "./views/Settings.vue";
 import CourseSelection from "./views/CourseSelection.vue";
+import ScoreView from "./views/ScoreView.vue";
 import QQ from "./views/QQ.vue";
 
 export const router = createRouter({
@@ -28,6 +29,11 @@ export const router = createRouter({
       path: "/course-selection",
       component: CourseSelection,
       meta: { title: "Course Selection", breadcrumb: ["課程查詢"] },
+    },
+    {
+      path: "/score",
+      component: ScoreView,
+      meta: { title: "Score", breadcrumb: ["成績查詢˙"] },
     },
   ],
 });

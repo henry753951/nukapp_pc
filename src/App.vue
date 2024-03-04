@@ -207,7 +207,7 @@
                   個人資訊
                 </a-flex>
               </template>
-              <a-menu-item key="/成績查詢">成績查詢</a-menu-item>
+              <a-menu-item key="/score">成績查詢</a-menu-item>
               <a-menu-item key="/學分分析">學分分析</a-menu-item>
             </a-sub-menu>
           </a-menu>
