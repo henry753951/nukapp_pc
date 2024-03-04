@@ -1,6 +1,14 @@
 <script setup lang="ts">
   import { invoke } from "@tauri-apps/api/tauri";
+  import { getVersion } from "@tauri-apps/api/app";
   import { router } from "../router";
+  import { ref } from "vue";
+
+  const version = ref<string | null>(null);
+
+  getVersion().then((v) => {
+    version.value = v;
+  });
 </script>
 <template>
   <div class="flex flex-col w-full h-full justify-center items-center">
@@ -15,6 +23,9 @@
         模擬選課
       </button>
     </a-flex>
+    <div class="fixed bottom-2 w-full flex justify-center">
+      v{{ version }}
+    </div>
   </div>
 </template>
 

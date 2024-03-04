@@ -237,15 +237,18 @@
       resizable: true,
       minWidth: 200,
       maxWidth: 500,
+      width: 0,
     },
     {
       title: "上課時間",
       dataIndex: "course_time",
       resizable: true,
+      width: 0,
     },
     {
       title: "",
       dataIndex: "credits",
+      width: 0,
     },
   ]);
 

@@ -38,16 +38,17 @@
     :class="{ horizontal: isHorizontal, vertical: !isHorizontal }"
     ref="containerRef">
     <div class="splitter-pane" :class="leftPaneClass">
-      <slot
-        name="left-pane"
-        v-if="!isActive || !hideWhenDrag['left-pane']"></slot>
-      <div class="hide-pane" v-else-if="!isHorizontal">
+      <div v-show="!isActive || !hideWhenDrag['left-pane']">
+        <slot name="left-pane"></slot>
+      </div>
+      <div class="hide-pane" v-if="!isHorizontal && isActive">
         {{ hideText["left-pane"] }}
       </div>
-      <slot
-        name="top-pane"
-        v-if="!isActive || !hideWhenDrag['top-pane']"></slot>
-      <div class="hide-pane" v-else-if="isHorizontal">
+
+      <div v-show="!isActive || !hideWhenDrag['top-pane']">
+        <slot name="top-pane"></slot>
+      </div>
+      <div class="hide-pane" v-if="isHorizontal && isActive">
         {{ hideText["top-pane"] }}
       </div>
     </div>
@@ -58,16 +59,18 @@
       @touchstart.passive="onSplitterTouchDown"
       @click="onSplitterClick" />
     <div class="splitter-pane" :class="rightPaneClass">
-      <slot
-        name="right-pane"
-        v-if="!isActive || !hideWhenDrag['right-pane']"></slot>
-      <div class="hide-pane" v-else-if="!isHorizontal">
+      <div v-show="!isActive || !hideWhenDrag['right-pane']">
+        <slot name="right-pane"></slot>
+      </div>
+
+      <div class="hide-pane" v-if="!isHorizontal && isActive">
         {{ hideText["right-pane"] }}
       </div>
-      <slot
-        name="bottom-pane"
-        v-if="!isActive || !hideWhenDrag['bottom-pane']"></slot>
-      <div class="hide-pane" v-else-if="isHorizontal">
+      <div v-show="!isActive || !hideWhenDrag['bottom-pane']">
+        <slot name="bottom-pane"></slot>
+      </div>
+
+      <div class="hide-pane" v-if="isHorizontal && isActive">
         {{ hideText["bottom-pane"] }}
       </div>
     </div>

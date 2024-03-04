@@ -5,7 +5,7 @@ use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json::json;
 use serde_json::Value;
-use std::collections::HashSet;
+
 use std::error::Error;
 
 #[derive(Serialize, Deserialize, Debug)]
