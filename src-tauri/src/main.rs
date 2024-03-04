@@ -11,9 +11,9 @@ mod nuk {
 }
 
 #[tauri::command]
-fn greet(name: &str) -> String {
-    println!("Hello, {}!", name);
-    format!("Hello, {}!", name)
+fn open_devtools(app_handle: AppHandle) {
+    let window = app_handle.get_window("main").unwrap();
+    window.open_devtools();
 }
 
 #[tauri::command]
@@ -51,7 +51,7 @@ fn main() {
     tauri::Builder
         ::default()
         .setup(setup::init)
-        .invoke_handler(tauri::generate_handler![greet, get_all_course])
+        .invoke_handler(tauri::generate_handler![open_devtools, get_all_course])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }

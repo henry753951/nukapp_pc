@@ -35,13 +35,8 @@ function commitChanges(version) {
       } else {
         exec(`git commit -m "version ${version} release"`, (error) => {
           if (error) {
-            // if there is nothing to commit, resolve
-            if (error.message.includes("nothing to commit")) {
-              console.log("📦  沒有變更需要提交");
-              resolve();
-            } else {
-              reject(error);
-            }
+            console.log("📦  沒有變更需要提交");
+            resolve();
           } else {
             console.log("📦  git commit done");
             resolve();
@@ -59,7 +54,10 @@ function createTag(version) {
   return new Promise((resolve, reject) => {
     exec(`git tag v${version}`, (error) => {
       if (error) {
-        reject(error);
+        if (error.message.includes("already exists")) {
+          console.log(`🏷️   Tag v${version} already exists`);
+          resolve();
+        }
       } else {
         resolve();
       }

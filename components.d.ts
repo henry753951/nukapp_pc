@@ -40,7 +40,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Splitter: typeof import('./src/components/splitter.vue')['default']
-    VueSplitter: typeof import('./src/components/vue-splitter.vue')['default']
+    Version: typeof import('./src/components/Debug/version.vue')['default']
     Window_control: typeof import('./src/components/window_control.vue')['default']
   }
 }
