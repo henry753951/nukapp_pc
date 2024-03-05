@@ -13,15 +13,17 @@ pub mod data;
 
 
 pub struct User {
+    client: reqwest::Client,
     username: String,
     password: String,
 }
 
 impl User {
-    pub fn new(username: String, password: String) -> Self {
+    pub fn new(username: String, password: String,client: reqwest::Client) -> Self {
         Self {
             username,
             password,
+            client,
         }
     }
 }
