@@ -10,10 +10,10 @@ use crate::nuk;
 
 
 #[tauri::command]
-pub async fn login(username: String, password: String) {
+pub async fn login(username: String, password: String) -> Value {
     let user = nuk::user::User::new(username, password);
-    user.auth().await;
-    return ;
+    // user.auth().await;
+    return serde_json::json!({"status": "ok"});
 }
 
 
