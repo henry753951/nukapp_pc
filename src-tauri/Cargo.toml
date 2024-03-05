@@ -25,7 +25,9 @@ reqwest = { version = "0.11.23", features = ["json", "blocking"] }
 scraper = "0.18.1"
 tokio = { version = "1.35.1", features = ["macros", "rt-multi-thread"] }
 platform-dirs = "0.3.0"
-
+encoding_rs = "0.8.33"
+encoding_rs_io = "0.1.7"
+dotenv = "0.15.0"
 
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem

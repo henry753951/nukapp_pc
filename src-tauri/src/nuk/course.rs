@@ -5,7 +5,6 @@ use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json::json;
 use serde_json::Value;
-
 use std::error::Error;
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -268,8 +267,7 @@ pub async fn fetch_new_courses() -> Result<Value, reqwest::Error> {
         let json: Value = serde_json::to_value(&out).unwrap();
         return Ok(json);
     } else {
-        println!("Failed to fetch data.");
-
+        println!("Failed to fetch data: {}", res.status());        
         Ok(json!({}))
     }
 }
