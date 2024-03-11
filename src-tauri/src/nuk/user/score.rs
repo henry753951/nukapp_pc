@@ -114,7 +114,7 @@ impl User {
             for (index, cell) in table.select(&Selector::parse("td").unwrap()).enumerate() {
                 let _text = cell.text().collect::<String>();
                 let _text = _text.trim();
-                let key = _text.split("：").collect::<Vec<&str>>()[0];
+                // let key = _text.split("：").collect::<Vec<&str>>()[0];
                 let value = _text.split("：").collect::<Vec<&str>>()[1];
                 // println!("{}: {}", key, value);
                 match index {
