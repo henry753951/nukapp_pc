@@ -7,8 +7,7 @@
       }"
       :hide-when-drag="{
         'left-pane': true,
-      }"
-      >
+      }">
       <template #left-pane>
         <div
           class="flex flex-col w-full"
@@ -314,6 +313,7 @@
   };
   // computed
   const filteredData = computed(() => {
+    if (data.value === undefined) return [];
     let _data = data.value.filter((course) => {
       return (
         course.course_name.includes(filter.search) ||

@@ -1,10 +1,8 @@
 <script lang="ts" setup>
   import { ref, reactive } from "vue";
   import VueFeather from "vue-feather";
-  const open = ref(false);
-  const showModal = () => {
-    open.value = true;
-  };
+  import { useGlobalStateStore }  from "../../stores/GlobalState";
+  const { loginModal } = useGlobalStateStore();
 
   interface FormState {
     sid: string;
@@ -19,9 +17,8 @@
 
 <template>
   <div class="absolute bottom-0">
-    <a-button type="primary" @click="showModal">登入</a-button>
     <a-modal
-      v-model:open="open"
+      v-model:open="loginModal"
       width="300px"
       :wrap-style="{ overflow: 'hidden' }"
       :footer="null">

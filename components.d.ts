@@ -46,6 +46,7 @@ declare module 'vue' {
     LoginModal: typeof import('./src/components/modals/LoginModal.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Sidebar: typeof import('./src/components/Sidebar.vue')['default']
     Splitter: typeof import('./src/components/splitter.vue')['default']
     Version: typeof import('./src/components/Debug/version.vue')['default']
     Window_control: typeof import('./src/components/window_control.vue')['default']
