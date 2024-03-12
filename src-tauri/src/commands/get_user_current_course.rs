@@ -20,7 +20,7 @@ fn test_get_user_current_course() {
     let username = env::var("NUK_USERNAME").expect("USERNAME not found");
     let password = env::var("NUK_PASSWORD").expect("PASSWORD not found");
     let client = reqwest::blocking::Client::builder().cookie_store(true).build().unwrap();
-    let user = nuk::user::User::new(username, password, client);
+    let mut user = nuk::user::User::new(username, password, client);
     user.auth("選課系統".to_string());
     user.get_current_course().unwrap();
 }

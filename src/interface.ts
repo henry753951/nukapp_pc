@@ -34,4 +34,6 @@ interface CustomData {
   color: string;
 }
 
+
+
 export type { BaseCourse, Course, CustomData };

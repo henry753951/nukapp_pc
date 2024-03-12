@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar">
     <a-flex align="center" justify="center" gap="10">
-      <h1 class="title">NUK 2</h1>
+      <h1 class="title" @click="GoHome">NUK 2</h1>
     </a-flex>
     <a-menu
       v-model:selectedKeys="currentPage"
@@ -98,6 +98,9 @@
       },
       showLoginModal() {
         this.GlobalStateStore.setLoginModal(true);
+      },
+      GoHome() {
+        router.push("/");
       },
     },
     watch: {

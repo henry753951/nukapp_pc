@@ -4,26 +4,25 @@ use std::env;
 use tauri::{ api::path::{ app_data_dir, config_dir }, App, AppHandle, Manager, State };
 use serde_json::Value;
 
-
 use crate::{ nuk, Storage };
 
 #[tauri::command]
 pub fn get_user_score(storage: State<Storage>) -> Option<nuk::user::score::Data> {
-    
     let mut binding = storage.user.lock().unwrap();
-    let mut user = binding.as_mut();
+    let user = binding.as_mut();
     match user {
         Some(user) => {
-            user.auth("教務系統".to_string());
-            Some(user.get_scores().unwrap())
-        },
+            if user.auth("教務系統".to_string()) {
+                return Some(user.get_scores().unwrap());
+            }
+            println!("User not found");
+            None
+        }
         None => {
             println!("User not found");
             None
         }
-        
     }
-
 }
 
 #[test]

@@ -7,7 +7,21 @@ use super::User;
 use super::UserData;
 
 impl User {
-    pub fn auth(&self, _type: String) -> bool {
+    pub fn auth(&mut self, _type: String) -> bool {
+        if self.username == "" || self.password == "" {
+            panic!("❌  學號或密碼未設定");
+        }
+        if let Some(last_login) = self.last_login.get(&_type) {
+            if let Some(time) = last_login {
+                if time.timestamp() + 600 > chrono::Local::now().timestamp() {
+                    let remaining_seconds =
+                        time.timestamp() + 600 - chrono::Local::now().timestamp();
+                    println!("🔒  登入狀態仍有效 (剩下{}秒)", remaining_seconds);
+                    return true;
+                }
+            }
+        }
+
         let login_url = match _type.as_str() {
             "選課系統" => "https://course.nuk.edu.tw/Sel/login.asp",
             "教務系統" => "https://aca.nuk.edu.tw/Student2/login.asp",
@@ -33,7 +47,9 @@ impl User {
             for input in document.select(&selector) {
                 let name = input.value().attr("name");
                 match name {
-                    None => continue,
+                    None => {
+                        continue;
+                    }
                     Some(name) => {
                         let value = input.value().attr("value").unwrap();
                         inputs.insert(name.to_string(), value.into());
@@ -73,6 +89,8 @@ impl User {
         }
         if is_login {
             println!("🎉 登入成功");
+
+            self.last_login.insert(_type.to_string(), Some(chrono::Local::now()));
             return true;
         } else {
             println!("🚨 登入失敗");

@@ -10,7 +10,7 @@
   const UserStore = useUserStore();
 
   const { loginModal } = storeToRefs(GlobalStateStore);
-
+  const { user } = storeToRefs(UserStore);
   interface FormState {
     sid: string;
     password: string;
@@ -22,33 +22,11 @@
   });
 
   const login = () => {
-    console.log("Login");
-    invoke("login", {
-      username: formState.sid,
-      password: formState.password,
-    })
-      .then((response) => {
-        console.log(response);
-        if (response) {
-          let res = response as any;
-          loginModal.value = false;
-          UserStore.user.isLoggedIn = true;
-          UserStore.user.loginData = {
-            username: formState.sid,
-            password: formState.password,
-          };
+    UserStore.invokeLogin(formState.sid, formState.password);
+  };
 
-          UserStore.user.UserData = {
-            學號: res.student_id,
-            姓名: res.name,
-            系所: res.department,
-            入學年度: res.admission_year,
-          };
-        }
-      })
-      .catch((err) => {
-        console.error(err);
-      });
+  const logout = () => {
+    UserStore.invokeLogout();
   };
 </script>
 
@@ -60,24 +38,46 @@
       :wrap-style="{ overflow: 'hidden' }"
       :footer="null">
       <a-flex gap="middle" vertical>
-        <a-input size="large" v-model:value="formState.sid" placeholder="學號">
-          <template #prefix>
-            <VueFeather type="user" size="18" />
-          </template>
-        </a-input>
-        <a-input-password
-          size="large"
-          v-model:value="formState.password"
-          placeholder="密碼">
-          <template #prefix>
-            <VueFeather type="lock" size="18" />
-          </template>
-        </a-input-password>
-        <button class="login-button" @click="login">登入</button>
+        <template v-if="user.isLoggedIn">
+          <a-space direction="vertical">
+            <a-space direction="vertical">
+              <a-text>{{ user.UserData.姓名 }}</a-text>
+            </a-space>
+            <a-space direction="vertical">
+              <a-text>{{ user.UserData.學號 }}@mail.nuk.edu.tw</a-text>
+              <a-text>{{ user.UserData.系所 }}</a-text>
+            </a-space>
+            <a-space direction="horizontal">
+              <a-text strong>入學年度:</a-text>
+              <a-text>{{ user.UserData.入學年度 }}</a-text>
+            </a-space>
+            <a-button type="primary" @click="logout"> 登出 </a-button>
+          </a-space>
+        </template>
+        <template v-else>
+          <a-input
+            size="large"
+            v-model:value="formState.sid"
+            placeholder="學號">
+            <template #prefix>
+              <VueFeather type="user" size="18" />
+            </template>
+          </a-input>
+          <a-input-password
+            size="large"
+            v-model:value="formState.password"
+            placeholder="密碼">
+            <template #prefix>
+              <VueFeather type="lock" size="18" />
+            </template>
+          </a-input-password>
+          <button class="login-button" @click="login">登入</button>
+        </template>
       </a-flex>
 
       <template #title>
-        <div style="width: 100%">登入</div>
+        <div v-if="user.isLoggedIn" style="width: 100%">帳號</div>
+        <div v-else style="width: 100%">登入</div>
       </template>
     </a-modal>
   </div>

@@ -37,7 +37,7 @@ pub struct Data {
     歷年實得學分數: String,
     歷年平均成績: String,
     歷年全班排名: String,
-    節至學期: String,
+    截至學期: String,
     各學期: Vec<SchoolYear>,
 }
 
@@ -48,7 +48,7 @@ impl User {
             歷年實得學分數: "".to_string(),
             歷年平均成績: "".to_string(),
             歷年全班排名: "".to_string(),
-            節至學期: "".to_string(),
+            截至學期: "".to_string(),
             各學期: Vec::new(),
         };
 
@@ -65,17 +65,40 @@ impl User {
         let bottom_table = document.select(&selector).last().unwrap();
         for (i, cell) in bottom_table.select(&Selector::parse("td").unwrap()).enumerate() {
             match i {
+                0 => {
+                    data.截至學期 = cell.text().collect::<String>();
+                }
                 1 => {
-                    data.歷年總修習學分數 = cell.text().collect::<String>();
+                    data.歷年總修習學分數 = cell
+                        .text()
+                        .collect::<String>()
+                        .split("：")
+                        .collect::<Vec<&str>>()[1]
+                        .to_string();
                 }
                 2 => {
-                    data.歷年實得學分數 = cell.text().collect::<String>();
+                    data.歷年實得學分數 = cell
+                        .text()
+                        .collect::<String>()
+                        .split("：")
+                        .collect::<Vec<&str>>()[1]
+                        .to_string();
                 }
                 3 => {
-                    data.歷年平均成績 = cell.text().collect::<String>();
+                    data.歷年平均成績 = cell
+                        .text()
+                        .collect::<String>()
+                        .split("：")
+                        .collect::<Vec<&str>>()[1]
+                        .to_string();
                 }
                 4 => {
-                    data.歷年全班排名 = cell.text().collect::<String>();
+                    data.歷年全班排名 = cell
+                        .text()
+                        .collect::<String>()
+                        .split("：")
+                        .collect::<Vec<&str>>()[1]
+                        .to_string();
                 }
                 _ => (),
             }

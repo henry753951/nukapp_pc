@@ -10,7 +10,18 @@
     <div class="subtitle">I am back!</div>
     <div class="">
       自從被伺服器被學校鎖掉IP後，現在只能以非網站的方式呈現T_T !
-      <RouterLink class="ml-2" to="/QQ">詳情請見</RouterLink>
+      <RouterLink
+        class="ml-2"
+        :to="{
+          path: '/md',
+          query: {
+            sourceURL:
+              'https://raw.githubusercontent.com/henry753951/nukapp_pc/main/md/QQ.md',
+            breadcrumb: '為什麼一代不能使用了',
+          },
+        }"
+        >詳情請見</RouterLink
+      >
     </div>
     <a-flex gap="50" class="mt-5">
       <button class="button" @click="router.push('/course-selection')">

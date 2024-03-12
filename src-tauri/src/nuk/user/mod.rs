@@ -1,11 +1,13 @@
-use chrono::{ Datelike, Local };
+use chrono::{ DateTime, Datelike, Local };
 use reqwest;
 use scraper::ElementRef;
 use scraper::{ Html, Selector };
 use serde::{ Deserialize, Serialize };
 use serde_json::json;
 use serde_json::Value;
+use std::collections::HashMap;
 use std::error::Error;
+use std::hash::Hash;
 
 pub mod auth;
 pub mod course;
@@ -25,6 +27,7 @@ pub struct User {
     username: String,
     password: String,
     user_data: Option<UserData>,
+    last_login: HashMap<String, Option<DateTime<Local>>>
 }
 
 impl User {
@@ -34,6 +37,7 @@ impl User {
             password,
             client,
             user_data: None,
+            last_login: HashMap::new(),
         }
     }
 }

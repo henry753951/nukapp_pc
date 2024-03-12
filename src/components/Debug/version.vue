@@ -3,6 +3,7 @@
   import { invoke } from "@tauri-apps/api/tauri";
   import { logger } from "../../logger";
   import { ref } from "vue";
+import { router } from "../../router";
   const version = ref<string | null>(null);
 
   getVersion().then((v) => {
@@ -15,6 +16,7 @@
     if (clickCount === 5) {
       logger.debug("Hi there! You found me!");
       invoke("open_devtools");
+      router.push("/dev");
 
       clickCount = 0;
     }

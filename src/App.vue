@@ -51,6 +51,7 @@
         systemTheme: "",
         currentTheme: "",
         isFocused: true,
+        currentRoute: useRoute(),
       };
     },
     provide() {
@@ -81,7 +82,6 @@
       if (this.themeStore.theme) {
         this.switchTheme(this.themeStore.theme);
       }
-
       useUserStore().invokeLogin();
     },
     unmounted() {
@@ -90,9 +90,6 @@
     computed: {
       themeStore() {
         return useThemeStore();
-      },
-      currentRoute() {
-        return useRoute();
       },
     },
     methods: {

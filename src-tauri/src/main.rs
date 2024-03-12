@@ -40,8 +40,9 @@ fn main() {
         .invoke_handler(
             tauri::generate_handler![
                 open_devtools,
-                commands::get_all_course::get_all_course,
                 commands::login::login,
+                commands::logout::logout,
+                commands::get_all_course::get_all_course,
                 commands::get_user_score::get_user_score
             ]
         )
