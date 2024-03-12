@@ -6,7 +6,6 @@
   import { useUserStore } from "../stores/user";
   import ScoreCard from "../components/ScoreCard.vue";
   import ScoreStats from "../components/ScoreStats.vue";
-  import Vue3SimpleHtml2pdf from "vue3-simple-html2pdf";
 
   import {
     Semester,
