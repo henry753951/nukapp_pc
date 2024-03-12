@@ -55,14 +55,86 @@
 </script>
 
 <template>
-  <div v-if="studentGrades">
-    <div v-for="(semester, index) in studentGrades.各學期" :key="index">
+  <h1 class="title">目前為測試介面，尚未完成</h1>
+  <div v-if="studentGrades" class="score-view">
+    <div
+      class="semester-card"
+      v-for="(semester, index) in studentGrades.各學期"
+      :key="index">
       <h2>{{ semester.學期 }}</h2>
-      <div v-for="course in semester.課程" :key="course.課號">
-        <p>課程名稱: {{ course.課程名稱 }}</p>
-        <p>學分數: {{ course.學分數 }}</p>
-        <p>學期成績: {{ course.學期成績 }}</p>
+      <div
+        class="course-card"
+        v-for="course in semester.課程"
+        :key="course.課號">
+        <p><strong>課程名稱:</strong> {{ course.課程名稱 }}</p>
+        <p><strong>學分數:</strong> {{ course.學分數 }}</p>
+        <p><strong>學期成績:</strong> {{ course.學期成績 }}</p>
+        <p><strong>備註:</strong> {{ course.備註 }}</p>
+      </div>
+
+      <div class="semester-summary">
+        <h3>修習學分數: {{ semester.修習學分數 }}</h3>
+        <h3>實得學分數: {{ semester.實得學分數 }}</h3>
+        <h3>平均成績: {{ semester.平均成績 }}</h3>
+        <h3>排名: {{ semester.排名 }}</h3>
       </div>
     </div>
   </div>
 </template>
+
+<style lang="scss">
+  .title {
+    padding: 20px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .score-view {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .semester-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .course-card {
+      background-color: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 10px;
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 5px;
+        strong {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .semester-summary {
+      background-color: #eef;
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 10px;
+
+      h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+    }
+  }
+</style>
