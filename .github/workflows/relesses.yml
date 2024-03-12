@@ -65,6 +65,7 @@ jobs:
 
       - name: Install app dependencies and build it
         run: pnpm i --frozen-lockfile
+        working-directory: ${{ github.workspace }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
