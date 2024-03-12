@@ -46,7 +46,7 @@ jobs:
         uses: pnpm/action-setup@v2
         id: pnpm-install
         with:
-          version: 7.16.0
+          version: 8.15.4
           run_install: false
 
       - name: Get pnpm store directory
@@ -64,7 +64,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install app dependencies and build it
-        run:  cd .. && pnpm i --frozen-lockfile
+        run: pnpm i --frozen-lockfile 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
