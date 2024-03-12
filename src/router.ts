@@ -53,7 +53,7 @@ export const router = createRouter({
   ],
 });
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
   const UserStore = useUserStore();
   if (typeof to.query.breadcrumb === "string") {
     to.meta.breadcrumb = to.query.breadcrumb.split(",");

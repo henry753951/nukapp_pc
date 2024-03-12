@@ -56,7 +56,14 @@ function createTag(version) {
       if (error) {
         if (error.message.includes("already exists")) {
           console.log(`🏷️   Tag v${version} already exists`);
-          resolve();
+          exec(`git tag -d v${version}`, (error) => {
+            if (error) {
+              reject(error);
+            } else {
+              console.log(`🏷️   Tag v${version} deleted`);
+              createTag(version).then(resolve).catch(reject);
+            }
+          });
         }
       } else {
         resolve();
