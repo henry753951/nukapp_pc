@@ -23,7 +23,10 @@ pub struct Storage {
 #[tauri::command]
 fn open_devtools(app_handle: AppHandle) {
     let window = app_handle.get_window("main").unwrap();
-    window.open_devtools();
+    #[cfg(debug_assertions)] // only include this code on debug builds
+    {
+        window.open_devtools();
+    }
 }
 
 fn main() {
@@ -35,7 +38,12 @@ fn main() {
         })
         .setup(setup::init)
         .invoke_handler(
-            tauri::generate_handler![open_devtools, commands::get_all_course::get_all_course,commands::login::login,commands::get_user_score::get_user_score]
+            tauri::generate_handler![
+                open_devtools,
+                commands::get_all_course::get_all_course,
+                commands::login::login,
+                commands::get_user_score::get_user_score
+            ]
         )
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
