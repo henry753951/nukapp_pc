@@ -32,7 +32,7 @@ struct SchoolYear {
 }
 
 #[derive(Debug, Deserialize, Serialize)]
-struct Data {
+pub struct Data {
     歷年總修習學分數: String,
     歷年實得學分數: String,
     歷年平均成績: String,
@@ -42,7 +42,7 @@ struct Data {
 }
 
 impl User {
-    pub fn get_scores(&mut self) {
+    pub fn get_scores(&mut self) -> Result<Data, Box<dyn Error>> {
         let mut data = Data {
             歷年總修習學分數: "".to_string(),
             歷年實得學分數: "".to_string(),
@@ -155,6 +155,7 @@ impl User {
             data.各學期[index].課程 = courses;
         }
 
-        println!("{}", serde_json::to_string(&data).unwrap());
+        // println!("{}", serde_json::to_string(&data).unwrap());
+        Ok(data)
     }
 }

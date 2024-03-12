@@ -6,4 +6,10 @@ export const useGlobalStateStore = defineStore({
     loginModal : false,
   }),
   persist: false,
+
+  actions: {
+    setLoginModal(value: boolean) {
+      this.loginModal = value;
+    },
+  },
 });

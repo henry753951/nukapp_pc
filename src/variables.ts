@@ -1,3 +1,3 @@
-let variables = ["color-surface", "base-color","unfocus-surface","heighlight-color","shadow-color", "heighlight-color-0","splitter-color"];
+let variables = ["color-surface", "base-color","base-color-0","unfocus-surface","highlight-color","shadow-color", "highlight-color-0","splitter-color"];
 
 export default variables;

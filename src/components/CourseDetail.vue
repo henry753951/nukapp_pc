@@ -44,7 +44,7 @@
   import { BaseCourse, Course } from "../interface";
 
   const collapseStyle =
-    "background: var(--heighlight-color-0);border-radius: 4px;margin-bottom: 24px;border: 0;overflow: hidden";
+    "background: var(--highlight-color-0);border-radius: 4px;margin-bottom: 24px;border: 0;overflow: hidden";
 
   const CourseTimeToString = (course_time: BaseCourse["course_time"]) => {
     let str = "";

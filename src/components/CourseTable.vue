@@ -175,7 +175,7 @@
   .course-card {
     height: 80px;
     width: 100%;
-    background-color: var(--heighlight-color);
+    background-color: var(--highlight-color);
     border-radius: 5px;
     box-shadow: 0 0 10px var(--shadow-color);
     padding: 10px;

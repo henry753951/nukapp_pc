@@ -5,10 +5,12 @@
   import { h, provide, ref } from "vue";
   import { theme } from "ant-design-vue";
   import { useThemeStore } from "./stores/theme";
+  import { useUserStore } from "./stores/user";
   import variables from "./variables";
   // Components
   import window_control from "./components/window_control.vue";
   import LoginModal from "./components/modals/LoginModal.vue";
+  import Sidebar from "./components/Sidebar.vue";
   // tauri
   import { appWindow } from "@tauri-apps/api/window";
   // import { platform } from "@tauri-apps/plugin-os";
@@ -17,17 +19,13 @@
   export default {
     components: {
       window_control,
+      Sidebar,
       LoginModal,
     },
     data() {
       return {
         layoutContent: null as HTMLDivElement | null,
         debug: false,
-        Sider: {
-          openKeys: ["sub1", "sub2"],
-          collapsed: false,
-        },
-        currentPage: ["/"],
         themeData: {
           algorithm: theme.defaultAlgorithm,
           light_token: {
@@ -83,6 +81,8 @@
       if (this.themeStore.theme) {
         this.switchTheme(this.themeStore.theme);
       }
+
+      useUserStore().invokeLogin();
     },
     unmounted() {
       this.mediaQueryList!.removeEventListener("change", () => {});
@@ -120,10 +120,6 @@
           document.documentElement.style.removeProperty("background-color");
         }
       },
-      changePage({ key }: { key: string }) {
-        console.log(`Change page to ${key}`);
-        router.push(key);
-      },
       switchTheme(mode: string) {
         this.currentTheme = mode;
         for (let key of variables) {
@@ -160,9 +156,6 @@
           this.switchTheme(val);
         }
       },
-      "currentRoute.fullPath"(val) {
-        this.currentPage = [val];
-      },
     },
   };
 </script>
@@ -176,43 +169,7 @@
           :style="{
             background: themeData.token.colorSiderBg,
           }"
-          ><a-menu
-            v-model:selectedKeys="currentPage"
-            v-model:openKeys="Sider.openKeys"
-            :inline-collapsed="Sider.collapsed"
-            @click="changePage"
-            mode="inline"
-            :style="{
-              overflow: 'overlay',
-              background: 'transparent',
-            }">
-            <a-menu-item key="/">
-              <a-flex align="center" gap="10">
-                <vue-feather type="home" size="20"></vue-feather>
-                <h1>NUK 2</h1>
-              </a-flex>
-            </a-menu-item>
-            <a-sub-menu key="sub1">
-              <template #title>
-                <a-flex align="center" gap="5">
-                  <vue-feather type="book-open" size="18"></vue-feather>
-                  課程系統
-                </a-flex>
-              </template>
-              <a-menu-item key="/course-selection">課程查詢</a-menu-item>
-              <a-menu-item key="/選課系統">選課系統</a-menu-item>
-            </a-sub-menu>
-            <a-sub-menu key="sub2">
-              <template #title>
-                <a-flex align="center" gap="5">
-                  <vue-feather type="user" size="18"></vue-feather>
-                  個人資訊
-                </a-flex>
-              </template>
-              <a-menu-item key="/score">成績查詢</a-menu-item>
-              <a-menu-item key="/學分分析">學分分析</a-menu-item>
-            </a-sub-menu>
-          </a-menu>
+          ><Sidebar />
         </a-layout-sider>
         <a-layout>
           <a-layout>
@@ -253,7 +210,6 @@
       <p>Current system theme: {{ systemTheme }}</p>
       <p>Current window focus: {{ isFocused }}</p> -->
       <p>{{ currentRoute.meta }}</p>
-      <p>{{ currentPage }}</p>
       <a-button @click="scrollToTop">TT</a-button>
       <a-flex :vertical="false">
         <a-button @click="$router.push('/')">Home</a-button>

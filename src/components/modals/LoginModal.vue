@@ -1,8 +1,15 @@
 <script lang="ts" setup>
-  import { ref, reactive } from "vue";
+  import { ref, reactive, watch } from "vue";
   import VueFeather from "vue-feather";
-  import { useGlobalStateStore }  from "../../stores/GlobalState";
-  const { loginModal } = useGlobalStateStore();
+  import { storeToRefs } from "pinia";
+  import { invoke } from "@tauri-apps/api";
+  import { useGlobalStateStore } from "../../stores/GlobalState";
+  import { useUserStore } from "../../stores/user";
+
+  const GlobalStateStore = useGlobalStateStore();
+  const UserStore = useUserStore();
+
+  const { loginModal } = storeToRefs(GlobalStateStore);
 
   interface FormState {
     sid: string;
@@ -13,6 +20,36 @@
     sid: "",
     password: "",
   });
+
+  const login = () => {
+    console.log("Login");
+    invoke("login", {
+      username: formState.sid,
+      password: formState.password,
+    })
+      .then((response) => {
+        console.log(response);
+        if (response) {
+          let res = response as any;
+          loginModal.value = false;
+          UserStore.user.isLoggedIn = true;
+          UserStore.user.loginData = {
+            username: formState.sid,
+            password: formState.password,
+          };
+
+          UserStore.user.UserData = {
+            學號: res.student_id,
+            姓名: res.name,
+            系所: res.department,
+            入學年度: res.admission_year,
+          };
+        }
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  };
 </script>
 
 <template>
@@ -28,12 +65,15 @@
             <VueFeather type="user" size="18" />
           </template>
         </a-input>
-        <a-input-password size="large" v-model:value="formState.password" placeholder="密碼">
+        <a-input-password
+          size="large"
+          v-model:value="formState.password"
+          placeholder="密碼">
           <template #prefix>
             <VueFeather type="lock" size="18" />
           </template>
         </a-input-password>
-        <button class="login-button">登入</button>
+        <button class="login-button" @click="login">登入</button>
       </a-flex>
 
       <template #title>

@@ -33,7 +33,7 @@ export const router = createRouter({
     {
       path: "/score",
       component: ScoreView,
-      meta: { title: "Score", breadcrumb: ["成績查詢˙"] },
+      meta: { title: "Score", breadcrumb: ["成績查詢"] },
     },
   ],
 });
