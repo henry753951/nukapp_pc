@@ -1,20 +1,18 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
-import Settings from "./views/Settings.vue";
-import CourseSelection from "./views/CourseSelection.vue";
-import ScoreView from "./views/ScoreView.vue";
-import NotAuthorized from "./views/NotAuthorized.vue";
-import md from "./views/md.vue";
+
 import { useUserStore } from "./stores/user";
 
 export const router = createRouter({
   history: createWebHashHistory(),
   routes: [
-    { path: "/", component: Home, meta: { title: "Home", breadcrumb: [] } },
+    {
+      path: "/",
+      component: () => import("./views/Home.vue"),
+      meta: { title: "Home", breadcrumb: [] },
+    },
     {
       path: "/unauthorized",
-      component: NotAuthorized,
+      component: () => import("./views/Unauthorized.vue"),
       meta: { title: "未登入", breadcrumb: [] },
     },
     {
@@ -23,31 +21,31 @@ export const router = createRouter({
     },
     {
       path: "/about",
-      component: About,
+      component: () => import("./views/About.vue"),
       meta: { title: "About", breadcrumb: ["關於"] },
     },
     {
       name: "markdown",
       path: "/md",
-      component: md,
+      component: () => import("./views/MarkdownView.vue"),
       meta: { title: "", breadcrumb: [] },
     },
     {
       name: "settings",
       path: "/settings",
-      component: Settings,
+      component: () => import("./views/Settings.vue"),
       meta: { title: "Settings", breadcrumb: ["設定"] },
     },
     {
       name: "course-selection",
       path: "/course-selection",
-      component: CourseSelection,
+      component: () => import("./views/CourseSelection.vue"),
       meta: { title: "Course Selection", breadcrumb: ["課程查詢"] },
     },
     {
       name: "score",
       path: "/score",
-      component: ScoreView,
+      component: () => import("./views/Score.vue"),
       meta: { title: "Score", breadcrumb: ["成績查詢"], needAuth: true },
     },
   ],
