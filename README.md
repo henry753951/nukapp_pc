@@ -4,7 +4,7 @@
 ![Build](https://img.shields.io/badge/os-linux%20%7C%20macOS%20%7C%20windows-blue?style=flat-square)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/henry753951/nukapp_pc/total?style=flat-square)
 ![GitHub License](https://img.shields.io/github/license/henry753951/nukapp_pc?style=flat-square)
-![Discord](https://img.shields.io/discord/993564017291431986?logo=discord&logoColor=white&label=discord&labelColor=%235865F2&style=flat-square)
+[![Discord](https://img.shields.io/discord/993564017291431986?logo=discord&logoColor=white&label=discord&labelColor=%235865F2&style=flat-square)](https://discord.gg/SyZ7xvSr8f)
 
 
 ## Introduction
