@@ -279,12 +279,12 @@ const filteredData = computed(() => {
   if (filter.Year.value !== 0) {
     if (filter.Year.value <= 4) {
       _data = _data.filter((course) => {
-        return course.grade === filter.Year.value && course.class_type === "A";
+        return course.grade === filter.Year.value && course.department_code === "A";
       });
     }
     else if (filter.Year.value > 4) {
       _data = _data.filter((course) => {
-        return course.grade === filter.Year.value && course.class_type === "M";
+        return course.grade === filter.Year.value % 4 && course.department_code === "M";
       });
     }
 
