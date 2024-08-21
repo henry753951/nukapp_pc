@@ -234,7 +234,6 @@ pub async fn fetch_new_courses() -> Result<Value, reqwest::Error> {
         "Flag": "1",
         "OpenYear": year.to_string(),
         "Helf": semester.to_string(),
-        "Pclass": "A",
     });
 
     let client = reqwest::Client::new();
