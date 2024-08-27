@@ -5,7 +5,7 @@
   <div ref="outerCourseTable" class="w-full h-full flex flex-col items-center">
     <div
       v-if="tableType === '全螢幕課表'"
-      class="container"
+      class="table-container"
       :style="containerStyle">
       <a-flex gap="5" class="w-full">
         <div
@@ -165,8 +165,8 @@
   }>();
 </script>
 <style lang="scss" scoped>
-  .container {
-    transform-origin: top left;
+  .table-container {
+    transform-origin: top;
     width: 650px !important;
     min-width: 650px !important;
     max-width: 650px !important;

@@ -12,7 +12,7 @@ export const router = createRouter({
     },
     {
       path: "/unauthorized",
-      component: () => import("./views/Unauthorized.vue"),
+      component: () => import("./views/NotAuthorized.vue"),
       meta: { title: "未登入", breadcrumb: [] },
     },
     {
@@ -27,7 +27,7 @@ export const router = createRouter({
     {
       name: "markdown",
       path: "/md",
-      component: () => import("./views/MarkdownView.vue"),
+      component: () => import("./views/md.vue"),
       meta: { title: "", breadcrumb: [] },
     },
     {
@@ -45,7 +45,7 @@ export const router = createRouter({
     {
       name: "score",
       path: "/score",
-      component: () => import("./views/Score.vue"),
+      component: () => import("./views/ScoreView.vue"),
       meta: { title: "Score", breadcrumb: ["成績查詢"], needAuth: true },
     },
   ],

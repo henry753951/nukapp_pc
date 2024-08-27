@@ -82,5 +82,5 @@ jobs:
           releaseBody: "Release of NUKApp v__VERSION__"
           releaseDraft: false
           prerelease: false
-          includeDebug: true
+          includeDebug: false
 
