@@ -63,7 +63,7 @@ fn process_element(element: &ElementRef) -> Result<Course, Box<dyn Error>> {
         .concat()
         .trim()
         .parse()
-        .expect("Failed to parse grade");
+        .unwrap_or(0);
     let class_type = cells[4]
         .text()
         .collect::<Vec<_>>()
@@ -90,7 +90,7 @@ fn process_element(element: &ElementRef) -> Result<Course, Box<dyn Error>> {
         .concat()
         .trim()
         .parse()
-        .expect("Failed to parse credits");
+        .unwrap_or(0.0);
     let requirement_type = cells[7]
         .text()
         .collect::<Vec<_>>()
@@ -103,19 +103,19 @@ fn process_element(element: &ElementRef) -> Result<Course, Box<dyn Error>> {
         .concat()
         .trim()
         .parse()
-        .expect("Failed to parse limit");
+        .unwrap_or(0);
     let registration_confirmed: i32 = cells[9]
         .text()
         .collect::<Vec<_>>()
         .concat()
         .trim()
         .parse()
-        .expect("Failed to parse registration_confirmed");
+        .unwrap_or(0);
     let online_number: i32 = match cells[10].text().collect::<Vec<_>>().concat().trim() {
         "-" => 0,
         online_number_str => online_number_str
             .parse()
-            .expect("Failed to parse online_number"),
+            .unwrap_or(0),
     };
 
     let balance: i32 = cells[11]
@@ -124,7 +124,7 @@ fn process_element(element: &ElementRef) -> Result<Course, Box<dyn Error>> {
         .concat()
         .trim()
         .parse()
-        .expect("Failed to parse balance");
+        .unwrap_or(0);
 
     let teacher = cells[12]
         .inner_html()
@@ -225,7 +225,7 @@ fn process_element(element: &ElementRef) -> Result<Course, Box<dyn Error>> {
 
 pub async fn fetch_new_courses() -> Result<Value, reqwest::Error> {
     let now = Local::now();
-    let year = 112;
+    let year = 113;
     let semester = if now.month() >= 7 { 1 } else { 2 };
     let url = "https://course.nuk.edu.tw/QueryCourse/QueryResult.asp";
     println!("year: {}, semester: {}", year, semester);
@@ -234,7 +234,6 @@ pub async fn fetch_new_courses() -> Result<Value, reqwest::Error> {
         "Flag": "1",
         "OpenYear": year.to_string(),
         "Helf": semester.to_string(),
-        "Pclass": "A",
     });
 
     let client = reqwest::Client::new();
