@@ -1,37 +1,35 @@
 [package]
-name = "nukapp_pc"
-version = "0.0.0"
-description = "NUK App for PC"
-authors = ["Henry753951"]
-license = ""
-repository = ""
+name = "nuxtor"
+version = "0.0.4"
+description = "Starter template for Nuxt 3 and Tauri 2"
+authors = [ "NicolaSpadari" ]
+license = "MIT"
+repository = "https://github.com/NicolaSpadari/nuxtor"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "nuxtor_lib"
+crate-type = [
+  "staticlib",
+  "cdylib",
+  "rlib"
+]
 
-[build-dependencies]
-tauri-build = { version = "1.5.1", features = [] }
+[build-dependencies.tauri-build]
+version = "2.0.0-rc.0"
+features = [ ]
 
 [dependencies]
-tauri = { version = "1.6.0", features = [ "updater", "app-all", "notification-all", "os-all", "fs-all", "window-all", "macos-private-api"] }
-window-shadows = "0.2.2"
-window-vibrancy = "0.4.3" # tauri v1 only use version 0.4 of this crate
+tauri-plugin-shell = "2.0.0-rc.0"
+tauri-plugin-notification = "2.0.0-rc.0"
+tauri-plugin-os = "2.0.0-rc.0"
+tauri-plugin-fs = "2.0.0-rc.0"
+serde_json = "1"
 
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-chrono = "0.4.32"
-jsonpath = "0.1.1"
-reqwest = { version = "0.11.23", features = ["json", "blocking", "cookies"] }
-scraper = "0.18.1"
-tokio = { version = "1.35.1", features = ["macros", "rt-multi-thread"] }
-platform-dirs = "0.3.0"
-encoding_rs = "0.8.33"
-encoding_rs_io = "0.1.7"
-dotenv = "0.15.0"
-anyhow = "1.0.80"
+[dependencies.tauri]
+version = "2.0.0-rc.0"
+features = [ ]
 
-[features]
-# this feature is used for production builds or when `devPath` points to the filesystem
-# DO NOT REMOVE!!
-custom-protocol = ["tauri/custom-protocol"]
-
+[dependencies.serde]
+version = "1"
+features = [ "derive" ]
