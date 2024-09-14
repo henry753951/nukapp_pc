@@ -1,7 +1,9 @@
 import eslintConfig from "@antfu/eslint-config";
+import pluginVue from "eslint-plugin-vue";
 import nuxtConfig from "./.nuxt/eslint.config.mjs";
 
 export default eslintConfig(
+	...pluginVue.configs["flat/strongly-recommended"],
 	// General
 	{
 		typescript: true,
@@ -21,14 +23,23 @@ export default eslintConfig(
 			"style/comma-dangle": ["warn", "never"],
 			"style/brace-style": ["warn", "1tbs"],
 			"style/arrow-parens": ["error", "always"],
-			"vue/block-order": ["error", {
-				order: ["template", "script", "style"]
-			}],
-			"vue/script-indent": ["error", "tab", {
-				baseIndent: 1
-			}],
+			"vue/block-order": [
+				"error",
+				{
+					order: ["template", "script", "style"]
+				}
+			],
+			"vue/script-indent": [
+				"error",
+				"tab",
+				{
+					baseIndent: 1
+				}
+			],
 			"antfu/top-level-function": "off",
-			"node/prefer-global/process": ["off"]
+			"node/prefer-global/process": ["off"],
+			"semi": ["error", "always"],
+			"quotes": ["error", "double"],
 		}
 	},
 
@@ -36,7 +47,18 @@ export default eslintConfig(
 	{
 		files: ["**/*.vue"],
 		rules: {
-			"style/indent": "off"
+			"style/indent": "off",
+			"vue/max-attributes-per-line": [
+				"error",
+				{
+					singleline: {
+						max: 1
+					},
+					multiline: {
+						max: 1
+					}
+				}
+			]
 		}
 	},
 

@@ -1,0 +1,21 @@
+html {
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+img {
+  -webkit-user-drag: none;
+  @apply select-none;
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  .splitter {
+    width: 3px !important;
+    background-color: var(--splitter-color);
+    opacity: 0.2;
+  }
+}

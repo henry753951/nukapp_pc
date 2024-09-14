@@ -1,0 +1,47 @@
+:root {
+  // Color transitions
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+
+  &.dark {
+    --primary-color: #007bff;
+    --unfocus-surface: #000000;
+    --color-surface: #00000021;
+    --base-color: #ffffff;
+    --base-color-0: #9c9c9c;
+    --highlight-color: #000000;
+    --highlight-color-0: #181818;
+    --highlight-color-1: #18181879;
+    --shadow-color: rgba(255, 255, 255, 0.1);
+    --splitter-color: #ffffff21;
+
+    /* 新增 dark_token 設定 */
+    --colorBgLayout: #00000080;
+    --colorPrimaryBg: #ffffff15;
+    --colorPrimary: #ffffff;
+    --colorSideBg: #00000005;
+  }
+  &.light {
+    --primary-color: #007bff;
+    --unfocus-surface: rgb(253, 253, 253);
+    --color-surface: rgba(255, 255, 255, 0.2);
+    --base-color: #000000;
+    --base-color-0: #1f1f1f;
+    --highlight-color: #ffffff;
+    --highlight-color-0: #f3f3f3;
+    --highlight-color-1: #f3f3f3;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --splitter-color: #00000021;
+
+    /* 新增 light_token 設定 */
+    --colorBgLayout: #ffffff80;
+    --colorPrimaryBg: #00000015;
+    --colorPrimary: #808080;
+    --colorSideBg: rgba(253, 253, 253, 0.05);
+  }
+}
+
+*:not([class^="p-"]) {
+  color: var(--base-color);
+}

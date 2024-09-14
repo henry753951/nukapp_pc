@@ -1,0 +1,88 @@
+{
+  "hello": "你好，{name}！",
+  "year": "學年度",
+  "semester": "第 {number} 學期",
+  "course": {
+    "required": "必修",
+    "elective": "選修"
+  },
+  "translation": {
+    "reload-header": "重新載入翻譯",
+    "reload-message": "部分翻譯可能需要重新載入，是否重新載入？"
+  },
+  "error": {
+    "page-not-found": {
+      "title": "頁面未找到",
+      "message": "您尋找的頁面不存在。"
+    }
+  },
+  "actions": {
+    "close": "關閉",
+    "cancel": "取消",
+    "confirm": "確認",
+    "submit": "提交",
+    "back": "返回",
+    "next": "下一步",
+    "finish": "完成",
+    "go-home": "回到首頁",
+    "refresh": "更新資料"
+  },
+  "menu": {
+    "home": "首頁",
+    "course_system": "課程系統",
+    "course_search": "課程查詢",
+    "select_course": "選課系統",
+    "profile": "個人資訊",
+    "score_view": "成績查詢",
+    "timetable_view": "課表查詢",
+    "credit_analysis": "學分分析",
+    "all_semesters": "所有學期",
+    "history_scores": "歷年學期成績"
+  },
+  "score": {
+    "rank": "歷年全班排名",
+    "total_credits_earned": "歷年實得學分數",
+    "total_credits_attempted": "歷年總修習學分數",
+    "average_score": "歷年平均成績",
+    "latest_semester": "資料截至學期",
+    "required_courses": "必修課程",
+    "elective_courses": "選修課程",
+        "not_submitted": "未送",
+    "not_submitted_tiny": "未送",
+    "status": {
+      "success_message": "恭喜這學期歐趴了！",
+      "rank": "排名",
+      "average_score": "平均成績",
+      "suffix_rank": "名",
+      "suffix_score": "分"
+    },
+    "card": {
+      "midterm": "期中",
+      "semester": "學期",
+      "credit_unit": "學分",
+      "unit": "分"
+    }
+  },
+  "user": {
+    "login": {
+      "title": "登入",
+      "description": "登入以獲取更多功能",
+      "logged_in_as": "已登入，使用者: {name}",
+      "error": {
+        "empty": "帳號或密碼不能為空。",
+        "failed": "帳號或密碼錯誤，或者伺服器發生問題。"
+      }
+    },
+    "logout": {
+      "error": {
+        "failed": "登出時發生錯誤。"
+      }
+    }
+  },
+  "theme": {
+    "default": "跟隨系統",
+    "dark": "暗色",
+    "light": "亮色"
+  },
+  "loading": "載入中..."
+}

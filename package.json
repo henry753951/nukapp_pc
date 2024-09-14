@@ -1,12 +1,11 @@
 {
-	"name": "nuxtor",
+	"name": "nukapp_pc",
 	"type": "module",
 	"version": "0.0.4",
 	"private": true,
 	"packageManager": "pnpm@9.6.0",
-	"description": "Starter template for Nuxt 3 and Tauri 2",
-	"author": "Nicola Spadari",
-	"license": "MIT",
+	"description": "NUK App PC",
+	"author": "Henry753951",
 	"engines": {
 		"node": ">=20"
 	},
@@ -23,26 +22,38 @@
 		"tauri:build:debug": "tauri build --debug"
 	},
 	"dependencies": {
+		"@f3ve/vue-markdown-it": "^0.2.2",
+		"@primevue/themes": "^4.0.7",
+		"@rmp135/vue-splitter": "^2.0.2",
 		"@tauri-apps/api": ">=2.0.0-rc.0",
 		"@tauri-apps/plugin-fs": "^2.0.0-rc.0",
 		"@tauri-apps/plugin-notification": "^2.0.0-rc.0",
 		"@tauri-apps/plugin-os": "^2.0.0-rc.0",
 		"@tauri-apps/plugin-shell": "^2.0.0-rc.0",
-		"prettier-eslint": "15.0.0"
+		"feather-icons": "^4.29.2",
+		"pinia-plugin-persistedstate": "^4.0.1",
+		"primevue": "^4.0.7",
+		"tslog": "^4.9.3",
+		"vue-feather": "2"
 	},
 	"devDependencies": {
+		"@ant-design-vue/nuxt": "^1.4.2",
 		"@antfu/eslint-config": "^2.24.1",
 		"@nuxt/eslint": "^0.4.0",
 		"@nuxt/icon": "^1.4.5",
+		"@nuxtjs/i18n": "^8.5.3",
+		"@pinia/nuxt": "^0.5.4",
+		"@primevue/nuxt-module": "^4.0.7",
 		"@tauri-apps/cli": ">=2.0.0-rc.1",
-		"@unocss/eslint-plugin": "^0.61.9",
-		"@unocss/nuxt": "^0.61.9",
-		"@vueuse/core": "^10.11.0",
-		"@vueuse/nuxt": "^10.11.0",
+		"@unocss/eslint-plugin": "^0.62.3",
+		"@unocss/nuxt": "^0.62.3",
+		"@vueuse/core": "^11.0.3",
+		"@vueuse/nuxt": "^11.0.3",
 		"bumpp": "^9.4.2",
 		"eslint": "8.57.0",
 		"nuxt": "^3.12.4",
 		"nuxt-svgo": "^4.0.2",
+		"prettier-eslint": "15.0.0",
 		"sass": "^1.77.8",
 		"typescript": "^5.5.4"
 	}

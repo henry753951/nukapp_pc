@@ -27,5 +27,9 @@
 		"activityBar.background": "#0B3422",
 		"titleBar.activeBackground": "#10492F",
 		"titleBar.activeForeground": "#F2FCF8"
-	}
+	},
+	"i18n-ally.localesPaths": [
+		"src/locales"
+	],
+	"i18n-ally.keystyle": "nested"
 }

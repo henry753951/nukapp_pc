@@ -1,0 +1,89 @@
+{
+	"hello": "Hello, {name}!",
+	"year": "Academic Year",
+	"semester": "Semester {number}",
+	"course": {
+		"required": "Required",
+		"elective": "Elective"
+	},
+	"translation": {
+		"reload-header": "Reload Translations",
+		"reload-message": "Some translations may need to be reloaded. Would you like to reload?"
+	},
+	"error": {
+		"page-not-found": {
+			"title": "Page Not Found",
+			"message": "The page you are looking for does not exist."
+		}
+	},
+	"actions": {
+		"close": "Close",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"submit": "Submit",
+		"back": "Back",
+		"next": "Next",
+		"finish": "Finish",
+		"go-home": "Go to Home",
+		"refresh": "Refresh"
+	},
+	"menu": {
+		"home": "Home",
+		"course_system": "Course System",
+		"course_search": "Course Search",
+		"select_course": "Course Selection",
+		"profile": "Profile",
+		"score_view": "Score Inquiry",
+		"timetable_view": "Timetable Inquiry",
+		"credit_analysis": "Credit Analysis",
+		"all_semesters": "All Semesters",
+		"history_scores": "Historical Scores"
+	},
+	"score": {
+		"rank": "Historical Class Rank",
+		"total_credits_earned": "Total Credits Earned",
+		"total_credits_attempted": "Total Credits Attempted",
+		"average_score": "Average Score",
+		"latest_semester": "Latest Semester",
+		"required_courses": "Required Courses",
+		"elective_courses": "Elective Courses",
+		"not_submitted": "Not Submitted",
+		"not_submitted_tiny": "NA",
+		"status": {
+			"success_message": "Congratulations, you aced this semester!",
+			"rank": "Rank",
+			"average_score": "Average Score",
+			"suffix_rank": "th",
+			"suffix_score": "pts"
+		},
+		"card": {
+			"midterm": "Midterm",
+			"semester": "Semester",
+			"credit_unit": "Credits",
+			"unit": "pts",
+			"not_submitted": "Not Submitted"
+		}
+	},
+	"user": {
+		"login": {
+			"title": "Login",
+			"description": "Login to access more features",
+			"logged_in_as": "Logged in as: {name}",
+			"error": {
+				"empty": "Username or password cannot be empty.",
+				"failed": "Incorrect username or password, or there is a server issue."
+			}
+		},
+		"logout": {
+			"error": {
+				"failed": "An error occurred during logout."
+			}
+		}
+	},
+	"theme": {
+		"default": "Follow System",
+		"dark": "Dark",
+		"light": "Light"
+	},
+	"loading": "Loading..."
+}

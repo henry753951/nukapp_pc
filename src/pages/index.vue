@@ -1,44 +1,41 @@
+<script setup lang="ts">
+import { invoke } from "@tauri-apps/api/core";
+</script>
+
 <template>
-	<div relative overflow-hidden px-6 lg="px-8">
-		<div grid mx-auto h-screen max-w-2xl place-content-center>
-			<SvgoLogo :filled="true" :font-controlled="false" mx-auto mb-8 size-40 />
-
-			<div text-center>
-				<h1 animate-pulse text-4xl text-light-300 font-bold tracking-wider font-heading sm="text-6xl">
-					{{ name.toUpperCase() }}
-				</h1>
-				<p mt-5 flex gap-1 text-neutral-300 leading-8>
-					Powered by
-					<NuxtLink :to="nuxtSite" target="_blank" text-accent underline>
-						Nuxt 3
-					</NuxtLink>
-					-
-					<NuxtLink :to="tauriSite" target="_blank" text-accent underline>
-						Tauri 2
-					</NuxtLink>
-					-
-					<NuxtLink :to="unoSite" target="_blank" text-accent underline>
-						UnoCSS
-					</NuxtLink>
-				</p>
-				<div mt-15>
-					<Hyperlink :to="repo">
-						Star on GitHub
-					</Hyperlink>
-				</div>
-			</div>
-		</div>
-
-		<div fixed text-sm bottom-6 absolute-center-h>
-			<p text-sm text-neutral-500>Made by {{ author }}</p>
-		</div>
-	</div>
+  <div class="flex flex-col w-full h-full justify-center items-center">
+    <div class="title pr-3">👋 NUK APP 2</div>
+    <div class="subtitle">I am back!</div>
+    <div class="">
+      自從被伺服器被學校鎖掉IP後，現在只能以非網站的方式呈現T_T !
+      <Hyperlink
+        block
+        class="ml-2"
+        :to="{
+          path: '/md',
+          query: {
+            sourceURL:
+              'https://raw.githubusercontent.com/henry753951/nukapp_pc/main/md/QQ.md',
+            breadcrumb: '為什麼一代不能使用了',
+          },
+        }"
+        >詳情請見</Hyperlink
+      >
+    </div>
+    <a-flex gap="50" class="mt-5">
+      <Button @click="navigateTo({ name: 'CourseView' })"> 模擬選課 </Button>
+    </a-flex>
+    <DebugVersion />
+  </div>
 </template>
 
-<script lang="ts" setup>
-	const { name, author, repo, tauriSite, nuxtSite, unoSite } = useConstants();
-
-	definePageMeta({
-		layout: "home"
-	});
-</script>
+<style lang="scss" scoped>
+.title {
+  font-size: 5rem;
+  line-height: 1;
+}
+.subtitle {
+  font-size: 2rem;
+  line-height: 2;
+}
+</style>

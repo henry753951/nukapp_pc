@@ -1,0 +1,88 @@
+{
+	"hello": "你好，{name}！",
+	"year": "学年度",
+	"semester": "第 {number} 学期",
+	"course": {
+		"required": "必修",
+		"elective": "选修"
+	},
+	"translation": {
+		"reload-header": "重新加载翻译",
+		"reload-message": "部分翻译可能需要重新加载，是否重新加载？"
+	},
+	"error": {
+		"page-not-found": {
+			"title": "页面未找到",
+			"message": "您寻找的页面不存在。"
+		}
+	},
+	"actions": {
+		"close": "关闭",
+		"cancel": "取消",
+		"confirm": "确认",
+		"submit": "提交",
+		"back": "返回",
+		"next": "下一步",
+		"finish": "完成",
+		"go-home": "回到首页",
+		"refresh": "更新数据"
+	},
+	"menu": {
+		"home": "首页",
+		"course_system": "课程系统",
+		"course_search": "课程查询",
+		"select_course": "选课系统",
+		"profile": "个人信息",
+		"score_view": "成绩查询",
+		"timetable_view": "课表查询",
+		"credit_analysis": "学分分析",
+		"all_semesters": "所有学期",
+		"history_scores": "历年学期成绩"
+	},
+	"score": {
+		"rank": "历年全班排名",
+		"total_credits_earned": "历年实得学分数",
+		"total_credits_attempted": "历年总修习学分数",
+		"average_score": "历年平均成绩",
+		"latest_semester": "数据截至学期",
+		"required_courses": "必修课程",
+		"elective_courses": "选修课程",
+		"not_submitted": "未送",
+		"not_submitted_tiny": "未送",
+		"status": {
+			"success_message": "恭喜这学期欧趴了！",
+			"rank": "排名",
+			"average_score": "平均成绩",
+			"suffix_rank": "名",
+			"suffix_score": "分"
+		},
+		"card": {
+			"midterm": "期中",
+			"semester": "学期",
+			"credit_unit": "学分",
+			"unit": "分"
+		}
+	},
+	"user": {
+		"login": {
+			"title": "登录",
+			"description": "登录以获取更多功能",
+			"logged_in_as": "已登录，用户: {name}",
+			"error": {
+				"empty": "账号或密码不能为空。",
+				"failed": "账号或密码错误，或者服务器发生问题。"
+			}
+		},
+		"logout": {
+			"error": {
+				"failed": "登出时发生错误。"
+			}
+		}
+	},
+	"theme": {
+		"default": "跟随系统",
+		"dark": "暗色",
+		"light": "亮色"
+	},
+	"loading": "载入中..."
+}
